@@ -1,0 +1,325 @@
+:root {
+  --customBlue: #009bff;
+}
+.NavContainer {
+  /* border: solid; */
+  height: 11vh;
+  background-color: var(--customBlue);
+  position: sticky;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  z-index: 5;
+}
+.logoContainer {
+  /* border: solid; */
+  height: 60%;
+  width: 11%;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 10px;
+  margin-left: 10px;
+}
+.logoContainer > img {
+  width: 80%;
+  height: 90%;
+}
+.menuContainer {
+  /* border: solid; */
+  width: 90%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.menuContainer > ul {
+  /* border: solid; */
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.menuContainer > ul > li {
+  list-style: none;
+  font-size: 16px;
+  height: 100%;
+  width: 10%;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  text-align: center;
+}
+.menuDrop {
+  /* border: solid; */
+  position: absolute;
+  background-color: #009bff;
+  width: 230px;
+  top: 75px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  z-index: 5;
+}
+#translationDrop {
+  right: 0px;
+  width: 200px;
+}
+.menuDrop > li {
+  margin: 10px;
+  text-align: center;
+  font-size: 15px;
+}
+
+.menuContainer > ul > li:hover .menuDrop {
+  display: flex;
+}
+.menuIcon {
+  margin-left: 6px;
+}
+.menuTrack {
+  /* border: solid; */
+  width: 8%;
+  height: 60%;
+  border-radius: 10px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menuTrack > h3 {
+  font-family: sans-serif;
+  font-size: 17px;
+  color: var(--customBlue);
+}
+.mainMenu {
+  border: solid;
+  width: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  display: none;
+}
+.menuBarIcon {
+  font-size: 30px;
+  color: white;
+}
+.respMenu {
+  border: solid;
+  position: fixed;
+  top: 85px;
+  right: 1px;
+  height: 400px;
+  width: 100%;
+  background-color: var(--customBlue);
+  display: none;
+  justify-content: center;
+  align-items: center;
+}
+
+.respMenu > ul {
+  display: flex;
+  margin-top: 10px;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 25px;
+}
+.respMenu > ul > li {
+  list-style: none;
+  color: white;
+  font-size: 20px;
+}
+@media only screen and (min-width: 320px) and (max-width: 600px) {
+  .NavContainer {
+    border: solid;
+    height: 11vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0px;
+  }
+  .logoContainer {
+    border: solid red;
+    height: 80%;
+    width: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  .menuContainer > ul {
+    display: none;
+  }
+  .menuContainer > .menuTrack {
+    display: none;
+  }
+  .mainMenu {
+    border: solid;
+    display: flex;
+    margin-left: 140px;
+  }
+  .respMenu {
+    display: flex;
+  }
+}
+@media screen and (min-width: 990px) {
+  .logoContainer {
+    display: none;
+  }
+  .menuContainer {
+    /* border: solid; */
+    width: 100%;
+    height: 100%;
+  }
+  .menuContainer > ul > li {
+    /* border: solid; */
+    font-size: 12px;
+    height: 100%;
+    width: 10%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+  }
+  #menuHome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 3%;
+  }
+  .menuDrop {
+    /* border: solid; */
+    width: 200px;
+    top: 65px;
+
+  }
+  .menuDrop > li {
+    margin: 10px;
+    text-align: center;
+    font-size: 12px;
+  }
+  #translationDrop {
+    right:-10px;
+    width: 200px;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .NavContainer {
+    /* border: solid; */
+    height: 11vh;
+    background-color: var(--customBlue);
+    position: sticky;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    z-index: 5;
+  }
+  .logoContainer {
+    /* border: solid; */
+    height: 60%;
+    width: 11%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  .logoContainer > img {
+    width: 80%;
+    height: 90%;
+  }
+  .menuContainer {
+    /* border: solid; */
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .menuContainer > ul {
+    /* border: solid; */
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  .menuContainer > ul > li {
+    list-style: none;
+    font-size: 16px;
+    height: 100%;
+    width: 10%;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    text-align: center;
+  }
+  .menuDrop {
+    /* border: solid; */
+    position: absolute;
+    background-color: #009bff;
+    width: 230px;
+    top: 75px;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    z-index: 5;
+  }
+  #translationDrop {
+    right: 0px;
+    width: 200px;
+  }
+  .menuDrop > li {
+    margin: 10px;
+    text-align: center;
+    font-size: 15px;
+  }
+  
+  .menuContainer > ul > li:hover .menuDrop {
+    display: flex;
+  }
+  .menuIcon {
+    margin-left: 6px;
+  }
+  .menuTrack {
+    /* border: solid; */
+    width: 8%;
+    height: 60%;
+    border-radius: 10px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .menuTrack > h3 {
+    font-family: sans-serif;
+    font-size: 17px;
+    color: var(--customBlue);
+  }
+  .mainMenu {
+    border: solid;
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+  }
+}
