@@ -11,7 +11,7 @@ const UpperNav = () => {
             icon={faPhone}
             className="menuIcon"
           ></FontAwesomeIcon>
-          +91 8888888888
+          +91 7777777777
         </li>
       </ul>
       <div className="menuTrack">
