@@ -83,73 +83,132 @@
 .menuIcon {
   margin-left: 6px;
 }
-.menuTrack {
-  /* border: solid; */
-  width: 8%;
-  height: 60%;
-  border-radius: 10px;
-  background-color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
 
-.menuTrack > h3 {
-  font-family: sans-serif;
-  font-size: 17px;
-  color: var(--customBlue);
-}
-.mainMenu {
-  border: solid;
-  width: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  display: none;
-}
 .menuBarIcon {
   font-size: 30px;
   color: white;
 }
+.mainMenu {
+  /* border: solid; */
+  display: flex;
+  width: fit-content;
+  margin-right: -50px;
+}
 .respMenu {
-  border: solid;
+  /* border: solid; */
   position: fixed;
-  top: 85px;
-  right: 1px;
-  height: 400px;
+  z-index: 9999;
+  top: 0;
+  height: 100%;
   width: 100%;
-  background-color: var(--customBlue);
+  overflow-y: scroll;
   display: none;
-  justify-content: center;
+  transition: 1s ease-in-out;
+  /* transform: translateX(500px); */
+}
+.respMenuScroll {
+  height: 100%;
+  width: 100%;
+  margin-left: 45px;
+  /* border: solid red; */
+}
+.main {
+  position: relative;
+}
+.cross {
+  position: fixed;
+  right: 20px;
+  top: 0;
+}
+.respMenuScroll > ul {
+  border-top: solid 1px black;
+  background-color: var(--customColor1);
+  width: 100%;
+}
+.respMenuScroll > ul > h1 {
+  color: white;
+  height: 80px;
+  display: flex;
+  justify-content: flex-start;
   align-items: center;
+  font-size: 150%;
+  font-family: monospace;
+  font-weight: lighter;
+  margin-left: 10px;
+}
+.respMenuScroll > ul > h2 {
+  color: white;
+  height: 10px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  font-size: 100%;
+  font-family: monospace;
+  font-weight: lighter;
+  margin-left: 10px;
+}
+.respMenuScroll > ul > h1 > a {
+  color: white;
+  text-decoration: none;
+}
+.respMenuScroll > ul > span > li {
+  list-style: none;
+  border-top: solid 1px black;
+  background-color: var(--customColor2);
+  height: 70px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+}
+.respMenuScroll > ul > span > li > h2 {
+  color: white;
+  list-style: none;
+  margin-left: 30px;
+  font-size: 150%;
+  font-family: monospace;
+  font-weight: lighter;
+}
+.respMenuScroll > ul > span > li > h2 > a {
+  text-decoration: none;
+  color: white;
+}
+.respMenuIcon {
+  /* border: solid white; */
+  width: 30px;
+  height: 30%;
+  font-size: 100%;
+}
+.respMenuSpan {
+  /* border: solid; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  width: 100%;
+}
+.respMenuScroll > ul > span {
+  display: none;
+}
+.respDropIcon {
+  /* border: solid; */
+  margin-left: 50px;
 }
 
-.respMenu > ul {
-  display: flex;
-  margin-top: 10px;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 25px;
-}
-.respMenu > ul > li {
-  list-style: none;
-  color: white;
-  font-size: 20px;
-}
 @media only screen and (min-width: 320px) and (max-width: 600px) {
   .NavContainer {
-    border: solid;
+    /* border: solid; */
     height: 11vh;
+    width: 100%;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    gap: 0px;
+    gap: 20px;
   }
   .logoContainer {
-    border: solid red;
-    height: 80%;
-    width: 50%;
+    /* border: solid red; */
+    height: 70%;
+    width: 350px;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -157,19 +216,59 @@
     border-radius: 10px;
     margin-left: 10px;
   }
+  .logoContainer > img {
+    width: 90%;
+    height: 80%;
+  }
   .menuContainer > ul {
     display: none;
   }
-  .menuContainer > .menuTrack {
+}
+@media only screen and (min-width: 768px) {
+  .NavContainer {
+    /* border: solid; */
+    height: 11vh;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+  }
+  .logoContainer {
+    /* border: solid red; */
+    height: 70%;
+    width: 350px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+    margin-left: 10px;
+  }
+  .logoContainer > img {
+    width: 90%;
+    height: 80%;
+  }
+  .menuContainer > ul {
     display: none;
   }
-  .mainMenu {
-    border: solid;
-    display: flex;
-    margin-left: 140px;
+  .menuBarIcon {
+    /* border: solid; */
+    font-size: 30px;
+    margin-left: 200px;
+    color: white;
   }
   .respMenu {
-    display: flex;
+    /* border: solid blue; */
+    position: fixed;
+    z-index: 9999;
+    top: 0;
+    right: 0px;
+    height: 100%;
+    width: 40%;
+    overflow-y: scroll;
+    display: none;
+    transition: 1s ease-in-out;
   }
 }
 @media screen and (min-width: 990px) {
@@ -203,7 +302,6 @@
     /* border: solid; */
     width: 200px;
     top: 65px;
-
   }
   .menuDrop > li {
     margin: 10px;
@@ -211,7 +309,7 @@
     font-size: 12px;
   }
   #translationDrop {
-    right:-10px;
+    right: -10px;
     width: 200px;
   }
 }
@@ -228,7 +326,7 @@
     z-index: 5;
   }
   .logoContainer {
-    /* border: solid; */
+    border: solid;
     height: 60%;
     width: 11%;
     background-color: white;
@@ -283,7 +381,7 @@
     z-index: 5;
   }
   #translationDrop {
-    right: 0px;
+    right: -10px;
     width: 200px;
   }
   .menuDrop > li {
@@ -291,7 +389,7 @@
     text-align: center;
     font-size: 15px;
   }
-  
+
   .menuContainer > ul > li:hover .menuDrop {
     display: flex;
   }
@@ -308,7 +406,7 @@
     justify-content: center;
     align-items: center;
   }
-  
+
   .menuTrack > h3 {
     font-family: sans-serif;
     font-size: 17px;
