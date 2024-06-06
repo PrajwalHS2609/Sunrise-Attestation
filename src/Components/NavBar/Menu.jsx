@@ -8,6 +8,8 @@ import {
   faX,
 } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
+import RespMenuBlock from "./RespMenuBlock";
+
 const Menu = () => {
   let [drop, setDrop] = useState(false);
   let dropRef = useRef();
@@ -20,11 +22,10 @@ const Menu = () => {
   let hideSideBar = () => {
     const sideBar = document.querySelector(".respMenu");
     // sideBar.style.display = "none";
-    sideBar.style.transform = "translateX(340px)";
+    sideBar.style.transform = "translateX(350px)";
   };
   let handleDropDown = (e) => {
     e.preventDefault();
-    e.stopPropagation()
     if (!drop) {
       setDrop(true);
       dropRef.current.style.display = "flex";
@@ -35,6 +36,7 @@ const Menu = () => {
       console.log("up");
     }
   };
+
   return (
     <>
       <div className="menuContainer">
@@ -172,188 +174,11 @@ const Menu = () => {
               ></FontAwesomeIcon>
             </h1>
           </ul>
-          <ul className="serviceDrop">
-            <h1>
-              <Link onClick={hideSideBar} to={"/"}>
-                Attestation
-              </Link>
-              <FontAwesomeIcon
-                onClick={handleDropDown}
-                icon={faSortDown}
-                className="respDropIcon"
-              ></FontAwesomeIcon>
-            </h1>
-            <span className="respMenuSpan" id="respDrop1" ref={dropRef}>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Degree Certificate
-                  </Link>
-                </h2>
-              </li>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Birth Certificates
-                  </Link>
-                </h2>
-              </li>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Marriage Certificate
-                  </Link>
-                </h2>
-              </li>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Beauty Essentials
-                  </Link>
-                </h2>
-              </li>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Power of Attorney
-                  </Link>
-                </h2>
-              </li>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Medical Certificate
-                  </Link>
-                </h2>
-              </li>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Divorce Decree Certificate
-                  </Link>
-                </h2>
-              </li>
-            </span>
-          </ul>
-          <ul className="serviceDrop">
-            <h1>
-              <Link onClick={hideSideBar} to={"/"}>
-                Apostille
-              </Link>
-              <FontAwesomeIcon
-                onClick={handleDropDown}
-                icon={faSortDown}
-                className="respDropIcon"
-              ></FontAwesomeIcon>
-            </h1>
-            <span className="respMenuSpan" id="respDrop2" ref={dropRef}>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Degree Certificate
-                  </Link>
-                </h2>
-              </li>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Birth Certificates
-                  </Link>
-                </h2>
-              </li>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Marriage Certificate
-                  </Link>
-                </h2>
-              </li>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Beauty Essentials
-                  </Link>
-                </h2>
-              </li>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Power of Attorney
-                  </Link>
-                </h2>
-              </li>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Medical Certificate
-                  </Link>
-                </h2>
-              </li>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Divorce Decree Certificate
-                  </Link>
-                </h2>
-              </li>
-            </span>
-          </ul>
-          <ul className="serviceDrop">
-            <h1>
-              <Link onClick={hideSideBar} to={"/"}>
-                State HRD
-              </Link>
-              <FontAwesomeIcon
-                onClick={handleDropDown}
-                icon={faSortDown}
-                className="respDropIcon"
-              ></FontAwesomeIcon>
-            </h1>
-            <span className="respMenuSpan" ref={dropRef}>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Karnataka
-                  </Link>
-                </h2>
-              </li>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    TamilNadu
-                  </Link>
-                </h2>
-              </li>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Kerala
-                  </Link>
-                </h2>
-              </li>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Maharastra
-                  </Link>
-                </h2>
-              </li>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Andhra Pradesh
-                  </Link>
-                </h2>
-              </li>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Telengana
-                  </Link>
-                </h2>
-              </li>
-            </span>
-          </ul>
+
+          <RespMenuBlock menuName={menuName} items={items} />
+          <RespMenuBlock menuName={menuName2} items={items} />
+          <RespMenuBlock menuName={menuName3} items={items3} />
+
           <ul>
             <h1>
               <Link onClick={hideSideBar} to={"/"}>
@@ -361,174 +186,10 @@ const Menu = () => {
               </Link>
             </h1>
           </ul>
-          <ul className="serviceDrop">
-            <h1>
-              <Link onClick={hideSideBar} to={"/"}>
-                MOFA
-              </Link>
-              <FontAwesomeIcon
-                onClick={handleDropDown}
-                icon={faSortDown}
-                className="respDropIcon"
-              ></FontAwesomeIcon>
-            </h1>
-            <span className="respMenuSpan" ref={dropRef}>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Certificate Of Incorporation
-                  </Link>
-                </h2>
-              </li>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Memorandum of Association
-                  </Link>
-                </h2>
-              </li>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Memorandum of Association Power of Attorney
-                  </Link>
-                </h2>
-              </li>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Board Resolution{" "}
-                  </Link>
-                </h2>
-              </li>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Export Invoice
-                  </Link>
-                </h2>
-              </li>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Packaging list
-                  </Link>
-                </h2>
-              </li>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Certificate of Origin
-                  </Link>
-                </h2>
-              </li>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Chemical Analysis Report
-                  </Link>
-                </h2>
-              </li>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Physical Analysis Report{" "}
-                  </Link>
-                </h2>
-              </li>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Articles of Association
-                  </Link>
-                </h2>
-              </li>
-            </span>
-          </ul>
-          <ul className="serviceDrop">
-            <h1>
-              <Link onClick={hideSideBar} to={"/"}>
-                PCC
-              </Link>
-              <FontAwesomeIcon
-                onClick={handleDropDown}
-                icon={faSortDown}
-                className="respDropIcon"
-              ></FontAwesomeIcon>
-            </h1>
-            <span className="respMenuSpan" ref={dropRef}>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Oman PCC
-                  </Link>
-                </h2>
-              </li>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Kuwait PCC
-                  </Link>
-                </h2>
-              </li>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Saudi PCC
-                  </Link>
-                </h2>
-              </li>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Qatar PCC
-                  </Link>
-                </h2>
-              </li>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Andhra Pradesh
-                  </Link>
-                </h2>
-              </li>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    UAE PCC
-                  </Link>
-                </h2>
-              </li>
-            </span>
-          </ul>
-          <ul className="serviceDrop">
-            <h1>
-              <Link onClick={hideSideBar} to={"/"}>
-                MEA
-              </Link>
-              <FontAwesomeIcon
-                onClick={handleDropDown}
-                icon={faSortDown}
-                className="respDropIcon"
-              ></FontAwesomeIcon>
-            </h1>
-            <span className="respMenuSpan" ref={dropRef}>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    MEA Attestation
-                  </Link>
-                </h2>
-              </li>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    MEA Apostille
-                  </Link>
-                </h2>
-              </li>
-            </span>
-          </ul>
+          <RespMenuBlock menuName={menuName4} items={items4} />
+          <RespMenuBlock menuName={menuName5} items={items5} />
+          <RespMenuBlock menuName={menuName6} items={items6} />
+
           <ul>
             <h1>
               <Link onClick={hideSideBar} to={"/"}>
@@ -536,38 +197,59 @@ const Menu = () => {
               </Link>
             </h1>
           </ul>
-          <ul className="serviceDrop">
-            <h1>
-              <Link onClick={hideSideBar} to={"/"}>
-                Translation
-              </Link>
-              <FontAwesomeIcon
-                onClick={handleDropDown}
-                icon={faSortDown}
-                className="respDropIcon"
-              ></FontAwesomeIcon>
-            </h1>
-            <span className="respMenuSpan" ref={dropRef}>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Document Translation
-                  </Link>
-                </h2>
-              </li>
-              <li>
-                <h2>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Language Translation
-                  </Link>
-                </h2>
-              </li>
-            </span>
-          </ul>
+          <RespMenuBlock menuName={menuName7} items={items7} />
+          {/* <ul>
+            <h1></h1>
+          </ul> */}
         </div>
       </div>
     </>
   );
 };
+const menuName = ["Attestation"];
+const menuName2 = ["Apostille"];
+const menuName3 = ["State HDR"];
+const menuName4 = ["MOFA"];
+const menuName5 = ["PCC"];
+const menuName6 = ["MEA"];
+const menuName7 = ["Translation"];
+const link = [];
 
+const items = [
+  "Degree Certificate",
+  " Birth Certificates",
+  "Marriage Certificate",
+  "Power of Attorney",
+  " Medical Certificate",
+  "Divorce Decree Certificate",
+];
+const items3 = [
+  "Karnataka",
+  "TamilNadu",
+  "Kerala",
+  "Maharastra",
+  "Andhra Pradesh",
+  "Telengana",
+];
+const items4 = [
+  "Certificate Of Incorporation",
+  "Memorandum of Association",
+  "Memorandum of Association Power of Attorney",
+  "Board Resolution",
+  "Packaging list",
+  "Certificate of Origin",
+  "Chemical Analysis Report",
+  "Physical Analysis Report",
+  "Articles of Association",
+];
+const items5 = [
+  "Oman PCC",
+  "Kuwait PCC",
+  "Kerala",
+  "Saudi PCC<",
+  "Qatar PCC",
+  "UAE PCC",
+];
+const items6 = ["MEA Attestation", "MEA Apostille"];
+const items7 = ["Document Translation", "Language Translation"];
 export default Menu;

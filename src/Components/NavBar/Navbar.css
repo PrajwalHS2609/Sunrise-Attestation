@@ -99,7 +99,7 @@
   position: fixed;
   z-index: 9999;
   top: 0;
-  height: 100%;
+  height: 100vh;
   width: 100%;
   overflow-y: scroll;
   display: none;
@@ -111,23 +111,28 @@
   width: 100%;
   margin-left: 45px;
   /* border: solid red; */
+  background-color: var(--customColor1);
 }
 .main {
   position: relative;
 }
 .cross {
+  /* border:solid; */
   position: fixed;
   right: 20px;
+  height: 70px;
   top: 0;
 }
 .respMenuScroll > ul {
-  border-top: solid 1px black;
+  border-top: solid 1px var(--customColor2);
   background-color: var(--customColor1);
   width: 100%;
+  height: 62.5px;
 }
 .respMenuScroll > ul > h1 {
+  /* border: solid; */
   color: white;
-  height: 80px;
+  height: 70px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -153,9 +158,9 @@
 }
 .respMenuScroll > ul > span > li {
   list-style: none;
-  border-top: solid 1px black;
+  border-top: solid 1px var(--customColor1);
   background-color: var(--customColor2);
-  height: 70px;
+  height: 60px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -280,6 +285,9 @@
     width: 100%;
     height: 100%;
   }
+  .menuContainer > ul {
+    display: flex;
+  }
   .menuContainer > ul > li {
     /* border: solid; */
     font-size: 12px;
@@ -311,6 +319,14 @@
   #translationDrop {
     right: -10px;
     width: 200px;
+  }
+  .menuBarIcon {
+    font-size: 30px;
+    color: white;
+    display: none;
+  }
+  .mainMenu {
+    display: none;
   }
 }
 @media screen and (min-width: 1200px) {
