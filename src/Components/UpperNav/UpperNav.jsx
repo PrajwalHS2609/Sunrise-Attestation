@@ -14,6 +14,9 @@ const UpperNav = () => {
           +91 7777777777
         </li>
       </ul>
+      <div className="upperLogo">
+      <img src="https://sunriseattestation.com/wp-content/uploads/2024/01/sunrise-logo.png" alt="logo" />
+      </div>
       <div className="menuTrack">
         <h3>Track Status</h3>
       </div>

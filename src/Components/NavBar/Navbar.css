@@ -213,7 +213,7 @@
   .logoContainer {
     /* border: solid red; */
     height: 70%;
-    width: 350px;
+    width: 80%;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -242,7 +242,7 @@
   .logoContainer {
     /* border: solid red; */
     height: 70%;
-    width: 350px;
+    width: 30%;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -260,7 +260,7 @@
   .menuBarIcon {
     /* border: solid; */
     font-size: 30px;
-    margin-left: 200px;
+    margin-left: 400px;
     color: white;
   }
   .respMenu {
@@ -342,7 +342,7 @@
     z-index: 5;
   }
   .logoContainer {
-    border: solid;
+    /* border: solid; */
     height: 60%;
     width: 11%;
     background-color: white;
