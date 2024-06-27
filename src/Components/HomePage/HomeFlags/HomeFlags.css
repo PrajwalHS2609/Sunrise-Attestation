@@ -124,3 +124,15 @@
     margin: 30px;
   }
 }
+@media screen and (min-width: 1200px) {
+  .homeFlagCardContainer {
+    /* border: solid; */
+    width: 20%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
+    margin: 30px;
+  }
+}
