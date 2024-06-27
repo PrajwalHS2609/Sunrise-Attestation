@@ -3,7 +3,7 @@ import "./Marquee.css";
 const HomeMarqueeCard = (props) => {
   return (
     <div className="marqueeCard">
-      <a href="">
+      <a href="*">
         <img src={props.img} alt={props.alt} />
 
         <div className="marqueeCover">

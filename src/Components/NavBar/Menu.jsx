@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React from "react";
 import "./Navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -11,8 +11,6 @@ import { Link } from "react-router-dom";
 import RespMenuBlock from "./RespMenuBlock";
 
 const Menu = () => {
-  let [drop, setDrop] = useState(false);
-  let dropRef = useRef();
 
   let showSideBar = () => {
     const sideBar = document.querySelector(".respMenu");
@@ -24,18 +22,7 @@ const Menu = () => {
     // sideBar.style.display = "none";
     sideBar.style.transform = "translateX(350px)";
   };
-  let handleDropDown = (e) => {
-    e.preventDefault();
-    if (!drop) {
-      setDrop(true);
-      dropRef.current.style.display = "flex";
-      console.log("down");
-    } else {
-      setDrop(false);
-      dropRef.current.style.display = "none";
-      console.log("up");
-    }
-  };
+
 
   return (
     <>
@@ -213,7 +200,6 @@ const menuName4 = ["MOFA"];
 const menuName5 = ["PCC"];
 const menuName6 = ["MEA"];
 const menuName7 = ["Translation"];
-const link = [];
 
 const items = [
   "Degree Certificate",
