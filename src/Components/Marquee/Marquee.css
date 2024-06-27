@@ -42,9 +42,7 @@
 .marqueeCover > h3 {
   color: white;
   font-size: 40px;
-  background: linear-gradient(to right, #009bff, #0d6efd);
-  background-clip: text;
-  color: transparent;
+  color: white;
 }
 .marqueeCard:hover .marqueeCover {
   transform: translateY(0px);

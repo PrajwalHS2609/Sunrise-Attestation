@@ -30,7 +30,7 @@ const HomeFlagsMain = () => {
         name="Saudi Embassy"
         alt="saudiEmbassy"
       />
-      <HomeFlagCard flag={uaeEmbassy} name="UAEEmbassy" alt="uaeEmbassy" />
+      <HomeFlagCard flag={uaeEmbassy} name="UAE Embassy" alt="uaeEmbassy" />
     </div>
   );
 };
