@@ -4,7 +4,7 @@ import Logo from './Logo'
 import Menu from './Menu'
 const NavBar = () => {
   return (
-    <div className='NavContainer'>
+    <div className='navContainer'>
       <Logo/>
       <Menu/>
     </div>

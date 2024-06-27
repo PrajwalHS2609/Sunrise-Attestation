@@ -3,7 +3,7 @@ import "./Navbar.css"
 const Logo = () => {
   return (
     <div className='logoContainer'>
-      <img src="https://sunriseattestation.com/wp-content/uploads/2024/01/sunrise-logo.png" alt="logo" />
+      <img src="https://goodwayattestation.com/images/images-logo.png" alt="logo" />
     </div>
   )
 }

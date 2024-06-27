@@ -1,11 +1,9 @@
-:root {
-  --customBlue: #009bff;
-}
-.NavContainer {
+.navContainer {
   /* border: solid; */
   height: 11vh;
-  background-color: var(--customBlue);
+  background-color: var(--customColor2);
   position: sticky;
+  top: 0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -58,7 +56,7 @@
 .menuDrop {
   /* border: solid; */
   position: absolute;
-  background-color: #009bff;
+  background-color: var(--customColor2);
   width: 230px;
   top: 75px;
   display: none;
@@ -98,9 +96,9 @@
   /* border: solid; */
   position: fixed;
   z-index: 9999;
-  top: 0;
+  top: 0;right: 0;
   height: 100vh;
-  width: 100%;
+  width: 90%;
   overflow-y: scroll;
   display: none;
   transition: 1s ease-in-out;
@@ -333,7 +331,7 @@
   .NavContainer {
     /* border: solid; */
     height: 11vh;
-    background-color: var(--customBlue);
+    background-color: var(--customColor2);
     position: sticky;
     display: flex;
     justify-content: center;
@@ -387,7 +385,7 @@
   .menuDrop {
     /* border: solid; */
     position: absolute;
-    background-color: #009bff;
+    background-color: var(--customColor2);
     width: 230px;
     top: 75px;
     display: none;
@@ -426,7 +424,7 @@
   .menuTrack > h3 {
     font-family: sans-serif;
     font-size: 17px;
-    color: var(--customBlue);
+    color: var(--customColor2);
   }
   .mainMenu {
     border: solid;
