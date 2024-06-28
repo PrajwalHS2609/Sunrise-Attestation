@@ -1,0 +1,10 @@
+.typeWriterContainer {
+  /* border: solid red; */
+  width: 40%;
+  position: absolute;
+  top: 200px;left: 10px;
+}
+.typeWriterContainer>h2 {
+  font-size: 50px;
+  color: white;
+}
