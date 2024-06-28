@@ -12,25 +12,25 @@ const HomeFlagsMain = () => {
     <div className="homeFlagMainContainer">
       <HomeFlagCard
         flag={bahrainEmbassy}
-        name="Bahrain Embassy"
+        name="BAHRAIN EMBASSY"
         alt="bahrainEmbassy"
       />
       <HomeFlagCard
         flag={indianEmbassy}
-        name="Indian Embassy"
+        name="INDIAN EMBASSY"
         alt="indianEmbassy"
       />
       <HomeFlagCard
         flag={qatarEmbassy}
-        name="Qatar Embassy"
+        name="QATAR EMBASSY"
         alt="qatarEmbassy"
       />
       <HomeFlagCard
         flag={saudiEmbassy}
-        name="Saudi Embassy"
+        name="SAUDI EMBASSY"
         alt="saudiEmbassy"
       />
-      <HomeFlagCard flag={uaeEmbassy} name="UAE Embassy" alt="uaeEmbassy" />
+      <HomeFlagCard flag={uaeEmbassy} name="UAE EMBASSY" alt="uaeEmbassy" />
     </div>
   );
 };

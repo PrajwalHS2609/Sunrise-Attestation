@@ -79,7 +79,6 @@ const Menu = () => {
               <li>Telengana</li>
             </div>
           </li>
-          <li> Home Department</li>
           <li>
             MOFA
             <FontAwesomeIcon

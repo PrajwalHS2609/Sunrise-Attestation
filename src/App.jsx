@@ -4,6 +4,7 @@ import "./Global.css";
 import UpperNav from "./Components/UpperNav/UpperNav";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./Components/HomePage/HomePage";
+import Footer from "./Components/Footer/Footer";
 const App = () => {
   return (
     <div>
@@ -13,7 +14,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<HomePage/>}/>
         </Routes>
-      
+      <Footer/>
       </BrowserRouter>
     </div>
   );

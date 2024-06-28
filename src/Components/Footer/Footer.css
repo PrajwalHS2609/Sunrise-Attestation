@@ -1,0 +1,206 @@
+.footerContainer {
+  /* border: solid red; */
+  width: 100%;
+  background-color: #3e403f;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 30px;
+}
+.footerContent {
+  /* border: solid yellow; */
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footerServiceContainer {
+  /* border: solid blue; */
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 30px;
+  width: 100%;
+}
+.footerServiceContent {
+  /* border: solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.footerServiceContent > ul {
+  /* border: solid greenyellow; */
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+}
+.footerServiceContent > ul > h3 {
+  color: white;
+  font-size: 20px;
+}
+.footerServiceContent > ul > li {
+  margin-left: 30px;
+  list-style: none;
+  padding: 10px;
+}
+.footerServiceContent > ul > li > a {
+  text-decoration: none;
+  color: white;
+}
+.footerContactContainer {
+  /* border: solid red; */
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+.footContactContent {
+  /* border: solid blue; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.footContactContent > ul > li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 20px;
+  list-style: none;
+  padding: 20px;
+}
+.footContactContent > ul > li > p {
+  font-size: 18px;
+  color: white;
+}
+.footContactContent > ul > li > p > a {
+  font-size: 18px;
+  color: white;
+  text-decoration: none;
+}
+.footerIconCon {
+  width: 30px;
+  height: 30px;
+  color: white;
+  transition: 300ms ease-in-out;
+}
+.footerIcon {
+  width: 30px;
+  height: 30px;
+  color: white;
+  font-weight: 100;
+  transition: 300ms ease-in-out;
+}
+.footerSocial {
+  /* border: solid green; */
+  width: 100%;
+}
+.footerSocial > ul {
+  /* border: solid; */
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+}
+.footerSocial > ul > li {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 100%;
+  background-color: #777777;
+  transition: 300ms ease-in-out;
+}
+.footerSocial > ul > li > a {
+  /* border: solid red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+/* .footerSocial > ul > li:hover {
+  box-shadow: inset 0 0 10px 0px var(--customColor1);
+} */
+.footerSocial > ul > li:hover .footerIcon {
+  transform: scale(1.2);
+  color: var(--customColor2);
+}
+.footerSocial > ul > li:hover #footerIcon1 {
+  color: var(--customColor1);
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .footerContainer {
+    /* border: solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+    padding: 10px;
+  }
+  .footContactContent {
+    /* border: solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: fit-content;
+  }
+
+  .footContactContent > ul > li > p {
+    font-size: 15px;
+    color: white;
+  }
+  .footContactContent > ul > li > p > a {
+    font-size: 15px;
+  }
+  .footerIconCon {
+    width: 20px;
+    height: 20px;
+    color: white;
+  }
+  .footerSocial {
+    /* border: solid green; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+  .footerSocial > ul {
+    width: fit-content;
+    /* border: solid; */
+  }
+  .footerSocial > ul > li {
+    /* border: solid red; */
+    height: 50px;
+    width: 50px;
+  }
+  .footerContent {
+    /* border: solid yellow; */
+    width: 100%;
+    padding: 20px;
+  }
+  .footerServiceContainer {
+    /* border: solid blue; */
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    gap: 30px;
+    width: 100%;
+  }
+  .footerServiceContent {
+    /* border: solid green; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
