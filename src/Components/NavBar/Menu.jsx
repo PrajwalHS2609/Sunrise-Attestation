@@ -165,13 +165,7 @@ const Menu = () => {
           <RespMenuBlock menuName={menuName2} items={items} />
           <RespMenuBlock menuName={menuName3} items={items3} />
 
-          <ul>
-            <h1>
-              <Link onClick={hideSideBar} to={"/"}>
-                Home Department
-              </Link>
-            </h1>
-          </ul>
+         
           <RespMenuBlock menuName={menuName4} items={items4} />
           <RespMenuBlock menuName={menuName5} items={items5} />
           <RespMenuBlock menuName={menuName6} items={items6} />

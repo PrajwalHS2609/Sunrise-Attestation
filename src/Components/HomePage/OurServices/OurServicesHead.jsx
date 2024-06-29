@@ -3,7 +3,7 @@ import "./OurServices.css"
 const OurServicesHead = () => {
   return (
     <div className='ourServiceHeadContainer'>
-      <h1>Our Services</h1>
+      <h2>Our Services</h2>
       <div className="underline"></div>
     
     </div>

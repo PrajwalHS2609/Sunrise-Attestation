@@ -18,8 +18,9 @@
   width: 50%;
 }
 
-.ourServiceHeadContainer > h1 {
+.ourServiceHeadContainer > h2 {
   color: var(--customColor2);
+  font-size: 30px;
 }
 .ourServicesMainContainer {
   /* border: solid red; */
@@ -31,8 +32,8 @@
 }
 .ourServicesCardContainer {
   /* border: solid green; */
-  width: 25%;
-  height: 70vh;
+  width: 20%;
+  height: 400px;
   margin: 20px;
   position: relative;
   display: flex;
@@ -40,6 +41,9 @@
   align-items: center;
   flex-direction: column;
   gap: 10px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgb(163, 163, 163);
+  overflow: hidden;
 }
 .ourServicesCardContainer > a {
   /* border: solid; */
@@ -47,18 +51,43 @@
   width: 100%;
   height: 100%;
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
   flex-direction: column;
   text-decoration: none;
   color: black;
 }
+.ourServicesCardCover {
+  /* border: solid red; */
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  transform: translateY(-100%);
+  bottom: 0;
+  transition: 200ms ease-in-out;
+  background-color: #2a2a2aac;
+  opacity: 0;
+  z-index: 1;
+}
+
+.ourServicesCardContainer:hover .ourServicesCardCover {
+  transform: translateY(0%);
+  opacity: 1;
+}
 .ourServicesCardImg {
   /* border: solid blue; */
-  height: 60%;
-  width: 80%;
-  border-radius: 30%;
+  height: 100%;
+  width: 100%;
   overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: #62c8d4;
 }
 .ourServicesCardImg > img {
   width: 100%;
@@ -68,22 +97,47 @@
 }
 .ourServicesCardHead {
   /* border: solid brown; */
-  width: 90%;
+  width: 80%;
   height: 10%;
   display: flex;
   justify-content: center;
   align-items: center;
   color: rgb(8, 0, 227);
+  bottom: 50px;
+  left: 0;
+  position: absolute;
+  background-color: var(--customColor1);
   transition: 400ms ease-in-out;
+  overflow: hidden;
 }
 .ourServicesCardHead > h4 {
+  /* border: solid red; */
+  font-size: 40px;
+  width: 100%;
+  height: 100%;
   text-align: center;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  color: #e96d02;
+}
+.ourServicesCardHead > h3 {
+  position: absolute;
+  z-index: 1;
+  color: white;
+  font-size: 20px;
 }
 .ourServicesCardPara {
   /* border: solid yellowgreen; */
-  width: 90%;
-  height: 20%;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   font-size: 20px;
+  padding: 20px;
 }
 .ourServicesCardContainer:hover .ourServicesCardHead {
   color: var(--customColor2);
@@ -91,74 +145,28 @@
 .ourServicesCardContainer:hover .ourServicesCardImg > img {
   transform: scale(1.2);
 }
-.ourServicesCardPara>p{
-  font-size: 15px;
+.ourServicesCardPara > p {
+  font-size: 20px;
   line-height: 25px;
   text-align: justify;
+  transition: 100ms ease-in-out;
 }
-
-@media screen and (min-width: 320px) and (max-width:600px) {
-  .ourServicesContainer {
-    /* border: solid; */
-    width: 100%;
-    height: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 20px;
-    margin-top: 50px;
-  }
-  .ourServiceHeadContainer {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-  }
-  .ourServicesMainContainer {
-    /* border: solid red; */
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-  }
+.ourServicesCardContainer:hover .ourServicesCardPara > p {
+  color: white;
+}
+.cardIcon {
+  color: black;
+  font-size: 20px;
+  transition: 100ms ease-in-out;
+}
+.ourServicesCardContainer:hover .cardIcon {
+  color: white;
+}
+@media screen and (min-width: 320px) and (max-width: 600px) {
   .ourServicesCardContainer {
     /* border: solid green; */
-    width: 100%;
-    height: 80vh;
-    margin: 0;
-    margin-top: 20px;
-    position: relative;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 20px;
-  }
-  .ourServicesCardImg {
-    /* border: solid blue; */
-    height: 60%;
-    width: 90%;
-    border-radius: 30%;
-    overflow: hidden;
-  }
-  .ourServicesCardHead {
-    /* border: solid brown; */
-    width: 90%;
-    height: 10%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: rgb(8, 0, 227);
-    transition: 400ms ease-in-out;
-  }
-
-  .ourServicesCardPara {
-    /* border: solid yellowgreen; */
-    width: 90%;
-    height: 20%;
-    font-size: 17px;
+    min-width: 300px;
+    height: 400px;
+    margin: 20px;
   }
 }
