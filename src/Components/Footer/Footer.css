@@ -5,15 +5,20 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  flex-wrap: wrap;
   padding: 30px;
 }
 .footerContent {
   /* border: solid yellow; */
-  width: 50%;
+  width: 40%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  flex-wrap: wrap;
+  margin: 20px;
+  padding: 20px;
+  gap: 20px;
 }
 .footerServiceContainer {
   /* border: solid blue; */
@@ -29,12 +34,51 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  gap: 20px;
+}
+.footerServiceContent1 {
+  /* border: solid green; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 20px;
+}
+.footerServiceContent1>h3{
+  font-size: 20px;
+  color: white;
+  
+}
+.footerServiceContent>h3{
+  font-size: 20px;
+  color: white;
+  
+}
+.footerServiceContent1 > ul {
+  /* border: solid greenyellow; */
+  display: flex;
+ justify-content: center;
+  grid-gap: 10px;
+  flex-direction: column;
+}
+.footerServiceContent1 > ul > h3 {
+  color: white;
+  font-size: 20px;
+}
+.footerServiceContent1 > ul > li {
+  margin-left: 30px;
+  list-style: none;
+  padding: 10px;
+}
+.footerServiceContent1 > ul > li > a {
+  text-decoration: none;
+  color: white;
 }
 .footerServiceContent > ul {
   /* border: solid greenyellow; */
-  display: flex;
-  justify-content: flex-start;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: repeat(2, auto);
+  grid-gap: 10px;
   flex-direction: column;
 }
 .footerServiceContent > ul > h3 {
@@ -52,12 +96,15 @@
 }
 .footerContactContainer {
   /* border: solid red; */
-  width: 70%;
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
   gap: 30px;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: #515151;
 }
 .footContactContent {
   /* border: solid blue; */

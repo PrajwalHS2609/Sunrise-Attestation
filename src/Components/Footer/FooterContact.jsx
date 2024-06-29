@@ -60,7 +60,7 @@ const FooterContact = () => {
       <div className="footerSocial">
         <ul>
           <li>
-            <a href="*">
+            <a href="https://www.instagram.com/goodwayattestation.india/">
               <FontAwesomeIcon
                 icon={faInstagram}
                 className="footerIcon"
@@ -68,7 +68,7 @@ const FooterContact = () => {
             </a>
           </li>
           <li>
-            <a href="*">
+            <a href="https://www.facebook.com/goodwayattestation">
               <FontAwesomeIcon
                 icon={faFacebook}
                 className="footerIcon"
@@ -77,7 +77,7 @@ const FooterContact = () => {
             </a>
           </li>
           <li>
-            <a href="*">
+            <a href="https://twitter.com/Goodway_India">
               <FontAwesomeIcon
                 icon={faXTwitter}
                 className="footerIcon"
@@ -85,7 +85,7 @@ const FooterContact = () => {
             </a>
           </li>
           <li>
-            <a href="*">
+            <a href="https://www.linkedin.com/company/goodway-attestation/">
               <FontAwesomeIcon
                 icon={faLinkedin}
                 className="footerIcon"

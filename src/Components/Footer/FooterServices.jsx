@@ -17,9 +17,6 @@ const FooterServices = () => {
             <Link to={"/"}> State HRD</Link>
           </li>
           <li>
-            <Link to={"/"}>Home Department</Link>
-          </li>
-          <li>
             <Link to={"/"}>MOFA</Link>
           </li>
           <li>
@@ -38,56 +35,92 @@ const FooterServices = () => {
       </div>
       <div className="footerServiceContent">
         <ul>
-          <h3>Certificate Attestation</h3>
+          <h3> Attestation</h3>
           <li>
-            <Link to={"/"}>Qatar Embassy Attestation</Link>
+            <Link to={"/"}>Qatar</Link>
           </li>
           <li>
-            <Link to={"/"}>Kuwait Embassy Attestation</Link>
+            <Link to={"/"}>Kuwait</Link>
           </li>
           <li>
-            <Link to={"/"}>Saudi Embassy Attestation</Link>
+            <Link to={"/"}>Saudi</Link>
           </li>
           <li>
-            <Link to={"/"}>Bahrain Embassy Attestation</Link>
+            <Link to={"/"}>Bahrain</Link>
           </li>
           <li>
-            <Link to={"/"}>China Embassy Attestation</Link>
+            <Link to={"/"}>China</Link>
           </li>
           <li>
-            <Link to={"/"}>Vietnam Embassy Attestation</Link>
+            <Link to={"/"}>Vietnam</Link>
           </li>
           <li>
-            <Link to={"/"}>Taiwan Embassy Attestation</Link>
+            <Link to={"/"}>Taiwan</Link>
           </li>
           <li>
-            <Link to={"/"}>Egypt Embassy Attestation</Link>
+            <Link to={"/"}>Egypt</Link>
           </li>
           <li>
-            <Link to={"/"}>Nigeria Embassy Attestation</Link>
+            <Link to={"/"}>Nigeria</Link>
           </li>
           <li>
-            <Link to={"/"}>Malaysia Embassy Attestation</Link>
+            <Link to={"/"}>Malaysia</Link>
           </li>
           <li>
-            <Link to={"/"}>Philippines Embassy Attestation</Link>
+            <Link to={"/"}>Philippines</Link>
           </li>
         </ul>
       </div>
-      {/* <div className="footerServiceContent">
-        <li>UAE Embassy Attestation</li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-      </div> */}
+      <div className="footerServiceContent">
+        <ul>
+          <h3>Documents</h3>
+          <li>
+            <Link to={"/"}>Birth Certificate</Link>
+          </li>
+          <li>
+            <Link to={"/"}>Marriage Certificate</Link>
+          </li>
+          <li>
+            <Link to={"/"}>Salary Certificate</Link>
+          </li>
+          <li>
+            <Link to={"/"}>Equivalence Certificate</Link>
+          </li>
+          <li>
+            <Link to={"/"}>Single Status Certificate</Link>
+          </li>
+          <li>
+            <Link to={"/"}>Ministry of education department</Link>
+          </li>
+          <li>
+            <Link to={"/"}>Foreign Affairs (FA)</Link>
+          </li>
+          <li>
+            <Link to={"/"}>Transfer Certificate (TC)</Link>
+          </li>
+          <li>
+            <Link to={"/"}>Employment Certificate</Link>
+          </li>
+          <li>
+            <Link to={"/"}>Medical Certificate</Link>
+          </li>
+          <li>
+            <Link to={"/"}>Ministry of Health department</Link>
+          </li>
+          <li>
+            <Link to={"/"}>Ministry of Justice</Link>
+          </li>
+          <li>
+            <Link to={"/"}>Chamber of Commerce</Link>
+          </li>
+          <li>
+            <Link to={"/"}>Labor Department</Link>
+          </li>
+          <li>
+            <Link to={"/"}>Death Certificate</Link>
+          </li>
+        </ul>
+      </div>
     </div>
   );
 };
