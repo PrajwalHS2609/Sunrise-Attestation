@@ -70,12 +70,20 @@
     font-size: 15px;
   }
   .faqContainer {
-    /* border: solid red; */
+    border: solid red;
     width: 100%;
     height: 100%;
     background-position: -600px 0;
   }
   .faqHeadContainer > h2 {
     text-align: center;
+  }
+}
+@media screen and (min-width: 1200px) {
+  .faqContainer {
+    /* border: solid red; */
+    width: 100%;
+    height: 100%;
+    background-position: 0 0;
   }
 }

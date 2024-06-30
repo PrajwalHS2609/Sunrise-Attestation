@@ -1,6 +1,5 @@
 import React from "react";
 import "./SeoContent.css";
-import Map from "../../Map/Map";
 import SeoContent2 from "./SeoContent2";
 const SeoContentMain = () => {
   return (
@@ -36,9 +35,6 @@ const SeoContentMain = () => {
           authorities, and more. Therefore, you are assured of the best
           certificate and document attestation, apostille in Bengaluru.
         </p>
-      </div>
-      <Map />
-      <div className="seoContentMainContent">
         <p>
           Save your valuable time that you would spend on travelling to get
           different documents attested by different experts. Goodway Attestation
@@ -64,7 +60,7 @@ const SeoContentMain = () => {
           services in Bengaluru.
         </p>
       </div>
-      <SeoContent2/>
+      <SeoContent2 />
     </div>
   );
 };
