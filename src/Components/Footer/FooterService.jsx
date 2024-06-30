@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 
 const FooterService = () => {
   return (
-    <div className="footerServiceContent1">
+    <div className="footerServiceContent">
       <h3>Our Services</h3>
       <ul>
         <li>

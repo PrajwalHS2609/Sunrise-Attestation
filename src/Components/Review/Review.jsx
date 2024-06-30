@@ -1,5 +1,6 @@
 import React, { useEffect } from "react";
 import "./Review.css";
+import ReviewsHeading from "./ReviewsHeading";
 const Review = () => {
   useEffect(() => {
     const script = document.createElement("script");
@@ -12,6 +13,8 @@ const Review = () => {
     };
   }, []);
   return (
+    <>
+    <ReviewsHeading/>
     <div className="reviewsContainer">
       <div className="reviewsContent">
         <script
@@ -26,6 +29,7 @@ const Review = () => {
         ></div>
       </div>
     </div>
+    </>
   );
 };
 

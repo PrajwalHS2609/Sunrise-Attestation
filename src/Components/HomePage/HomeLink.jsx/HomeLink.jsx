@@ -20,7 +20,7 @@ const HomeLink = () => {
         <li>
         <FontAwesomeIcon
             icon={faWhatsapp}
-            className="menuIcon"
+            className="menuIcon2"
           ></FontAwesomeIcon>
           <div className="upperNavContact">
             <a href="https://api.whatsapp.com/send?phone=919148889666">+91 9148889666</a> ,{" "}
@@ -30,7 +30,7 @@ const HomeLink = () => {
         <li>
         <FontAwesomeIcon
             icon={faLocationDot}
-            className="menuIcon"
+            className="menuIcon1"
           ></FontAwesomeIcon>
           <div className="upperNavContact">
             <a href="https://maps.app.goo.gl/NCLzs7sdHPtjJkh59">Bangalore</a> {" "}

@@ -5,10 +5,31 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  flex-wrap: wrap;
-  padding: 30px;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+  padding: 10px;
+  margin-top: 30px;
+}
+.footer1Container {
+  /* border: solid red; */
+  width: 100%;
+  background-color: #3e403f;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  /* flex-wrap: wrap; */
+  padding: 10px;
 }
 .footerContent {
+  /* border: solid yellow; */
+  width: 20%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.footerContentContact {
   /* border: solid yellow; */
   width: 40%;
   display: flex;
@@ -24,7 +45,7 @@
   /* border: solid blue; */
   display: flex;
   justify-content: center;
-  align-items: flex-start;
+  align-items: center;
   gap: 30px;
   width: 100%;
 }
@@ -36,53 +57,23 @@
   flex-direction: column;
   gap: 20px;
 }
-.footerServiceContent1 {
-  /* border: solid green; */
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  gap: 20px;
-}
-.footerServiceContent1 > h3 {
-  font-size: 20px;
-  color: white;
-}
+
 .footerServiceContent > h3 {
-  font-size: 20px;
+  font-size: 15px;
   color: white;
+  text-align: center;
 }
-.footerServiceContent1 > ul {
-  /* border: solid greenyellow; */
-  display: flex;
-  justify-content: center;
-  grid-gap: 10px;
-  flex-direction: column;
-}
-.footerServiceContent1 > ul > h3 {
-  color: white;
-  font-size: 20px;
-}
-.footerServiceContent1 > ul > li {
-  margin-left: 30px;
-  list-style: none;
-  padding: 10px;
-}
-.footerServiceContent1 > ul > li > a {
-  text-decoration: none;
-  color: white;
-}
+
 .footerServiceContent > ul {
   /* border: solid greenyellow; */
-  display: grid;
-  grid-template-columns: repeat(2, auto);
-  grid-gap: 10px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 10px;
   flex-direction: column;
 }
-.footerServiceContent > ul > h3 {
-  color: white;
-  font-size: 20px;
-}
+
 .footerServiceContent > ul > li {
   margin-left: 30px;
   list-style: none;
@@ -110,7 +101,7 @@
   align-items: center;
   width: 100%;
 }
-.footContactContent > ul{
+.footContactContent > ul {
   /* border: solid; */
   width: 100%;
 }
@@ -186,17 +177,54 @@
   color: var(--customColor1);
 }
 @media screen and (min-width: 320px) and (max-width: 768px) {
-  .footerContainer {
+  .footer1Container {
     /* border: solid red; */
+    width: 100%;
     display: flex;
-    justify-content: center;
-    align-items:center;
+    justify-content: flex-start;
+    align-items: flex-start;
+    flex-direction: column;
     flex-wrap: wrap;
+    gap: 30px;
     padding: 10px;
   }
   .footerContent {
     /* border: solid yellow; */
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
     width: 100%;
+  }
+  .footerServiceContent {
+    /* border: solid green; */
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .footerServiceContent > h3 {
+    /* border: solid rebeccapurple; */
+    width: 100%;
+    font-size: 20px;
+    color: white;
+    text-align: start;
+  }
+  .footerServiceContent > ul > li {
+    margin-left: 0px;
+    list-style: none;
+    padding: 10px;
+  }
+  .footerContentContact {
+    /* border: solid yellow; */
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    margin: 0px;
     padding: 0px;
     gap: 20px;
   }
@@ -207,8 +235,22 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 30px;
-    padding: 10px;
-    border-radius: 10px;
+    gap: 20px;
+    padding: 0px;
+  }
+  .footContactContent > ul > li > p {
+    font-size: 15px;
+    color: white;
+  }
+  .footContactContent > ul > li > p > a {
+    font-size: 15px;
+  }
+  .footerIconCon {
+    width: 20px;
+    height: 20px;
+  }
+  .footerSocial > ul > li {
+    /* border: solid red; */
+    height: 60px;
   }
 }

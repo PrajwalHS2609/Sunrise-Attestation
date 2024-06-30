@@ -1,5 +1,6 @@
 .homeBannerContainer {
   width: 100%;
+  padding: 20px;
 }
 .homeBannerContainer > img {
   width: 100%;

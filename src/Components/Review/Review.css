@@ -16,3 +16,21 @@
   padding: 10px;
   margin-top: -50px;
 }
+.reviewsHeading {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 10px;
+  padding: 20px;
+}
+.reviewsHeading > h2 {
+  font-size: 30px;
+  color: var(--customColor2);
+  text-align: center;
+}
+.reviewUnderline {
+  border: 2px solid var(--customColor1);
+  width: 10%;
+}

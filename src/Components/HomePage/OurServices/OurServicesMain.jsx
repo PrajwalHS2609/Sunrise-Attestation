@@ -15,42 +15,42 @@ const OurServicesMain = () => {
       <OurServicesCard
         img={attestation}
         head="ATTESTATION"
-        para="Certificate attestation Services is the process of verifying with confirming archives when an individual is heading out to foreign nation..."
+        para="Attestation is the process of verifying the authenticity of documents by authorized officials,required for legal recognition in foreign countries."
       />
       <OurServicesCard
         img={appostille}
         head="APOSTILLE"
-        para="Certificate attestation Services is the process of verifying with confirming archives when an individual is heading out to foreign nation..."
+        para="Apostille is a form of document authentication issued by a designated authority for use in countries that are members of the Hague Convention.."
       />
       <OurServicesCard
         img={hrd}
         head="STATE HRD"
-        para="Certificate attestation Services is the process of verifying with confirming archives when an individual is heading out to foreign nation..."
+        para="State HRD (Human Resource Development) refers to the government department responsible for the attestation of educational documents for use abroad, verifying their authenticity."
       />
       <OurServicesCard
         img={mofa}
         head="MOFA"
-        para="Certificate attestation Services is the process of verifying with confirming archives when an individual is heading out to foreign nation..."
+        para="MOFA (Ministry of Foreign Affairs) is responsible for the attestation and legalization of documents for international use, ensuring their authenticity and validity in foreign countries."
       />
       <OurServicesCard
         img={pcc}
         head="PCC"
-        para="Certificate attestation Services is the process of verifying with confirming archives when an individual is heading out to foreign nation..."
+        para="PCC (Police Clearance Certificate) is an official document issued by police or government authorities certifying that an individual has no criminal record or pending cases."
       />
       <OurServicesCard
         img={mea}
         head="MEA"
-        para="Certificate attestation Services is the process of verifying with confirming archives when an individual is heading out to foreign nation..."
+        para="MEA (Ministry of External Affairs) is responsible for the attestation and legalization of documents for international use, ensuring their authenticity for foreign authorities."
       />
       <OurServicesCard
         img={wes}
         head="WES"
-        para="Certificate attestation Services is the process of verifying with confirming archives when an individual is heading out to foreign nation..."
+        para="WES (World Education Services) is an organization that evaluates and converts academic credentials from any country into their U.S. or Canadian equivalents for recognition."
       />
       <OurServicesCard
         img={translation}
         head="Translation"
-        para="Certificate attestation Services is the process of verifying with confirming archives when an individual is heading out to foreign nation..."
+        para="Translation is the process of converting text from one language into another, ensuring the meaning and context remain accurate and clear in the target language."
       />
     </div>
   );

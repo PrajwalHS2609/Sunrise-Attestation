@@ -6,10 +6,10 @@ import HomeFlags from "./HomeFlags/HomeFlags";
 import Benefits from "../Benefits/Benefits";
 import WhyBlock from "../WhyBlock/WhyBlock";
 import Review from "../Review/Review";
-import Map from "../Map/Map";
 import AboutUs from "./AboutUs/AboutUs";
 import HomeLink from "./HomeLink.jsx/HomeLink";
-import HomeBanner from "./HomeBanner/HomBanner";
+import SeoContent from "./SeoContent/SeoContent";
+import Faq from "./Faq/Faq";
 const HomePage = () => {
   return (
     <div>
@@ -22,8 +22,8 @@ const HomePage = () => {
       <HomeLink />
       <Benefits />
       <Review />
-      <Map />
-      <HomeBanner />
+      <SeoContent/>
+      <Faq/>
     </div>
   );
 };
