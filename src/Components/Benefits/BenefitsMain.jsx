@@ -1,7 +1,7 @@
 import React from "react";
 import "./Benefits.css";
 import BenefitsCard from "./BenefitsCard";
-import benefit from "./../../vid&img/benefits.jpg";
+import benefit from "./../../vid&img/Attributes Banner/benefits.png"
 import govtAp from "./../../vid&img/Attributes/Government Approved.png";
 import efficiency from "./../../vid&img/Attributes/Efficiency.png";
 import expertise from "./../../vid&img/Attributes/Expertise.png";

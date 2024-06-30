@@ -24,33 +24,51 @@ import uaeFlag from "./../../vid&img/Countries_Flag/UAE.png";
 import ukFlag from "./../../vid&img/Countries_Flag/UK.png";
 import usaFlag from "./../../vid&img/Countries_Flag/USA.png";
 import vietnamFlag from "./../../vid&img/Countries_Flag/vietnam.png";
+import HomeMarqueeHead from "./HomeMarqueeHead";
 
 const HomeMarquee = () => {
   return (
     <div className="marqueeContainer">
+      <HomeMarqueeHead />
       <Marquee>
-        <HomeMarqueeCard img={australiaFlag} alt={australiaFlag} name="Australia"/>
-        <HomeMarqueeCard img={austriaFlag} alt={austriaFlag} name="Austria"/>
-        <HomeMarqueeCard img={bahrainFlag} alt={bahrainFlag} name="Bahrain"/>
-        <HomeMarqueeCard img={egyptFlag} alt={egyptFlag} name="Egypt"/>
-        <HomeMarqueeCard img={franceFlag} alt={franceFlag} name="France"/>
-        <HomeMarqueeCard img={germanyFlag} alt={germanyFlag} name="Germany"/>
-        <HomeMarqueeCard img={italyFlag} alt={italyFlag} name="Italy"/>
-        <HomeMarqueeCard img={kuwaitFlag} alt={kuwaitFlag} name="Kuwait"/>
-        <HomeMarqueeCard img={malaysiaFlag} alt={malaysiaFlag} name="Malaysia"/>
-        <HomeMarqueeCard img={mexicoFlag} alt={mexicoFlag} name="Mexico"/>
-        <HomeMarqueeCard img={netherlandFlag} alt={netherlandFlag} name="Netherland"/>
-        <HomeMarqueeCard img={nigeriaFlag} alt={nigeriaFlag} name="Nigeria"/>
-        <HomeMarqueeCard img={omanFlag} alt={omanFlag} name="Oman"/>
-        <HomeMarqueeCard img={philippinesFlag} alt={philippinesFlag} name="Philippines"/>
-        <HomeMarqueeCard img={qatarFlag} alt={qatarFlag} name="Qatar"/>
-        <HomeMarqueeCard img={saudiFlag} alt={saudiFlag} name="Saudi Arabia"/>
-        <HomeMarqueeCard img={taiwanFlag} alt={taiwanFlag} name="Taiwan"/>
-        <HomeMarqueeCard img={swedenFlag} alt={swedenFlag} name="Sweden"/>
-        <HomeMarqueeCard img={uaeFlag} alt={uaeFlag} name="UAE"/>
-        <HomeMarqueeCard img={ukFlag} alt={ukFlag} name="United Kingdom"/>
-        <HomeMarqueeCard img={usaFlag} alt={usaFlag} name="USA"/>
-        <HomeMarqueeCard img={vietnamFlag} alt={vietnamFlag} name="Vietnam"/>
+        <HomeMarqueeCard
+          img={australiaFlag}
+          alt={australiaFlag}
+          name="Australia"
+        />
+        <HomeMarqueeCard img={austriaFlag} alt={austriaFlag} name="Austria" />
+        <HomeMarqueeCard img={bahrainFlag} alt={bahrainFlag} name="Bahrain" />
+        <HomeMarqueeCard img={egyptFlag} alt={egyptFlag} name="Egypt" />
+        <HomeMarqueeCard img={franceFlag} alt={franceFlag} name="France" />
+        <HomeMarqueeCard img={germanyFlag} alt={germanyFlag} name="Germany" />
+        <HomeMarqueeCard img={italyFlag} alt={italyFlag} name="Italy" />
+        <HomeMarqueeCard img={kuwaitFlag} alt={kuwaitFlag} name="Kuwait" />
+        <HomeMarqueeCard
+          img={malaysiaFlag}
+          alt={malaysiaFlag}
+          name="Malaysia"
+        />
+        <HomeMarqueeCard img={mexicoFlag} alt={mexicoFlag} name="Mexico" />
+        <HomeMarqueeCard
+          img={netherlandFlag}
+          alt={netherlandFlag}
+          name="Netherland"
+        />
+        <HomeMarqueeCard img={nigeriaFlag} alt={nigeriaFlag} name="Nigeria" />
+        <HomeMarqueeCard img={omanFlag} alt={omanFlag} name="Oman" />
+        <HomeMarqueeCard
+          img={philippinesFlag}
+          alt={philippinesFlag}
+          name="Philippines"
+        />
+        <HomeMarqueeCard img={qatarFlag} alt={qatarFlag} name="Qatar" />
+        <HomeMarqueeCard img={saudiFlag} alt={saudiFlag} name="Saudi Arabia" />
+        <HomeMarqueeCard img={taiwanFlag} alt={taiwanFlag} name="Taiwan" />
+        <HomeMarqueeCard img={swedenFlag} alt={swedenFlag} name="Sweden" />
+        <HomeMarqueeCard img={uaeFlag} alt={uaeFlag} name="UAE" />
+        <HomeMarqueeCard img={ukFlag} alt={ukFlag} name="United Kingdom" />
+        <HomeMarqueeCard img={usaFlag} alt={usaFlag} name="USA" />
+        <HomeMarqueeCard img={vietnamFlag} alt={vietnamFlag} name="Vietnam" />
       </Marquee>
     </div>
   );

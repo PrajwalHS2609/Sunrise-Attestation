@@ -1,0 +1,7 @@
+.homeBannerContainer {
+  width: 100%;
+}
+.homeBannerContainer > img {
+  width: 100%;
+  height: 100%;
+}

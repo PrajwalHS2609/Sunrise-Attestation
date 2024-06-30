@@ -4,6 +4,7 @@ const HomeFlagsHead = () => {
   return (
     <div className="HomeFlagHead">
       <h2>Government Approved</h2>
+      <div className="flagUnderline"></div>
     </div>
   );
 };

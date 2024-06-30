@@ -14,10 +14,15 @@
   justify-content: center;
   align-items: center;
   text-align: center;
+  flex-direction: column;
 }
 .HomeFlagHead > h2 {
   font-size: 30px;
-  color: var(--customColor1);
+  color: var(--customColor2);
+}
+.flagUnderline {
+  border: 2px solid var(--customColor1);
+  width: 40%;
 }
 .homeFlagMainContainer {
   /* border: solid blue; */
@@ -26,6 +31,7 @@
   align-items: center;
   padding: 30px;
 }
+
 .homeFlagCardContainer {
   /* border: solid; */
   width: 20%;

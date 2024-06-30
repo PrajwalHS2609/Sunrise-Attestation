@@ -6,17 +6,24 @@ import HomeFlags from "./HomeFlags/HomeFlags";
 import Benefits from "../Benefits/Benefits";
 import WhyBlock from "../WhyBlock/WhyBlock";
 import Review from "../Review/Review";
+import Map from "../Map/Map";
+import AboutUs from "./AboutUs/AboutUs";
+import HomeLink from "./HomeLink.jsx/HomeLink";
+import HomeBanner from "./HomeBanner/HomBanner";
 const HomePage = () => {
   return (
     <div>
       <Heading />
       <WhyBlock />
-      <HomeFlags/>
+      <HomeFlags />
       <HomeMarquee />
-      <OurServices/>
-      <Benefits/>
-      <Review/>
-      
+      <OurServices />
+      <AboutUs />
+      <HomeLink />
+      <Benefits />
+      <Review />
+      <Map />
+      <HomeBanner />
     </div>
   );
 };

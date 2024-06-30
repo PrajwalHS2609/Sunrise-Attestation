@@ -44,20 +44,18 @@
   flex-direction: column;
   gap: 20px;
 }
-.footerServiceContent1>h3{
+.footerServiceContent1 > h3 {
   font-size: 20px;
   color: white;
-  
 }
-.footerServiceContent>h3{
+.footerServiceContent > h3 {
   font-size: 20px;
   color: white;
-  
 }
 .footerServiceContent1 > ul {
   /* border: solid greenyellow; */
   display: flex;
- justify-content: center;
+  justify-content: center;
   grid-gap: 10px;
   flex-direction: column;
 }
@@ -104,7 +102,6 @@
   gap: 30px;
   padding: 10px;
   border-radius: 10px;
-  background-color: #515151;
 }
 .footContactContent {
   /* border: solid blue; */
@@ -113,7 +110,13 @@
   align-items: center;
   width: 100%;
 }
+.footContactContent > ul{
+  /* border: solid; */
+  width: 100%;
+}
 .footContactContent > ul > li {
+  /* border: solid red; */
+  width: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: center;
@@ -187,67 +190,25 @@
     /* border: solid red; */
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 30px;
+    align-items:center;
+    flex-wrap: wrap;
     padding: 10px;
-  }
-  .footContactContent {
-    /* border: solid blue; */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    width: fit-content;
-  }
-
-  .footContactContent > ul > li > p {
-    font-size: 15px;
-    color: white;
-  }
-  .footContactContent > ul > li > p > a {
-    font-size: 15px;
-  }
-  .footerIconCon {
-    width: 20px;
-    height: 20px;
-    color: white;
-  }
-  .footerSocial {
-    /* border: solid green; */
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
-  }
-  .footerSocial > ul {
-    width: fit-content;
-    /* border: solid; */
-  }
-  .footerSocial > ul > li {
-    /* border: solid red; */
-    height: 50px;
-    width: 50px;
   }
   .footerContent {
     /* border: solid yellow; */
     width: 100%;
-    padding: 20px;
+    padding: 0px;
+    gap: 20px;
   }
-  .footerServiceContainer {
-    /* border: solid blue; */
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-    flex-direction: column;
-    gap: 30px;
+  .footerContactContainer {
+    /* border: solid red; */
     width: 100%;
-  }
-  .footerServiceContent {
-    /* border: solid green; */
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    gap: 30px;
+    padding: 10px;
+    border-radius: 10px;
   }
 }
