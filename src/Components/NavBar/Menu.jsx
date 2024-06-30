@@ -3,7 +3,7 @@ import "./Navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faHome,
-  faSortDown,
+  faAngleDown,
   faBars,
   faX,
 } from "@fortawesome/free-solid-svg-icons";
@@ -37,7 +37,7 @@ const Menu = () => {
           <li id="menuList">
             Attestation
             <FontAwesomeIcon
-              icon={faSortDown}
+              icon={faAngleDown}
               className="menuIcon"
             ></FontAwesomeIcon>
             <div className="menuDrop">
@@ -52,7 +52,7 @@ const Menu = () => {
           <li>
             Apostille
             <FontAwesomeIcon
-              icon={faSortDown}
+              icon={faAngleDown}
               className="menuIcon"
             ></FontAwesomeIcon>
             <div className="menuDrop">
@@ -67,7 +67,7 @@ const Menu = () => {
           <li>
             State HRD
             <FontAwesomeIcon
-              icon={faSortDown}
+              icon={faAngleDown}
               className="menuIcon"
             ></FontAwesomeIcon>
             <div className="menuDrop">
@@ -82,7 +82,7 @@ const Menu = () => {
           <li>
             MOFA
             <FontAwesomeIcon
-              icon={faSortDown}
+              icon={faAngleDown}
               className="menuIcon"
             ></FontAwesomeIcon>
             <div className="menuDrop">
@@ -101,7 +101,7 @@ const Menu = () => {
           <li>
             PCC
             <FontAwesomeIcon
-              icon={faSortDown}
+              icon={faAngleDown}
               className="menuIcon"
             ></FontAwesomeIcon>
             <div className="menuDrop">
@@ -115,7 +115,7 @@ const Menu = () => {
           <li>
             MEA
             <FontAwesomeIcon
-              icon={faSortDown}
+              icon={faAngleDown}
               className="menuIcon"
             ></FontAwesomeIcon>
             <div className="menuDrop">
@@ -127,7 +127,7 @@ const Menu = () => {
           <li>
             Translation
             <FontAwesomeIcon
-              icon={faSortDown}
+              icon={faAngleDown}
               className="menuIcon"
             ></FontAwesomeIcon>
             <div className="menuDrop" id="translationDrop">

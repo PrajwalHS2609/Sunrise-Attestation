@@ -1,6 +1,7 @@
 import React from "react";
 import "./SeoContent.css";
 import Map from "../../Map/Map";
+import SeoContent2 from "./SeoContent2";
 const SeoContentMain = () => {
   return (
     <div className="seoContentMainContainer">
@@ -63,6 +64,7 @@ const SeoContentMain = () => {
           services in Bengaluru.
         </p>
       </div>
+      <SeoContent2/>
     </div>
   );
 };

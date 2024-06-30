@@ -31,15 +31,29 @@
   padding: 20px;
   border-radius: 20px;
 }
+
 .seoContentMainContent > p {
   font-size: 20px;
 }
 .seoContentMainContent > p > span {
   color: var(--customColor1);
 }
-@media screen and (min-width: 320px) and (max-width:768px) {
-    .seoContentMainContent > p {
-        font-size: 20px;
-        text-align: justify;
-      }
+.seoContent2Container {
+  background-color: rgb(236, 236, 236);
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 10px;
+}
+.seoContent2Content > ul > li {
+  list-style: none;
+  margin: 20px;
+  font-size: 15px;
+}
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .seoContentMainContent > p {
+    font-size: 20px;
+    text-align: justify;
+  }
 }
