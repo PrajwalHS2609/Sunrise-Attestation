@@ -33,7 +33,7 @@ const BenefitsMain = () => {
           <BenefitsCard txt="Competitive Pricing" img={price} />
           <BenefitsCard txt="Online Tracking" img={online} />
           <BenefitsCard txt="Legal Compliance" img={legal} />
-          <BenefitsCard txt="Timely Delivery" img={time} />
+          <BenefitsCard txt="Free Home Pickup and  Timely Delivery" img={time} />
         </div>
       </div>
     </div>

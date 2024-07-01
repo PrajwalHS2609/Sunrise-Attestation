@@ -1,8 +1,8 @@
 import React from "react";
 import OurServicesCard from "./OurServicesCard";
 import "./OurServices.css";
-import attestation from "./../../../vid&img/Service Images/Attestation.png";
-import appostille from "./../../../vid&img/Service Images/Apostille.png";
+import appostille from "./../../../vid&img/Service Images/Attestation.png";
+import attestation from "./../../../vid&img/Service Images/Apostille.png";
 import mofa from "./../../../vid&img/Service Images/MOFA.png";
 import pcc from "./../../../vid&img/Service Images/PCC.png";
 import mea from "./../../../vid&img/Service Images/MEA.png";

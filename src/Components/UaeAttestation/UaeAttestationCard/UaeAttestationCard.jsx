@@ -1,0 +1,89 @@
+import React from "react";
+import "./UaeAttestationCard.css";
+import uaeEmbassy from "./../../../vid&img/Embassy/UAE Embassy.png";
+import uaeFlag from "./../../../vid&img/Countries_Flag/UAE.png";
+import birth from "./../../../vid&img/UAE_Feature/BirthApproved.png";
+import education from "./../../../vid&img/UAE_Feature/Degree.png";
+import marriage from "./../../../vid&img/UAE_Feature/Marriage.png";
+import commercial from "./../../../vid&img/UAE_Feature/Commercial_Docment.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import { faWhatsapp } from "@fortawesome/free-brands-svg-icons";
+const UaeAttestationCard = () => {
+  return (
+    <div className="uaeAttestationCardContainer">
+      <div className="uaeAttCardImgContent">
+        <img src={uaeFlag} alt="uaeFlag" />
+        <div className="uaeAttCardContent">
+          <div className="uaeAttGovtCardContent">
+            <img src={uaeEmbassy} alt="uaeEmbassy" />
+            <h3>Government Approved</h3>
+          </div>
+          <div className="uaeAttDocCardContent">
+            <h3>Documents</h3>
+            <div className="uaeAttDocCardImgContent">
+              <div className="uaeAttDocCardImg">
+                <img src={birth} alt="birth" />
+                <p>Birth Certificate</p>
+              </div>
+              <div className="uaeAttDocCardImg">
+                <img src={marriage} alt="marriage" />
+                <p>Marriage Certificate</p>
+              </div>
+              <div className="uaeAttDocCardImg">
+                <img src={education} alt="degree" />
+                <p>Degree Certificate</p>
+              </div>
+              <div className="uaeAttDocCardImg">
+                <img src={commercial} alt="commercial" />
+                <p>Commercial Certificate</p>
+              </div>
+            </div>
+          </div>
+          <div className="uaeAttCardContentWrapper">
+            <div className="uaeAttDaysCardContent">
+              <h3>Days</h3>
+              <p>5 Days Only</p>
+            </div>
+            <div className="uaeAttPriceCardContent">
+              <h3>Price</h3>
+              <p>Competitive Price</p>
+            </div>
+          </div>
+
+          <div className="uaeAttSuppCardContent">
+            <h3>Support </h3>
+            <div className="uaeAttSuppCardItem">
+              <div className="uaeAttSuppCard">
+                <FontAwesomeIcon
+                  icon={faPhone}
+                  className="uaeAttIcon1"
+                ></FontAwesomeIcon>
+                <a href="tel:9148889666">+91 9148889666</a> /<br />
+                <a href="tel:9148889444">+91 9148889444</a>
+              </div>
+              <div className="uaeAttSuppCard">
+                <FontAwesomeIcon
+                  icon={faWhatsapp}
+                  className="uaeAttIcon2"
+                ></FontAwesomeIcon>
+                <a href="https://api.whatsapp.com/send?phone=919148889666">
+                  +91 9148889666
+                </a>{" "}
+                / <br />
+                <a href="https://api.whatsapp.com/send?phone=919148889444">
+                  +91 9148889444
+                </a>
+              </div>
+            </div>
+          </div>
+          <div className="uaeAttTrackCardContent">
+            <button>Track Status</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default UaeAttestationCard;

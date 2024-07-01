@@ -11,7 +11,6 @@ import { Link } from "react-router-dom";
 import RespMenuBlock from "./RespMenuBlock";
 
 const Menu = () => {
-
   let showSideBar = () => {
     const sideBar = document.querySelector(".respMenu");
     sideBar.style.display = "flex";
@@ -23,19 +22,20 @@ const Menu = () => {
     sideBar.style.transform = "translateX(350px)";
   };
 
-
   return (
     <>
       <div className="menuContainer">
         <ul>
           <li id="menuHome">
-            <FontAwesomeIcon
-              icon={faHome}
-              className="menuIcon"
-            ></FontAwesomeIcon>
+            <Link to={"/"}>
+              <FontAwesomeIcon
+                icon={faHome}
+                className="menuIcon"
+              ></FontAwesomeIcon>
+            </Link>
           </li>
           <li id="menuList">
-            Attestation
+            <Link to={"/attestation"}>Attestation</Link>
             <FontAwesomeIcon
               icon={faAngleDown}
               className="menuIcon"
@@ -50,7 +50,7 @@ const Menu = () => {
             </div>
           </li>
           <li>
-            Apostille
+            <Link to={"/apostille"}> Apostille</Link>
             <FontAwesomeIcon
               icon={faAngleDown}
               className="menuIcon"
@@ -165,7 +165,6 @@ const Menu = () => {
           <RespMenuBlock menuName={menuName2} items={items} />
           <RespMenuBlock menuName={menuName3} items={items3} />
 
-         
           <RespMenuBlock menuName={menuName4} items={items4} />
           <RespMenuBlock menuName={menuName5} items={items5} />
           <RespMenuBlock menuName={menuName6} items={items6} />

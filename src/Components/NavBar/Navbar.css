@@ -53,6 +53,10 @@
   position: relative;
   text-align: center;
 }
+.menuContainer > ul > li > a {
+  color: white;
+  text-decoration: none;
+}
 .menuDrop {
   /* border: solid; */
   position: absolute;
@@ -96,7 +100,8 @@
   /* border: solid; */
   position: fixed;
   z-index: 9999;
-  top: 0;right: 0;
+  top: 0;
+  right: 0;
   height: 100vh;
   width: 90%;
   overflow-y: scroll;

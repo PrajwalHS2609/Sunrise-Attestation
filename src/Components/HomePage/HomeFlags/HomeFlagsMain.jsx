@@ -11,14 +11,15 @@ const HomeFlagsMain = () => {
   return (
     <div className="homeFlagMainContainer">
       <HomeFlagCard
-        flag={bahrainEmbassy}
-        name="BAHRAIN EMBASSY"
-        alt="bahrainEmbassy"
-      />
-      <HomeFlagCard
         flag={indianEmbassy}
         name="INDIAN EMBASSY"
         alt="indianEmbassy"
+      />
+      <HomeFlagCard flag={uaeEmbassy} name="UAE EMBASSY" alt="uaeEmbassy" />
+      <HomeFlagCard
+        flag={saudiEmbassy}
+        name="SAUDI EMBASSY"
+        alt="saudiEmbassy"
       />
       <HomeFlagCard
         flag={qatarEmbassy}
@@ -26,11 +27,10 @@ const HomeFlagsMain = () => {
         alt="qatarEmbassy"
       />
       <HomeFlagCard
-        flag={saudiEmbassy}
-        name="SAUDI EMBASSY"
-        alt="saudiEmbassy"
+        flag={bahrainEmbassy}
+        name="BAHRAIN EMBASSY"
+        alt="bahrainEmbassy"
       />
-      <HomeFlagCard flag={uaeEmbassy} name="UAE EMBASSY" alt="uaeEmbassy" />
     </div>
   );
 };
