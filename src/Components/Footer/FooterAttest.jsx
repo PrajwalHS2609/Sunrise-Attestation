@@ -8,7 +8,7 @@ const FooterAttest = () => {
       <h3>Attestation</h3>
       <ul>
         <li>
-          <Link to={"/"}>UAE</Link>
+          <Link to={"/uae-attestation"}>UAE</Link>
         </li>
         <li>
           <Link to={"/"}>Qatar</Link>
