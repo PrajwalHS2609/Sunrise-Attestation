@@ -70,7 +70,7 @@
     font-size: 15px;
   }
   .faqContainer {
-    border: solid red;
+    /* border: solid red; */
     width: 100%;
     height: 100%;
     background-position: -600px 0;
