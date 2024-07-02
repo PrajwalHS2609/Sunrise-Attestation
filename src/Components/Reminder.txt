@@ -1,2 +1,3 @@
 navnbar  dropdown in  responsive error
-typeritter font size set to less in responsive 
+WhyBlock txt bring it to left
+whyblock make it responsive
