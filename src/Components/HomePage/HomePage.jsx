@@ -11,6 +11,7 @@ import HomeLink from "./HomeLink.jsx/HomeLink";
 import SeoContent from "./SeoContent/SeoContent";
 import Faq from "./Faq/Faq";
 import Map from "../Map/Map";
+
 const HomePage = () => {
   return (
     <div>

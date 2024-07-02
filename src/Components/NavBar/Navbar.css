@@ -216,7 +216,7 @@
   .logoContainer {
     /* border: solid red; */
     height: 70%;
-    width: 80%;
+    min-width:180px;
     background-color: white;
     display: flex;
     justify-content: center;

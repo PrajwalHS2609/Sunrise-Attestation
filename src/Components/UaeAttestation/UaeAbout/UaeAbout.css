@@ -37,10 +37,20 @@
   list-style: none;
   text-align: justify;
 }
-.uaeAboutUsMainContent > h2 {
+.uaeAboutUsHeadContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.uaeAboutUsHeadContainer > h2 {
   font-size: 30px;
   text-align: center;
   color: var(--customColor2);
+}
+.uaeAboutUsHeadUnderline {
+  border: 2px solid var(--customColor1);
+  width: 50%;
 }
 @media screen and (min-width: 320px) and (max-width: 768px) {
   .uaeAboutUsContainer {

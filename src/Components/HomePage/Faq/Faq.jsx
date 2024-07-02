@@ -6,7 +6,7 @@ const Faq = () => {
   return (
     <div className="faqContainer">
       <div className="faqContent">
-        <FaqHead />
+        <FaqHead heading="FAQ for Goodway Attestation & Apostille Services in Bangalore" />
         <FaqMain />
       </div>
     </div>

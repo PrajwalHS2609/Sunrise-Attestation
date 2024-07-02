@@ -1,12 +1,11 @@
 import React from "react";
 import "./UaeAttestationHeading.css";
-import uaeAttBanner from "./../../../vid&img/UAE Attestation.mp4";
 import TypeWriter from "../TypeWriter/TypeWriter";
-const UaeAttestationHeading = () => {
+const UaeAttestationHeading = (props) => {
   return (
     <div className="uaeAttHeadingContainer">
       <TypeWriter />
-      <video src={uaeAttBanner} autoPlay loop muted />
+      <video src={props.uaeAttBanner} autoPlay loop muted />
     </div>
   );
 };

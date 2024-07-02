@@ -5,7 +5,7 @@ const UaeAboutMain = () => {
   return (
     <div className="uaeAboutUsMainContainer">
       <div className="uaeAboutUsMainContent">
-        <h2>About Us</h2>
+        
         <ul>
           <li>
             The United Arab Emirates, a confederation of seven Emirates, is fast

@@ -4,7 +4,7 @@ import "./UaeBlore.css";
 const UaeBloreHead = () => {
   return (
     <div className="uaeBloreHead">
-      <h1>UAE Attestation in Bangalore</h1>
+      <h2>UAE Attestation in Bangalore</h2>
     </div>
   );
 };

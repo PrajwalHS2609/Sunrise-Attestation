@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "./Faq.css";
 import {
   Accordion,
@@ -7,14 +7,19 @@ import {
   AccordionItemButton,
   AccordionItemPanel,
 } from "react-accessible-accordion";
-
-// Demo styles, see 'Styles' section below for some notes on use.
+import "aos/dist/aos.css";
+import AOS from "aos";
 import "react-accessible-accordion/dist/fancy-example.css";
 const FaqMain = () => {
+  useEffect(() => {
+    AOS.init({
+      duration: 600,
+    });
+  }, []);
   return (
     <div className="faqMainContainer">
       <Accordion className="faqMainContent" allowZeroExpanded>
-        <AccordionItem className="faqItem">
+        <AccordionItem className="faqItem" data-aos="fade-right">
           <AccordionItemHeading className="faqHead">
             <AccordionItemButton className="faqBut">
               <h3>What is certificate attestation ?</h3>
@@ -30,7 +35,7 @@ const FaqMain = () => {
             </p>
           </AccordionItemPanel>
         </AccordionItem>
-        <AccordionItem className="faqItem">
+        <AccordionItem className="faqItem" data-aos="fade-right">
           <AccordionItemHeading className="faqHead">
             <AccordionItemButton className="faqBut">
               <h3>What is an Apostille ?</h3>
@@ -45,7 +50,7 @@ const FaqMain = () => {
             </p>
           </AccordionItemPanel>
         </AccordionItem>
-        <AccordionItem className="faqItem">
+        <AccordionItem className="faqItem" data-aos="fade-right">
           <AccordionItemHeading className="faqHead">
             <AccordionItemButton className="faqBut">
               <h3>What types of documents can Goodway Attestation handle ?</h3>
@@ -62,7 +67,7 @@ const FaqMain = () => {
             </p>
           </AccordionItemPanel>
         </AccordionItem>
-        <AccordionItem className="faqItem">
+        <AccordionItem className="faqItem" data-aos="fade-right">
           <AccordionItemHeading className="faqHead">
             <AccordionItemButton className="faqBut">
               <h3> How long does the attestation process take ?</h3>
@@ -77,7 +82,7 @@ const FaqMain = () => {
             </p>
           </AccordionItemPanel>
         </AccordionItem>
-        <AccordionItem className="faqItem">
+        <AccordionItem className="faqItem" data-aos="fade-right">
           <AccordionItemHeading className="faqHead">
             <AccordionItemButton className="faqBut">
               <h3> Is Goodway Attestation certified and recognized ?</h3>
@@ -92,7 +97,7 @@ const FaqMain = () => {
             </p>
           </AccordionItemPanel>
         </AccordionItem>
-        <AccordionItem className="faqItem">
+        <AccordionItem className="faqItem" data-aos="fade-right">
           <AccordionItemHeading className="faqHead">
             <AccordionItemButton className="faqBut">
               <h3>How do I submit my documents for attestation ?</h3>
@@ -106,7 +111,7 @@ const FaqMain = () => {
             </p>
           </AccordionItemPanel>
         </AccordionItem>
-        <AccordionItem className="faqItem">
+        <AccordionItem className="faqItem" data-aos="fade-right">
           <AccordionItemHeading className="faqHead">
             <AccordionItemButton className="faqBut">
               <h3>What are the fees for attestation services ?</h3>
@@ -120,7 +125,7 @@ const FaqMain = () => {
             </p>
           </AccordionItemPanel>
         </AccordionItem>
-        <AccordionItem className="faqItem">
+        <AccordionItem className="faqItem" data-aos="fade-right">
           <AccordionItemHeading className="faqHead">
             <AccordionItemButton className="faqBut">
               <h3>
@@ -137,7 +142,7 @@ const FaqMain = () => {
             </p>
           </AccordionItemPanel>
         </AccordionItem>
-        <AccordionItem className="faqItem">
+        <AccordionItem className="faqItem" data-aos="fade-right">
           <AccordionItemHeading className="faqHead">
             <AccordionItemButton className="faqBut">
               <h3> Can I track the status of my document attestation ?</h3>
@@ -151,7 +156,7 @@ const FaqMain = () => {
             </p>
           </AccordionItemPanel>
         </AccordionItem>
-        <AccordionItem className="faqItem">
+        <AccordionItem className="faqItem" data-aos="fade-right">
           <AccordionItemHeading className="faqHead">
             <AccordionItemButton className="faqBut">
               <h3>What should I do if my documents are not in English ?</h3>
@@ -166,7 +171,7 @@ const FaqMain = () => {
             </p>
           </AccordionItemPanel>
         </AccordionItem>
-        <AccordionItem className="faqItem">
+        <AccordionItem className="faqItem" data-aos="fade-right">
           <AccordionItemHeading className="faqHead">
             <AccordionItemButton className="faqBut">
               <h3> What happens if my documents are rejected ?</h3>
@@ -181,7 +186,7 @@ const FaqMain = () => {
             </p>
           </AccordionItemPanel>
         </AccordionItem>
-        <AccordionItem className="faqItem">
+        <AccordionItem className="faqItem" data-aos="fade-right">
           <AccordionItemHeading className="faqHead">
             <AccordionItemButton className="faqBut">
               <h3>

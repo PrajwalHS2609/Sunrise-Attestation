@@ -7,6 +7,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import HomePage from "./Components/HomePage/HomePage";
 import Footer from "./Components/Footer/Footer";
 import UaeAttestationPage from "./Components/UaeAttestation/UaeAttestationPage";
+import QatarAttestation from "./Components/QatarAttestation/QatarAttestation";
 const App = () => {
   return (
     <div>
@@ -17,6 +18,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<HomePage />} />
           <Route path="/uae-attestation" element={<UaeAttestationPage/>} />
+          <Route path="/qatar-attestation" element={<QatarAttestation/>} />
         </Routes>
         <Footer />
       </BrowserRouter>

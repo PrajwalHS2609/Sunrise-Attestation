@@ -1,1 +1,2 @@
 navnbar  dropdown in  responsive error
+typeritter font size set to less in responsive 

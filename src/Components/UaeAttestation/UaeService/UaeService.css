@@ -16,7 +16,7 @@
   align-items: center;
   flex-direction: column;
 }
-.uaeServiceHeadContainer > h2 {
+.uaeServiceHeadContainer > h1 {
   font-size: 30px;
   color: var(--customColor2);
   text-align: center;
