@@ -5,7 +5,7 @@ import UaeCertificateMain from './UaeCertificateMain'
 const UaeCertificate = () => {
   return (
     <div className='uaeCertContainer'>
-      <UaeCertificateHead/>
+      <UaeCertificateHead certHead="Certificates Required For UAE Embassy Attestation"/>
       <UaeCertificateMain />
     </div>
   )

@@ -1,8 +1,9 @@
 import React from "react";
-import "./UaeAttestationHeading.css";
+import "../../UaeAttestation/UaeAttestationHeading/UaeAttestationHeading.css";
 import uaeAttBanner from "./../../../vid&img/UAE Attestation.mp4";
-import TypeWriter from "../TypeWriter/TypeWriter";
-const UaeAttestationHeading = () => {
+import TypeWriter from "../QatarTypeWriter/TypeWriter";
+
+const QatarHeading = () => {
   return (
     <div className="uaeAttHeadingContainer">
       <TypeWriter />
@@ -11,4 +12,4 @@ const UaeAttestationHeading = () => {
   );
 };
 
-export default UaeAttestationHeading;
+export default QatarHeading;

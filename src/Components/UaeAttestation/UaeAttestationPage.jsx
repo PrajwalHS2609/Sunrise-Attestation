@@ -9,18 +9,17 @@ import UaeBlore from "./UaeBlore/UaeBlore";
 import UaeReq from "./UaeReq/UaeReq";
 import UaeAbout from "./UaeAbout/UaeAbout";
 import UaeService from "./UaeService/UaeService";
+import Faq from "../HomePage/Faq/Faq";
 import HomeMarquee from "../Marquee/HomeMarquee";
 import Review from "../Review/Review";
 import Benefits from "../Benefits/Benefits";
 import OurServices from "../HomePage/OurServices/OurServices";
-import uaeAttBanner from "./../../vid&img/UAE Attestation.mp4";
 import HomeLink from "../HomePage/HomeLink.jsx/HomeLink";
-import UaeFaq from "./UaeFaq/UaeFaq";
 
 const UaeAttestationPage = () => {
   return (
     <div className="uaeAttestationPage">
-      <UaeAttestationHeading uaeAttBanner={uaeAttBanner} />
+      <UaeAttestationHeading />
       <WhyBlock />
       <UaeAttestationCardMain />
       <UaeCertificate />
@@ -34,7 +33,7 @@ const UaeAttestationPage = () => {
       <OurServices />
       <Benefits />
       <Review />
-      <UaeFaq/>
+      <Faq />
     </div>
   );
 };

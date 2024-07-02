@@ -16,6 +16,8 @@ const FaqMain = () => {
       duration: 600,
     });
   }, []);
+
+
   return (
     <div className="faqMainContainer">
       <Accordion className="faqMainContent" allowZeroExpanded>

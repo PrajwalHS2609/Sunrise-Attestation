@@ -1,10 +1,10 @@
 import React from 'react'
 import "./UaeCertificate.css"
 
-const UaeCertificateHead = () => {
+const UaeCertificateHead = (props) => {
   return (
     <div className='uaeCertHeadContainer'>
-      <h2>Certificates Required For UAE Embassy Attestation</h2>
+      <h2>{props.certHead}</h2>
       <div className="uaeCertUnderline"></div>
     </div>
   )
