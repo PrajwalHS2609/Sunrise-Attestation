@@ -24,6 +24,8 @@ import uaeFlag from "./../../vid&img/Countries_Flag/UAE.png";
 import ukFlag from "./../../vid&img/Countries_Flag/UK.png";
 import usaFlag from "./../../vid&img/Countries_Flag/USA.png";
 import vietnamFlag from "./../../vid&img/Countries_Flag/vietnam.png";
+import chinaFlag from "./../../vid&img/Countries_Flag/chinaFlag.png";
+
 import HomeMarqueeHead from "./HomeMarqueeHead";
 
 const HomeMarquee = () => {
@@ -69,6 +71,7 @@ const HomeMarquee = () => {
         <HomeMarqueeCard img={ukFlag} alt={ukFlag} name="United Kingdom" />
         <HomeMarqueeCard img={usaFlag} alt={usaFlag} name="USA" />
         <HomeMarqueeCard img={vietnamFlag} alt={vietnamFlag} name="Vietnam" />
+        <HomeMarqueeCard img={chinaFlag} alt={chinaFlag} name="China" />
       </Marquee>
     </div>
   );

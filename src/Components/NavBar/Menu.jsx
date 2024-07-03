@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useRef, useState } from "react";
 import "./Navbar.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
@@ -8,9 +8,11 @@ import {
   faX,
 } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
-import RespMenuBlock from "./RespMenuBlock";
 
 const Menu = () => {
+  let [drop, setDrop] = useState(false);
+  let dropRef = useRef();
+
   let showSideBar = () => {
     const sideBar = document.querySelector(".respMenu");
     sideBar.style.display = "flex";
@@ -19,7 +21,19 @@ const Menu = () => {
   let hideSideBar = () => {
     const sideBar = document.querySelector(".respMenu");
     // sideBar.style.display = "none";
-    sideBar.style.transform = "translateX(350px)";
+    sideBar.style.transform = "translateX(620px)";
+  };
+
+  let handleDropDown = () => {
+    if (!drop) {
+      setDrop(true);
+      dropRef.current.style.display = "flex";
+      console.log("down");
+    } else {
+      setDrop(false);
+      dropRef.current.style.display = "none";
+      console.log("up");
+    }
   };
 
   return (
@@ -136,98 +150,167 @@ const Menu = () => {
             </div>
           </li>
         </ul>
-
-        <div onClick={showSideBar} className="mainMenu">
-          <FontAwesomeIcon
-            icon={faBars}
-            className="menuBarIcon"
-          ></FontAwesomeIcon>
-        </div>
       </div>
+      <ul onClick={showSideBar} className="mainMenu">
+        <FontAwesomeIcon icon={faBars} className="hamIcon"></FontAwesomeIcon>
+      </ul>
       <div className="respMenu">
         <div className="respMenuScroll">
           <ul>
-            <h1>
+            <h2>
               <Link onClick={hideSideBar} to={"/"}>
                 Home
               </Link>
-            </h1>
-            <h1 className="cross">
+            </h2>
+            <h2 className="cross">
               <FontAwesomeIcon
                 icon={faX}
                 onClick={hideSideBar}
                 className="respIcon"
               ></FontAwesomeIcon>
-            </h1>
+            </h2>
           </ul>
-
-          <RespMenuBlock menuName={menuName} items={items} />
-          <RespMenuBlock menuName={menuName2} items={items} />
-          <RespMenuBlock menuName={menuName3} items={items3} />
-
-          <RespMenuBlock menuName={menuName4} items={items4} />
-          <RespMenuBlock menuName={menuName5} items={items5} />
-          <RespMenuBlock menuName={menuName6} items={items6} />
-
-          <ul>
-            <h1>
-              <Link onClick={hideSideBar} to={"/"}>
-                WES
+          <ul className="serviceDrop">
+            <h2>
+              <Link onClick={hideSideBar} to={"/courses"}>
+                Attestation
               </Link>
-            </h1>
+              <FontAwesomeIcon
+                onClick={handleDropDown}
+                icon={faAngleDown}
+                className="respDropIcon"
+              ></FontAwesomeIcon>
+            </h2>
+            <span className="respMenuSpan" ref={dropRef}>
+              <li>
+                <h3>
+                  <Link onClick={hideSideBar} to={"/a1-german-course"}>
+                    Degree Certificate
+                  </Link>
+                </h3>
+              </li>
+              <li>
+                <h3>
+                  <Link onClick={hideSideBar} to={"/a2-german-course"}>
+                    Birth Certificates
+                  </Link>
+                </h3>
+              </li>
+              <li>
+                <h3>
+                  <Link onClick={hideSideBar} to={"/b1-german-course"}>
+                    Marriage Certificate
+                  </Link>
+                </h3>
+              </li>
+              <li>
+                <h3>
+                  <Link onClick={hideSideBar} to={"/b2-german-course"}>
+                    Power of Attorney
+                  </Link>
+                </h3>
+              </li>
+              <li>
+                <h3>
+                  <Link onClick={hideSideBar} to={"/b2-german-course"}>
+                    Medical Certificate
+                  </Link>
+                </h3>
+              </li>
+              <li>
+                <h3>
+                  <Link onClick={hideSideBar} to={"/b2-german-course"}>
+                    Divorce Decree Certificate
+                  </Link>
+                </h3>
+              </li>
+            </span>
           </ul>
-          <RespMenuBlock menuName={menuName7} items={items7} />
+          <ul className="serviceDrop">
+            <h2>
+              <Link onClick={hideSideBar} to={"/courses"}>
+                Apostille
+              </Link>
+              <FontAwesomeIcon
+                onClick={handleDropDown}
+                icon={faAngleDown}
+                className="respDropIcon"
+              ></FontAwesomeIcon>
+            </h2>
+            <span className="respMenuSpan" ref={dropRef}>
+              <li>
+                <h3>
+                  <Link onClick={hideSideBar} to={"/a1-german-course"}>
+                    Degree Certificate
+                  </Link>
+                </h3>
+              </li>
+              <li>
+                <h3>
+                  <Link onClick={hideSideBar} to={"/a2-german-course"}>
+                    Birth Certificates
+                  </Link>
+                </h3>
+              </li>
+              <li>
+                <h3>
+                  <Link onClick={hideSideBar} to={"/b1-german-course"}>
+                    Marriage Certificate
+                  </Link>
+                </h3>
+              </li>
+              <li>
+                <h3>
+                  <Link onClick={hideSideBar} to={"/b2-german-course"}>
+                    Power of Attorney
+                  </Link>
+                </h3>
+              </li>
+              <li>
+                <h3>
+                  <Link onClick={hideSideBar} to={"/b2-german-course"}>
+                    Medical Certificate
+                  </Link>
+                </h3>
+              </li>
+              <li>
+                <h3>
+                  <Link onClick={hideSideBar} to={"/b2-german-course"}>
+                    Divorce Decree Certificate
+                  </Link>
+                </h3>
+              </li>
+            </span>
+          </ul>
           {/* <ul>
-            <h1></h1>
-          </ul> */}
+            <h2>
+              <Link onClick={hideSideBar} to={"/exam-preparation"}>
+                Exam Preparation
+              </Link>
+            </h2>
+          </ul>
+          <ul>
+            <h2>
+              <Link onClick={hideSideBar} to={"/about-us"}>
+                About
+              </Link>
+            </h2>
+          </ul>
+          <ul>
+            <h2>
+              <Link onClick={hideSideBar} to={"/contact-us"}>
+                Contact
+              </Link>
+            </h2>
+          </ul>
+          <div className="respMenuGap">
+            <button>
+              <a href="">Speak to advisor</a>
+            </button>
+          </div> */}
         </div>
       </div>
     </>
   );
 };
-const menuName = ["Attestation"];
-const menuName2 = ["Apostille"];
-const menuName3 = ["State HDR"];
-const menuName4 = ["MOFA"];
-const menuName5 = ["PCC"];
-const menuName6 = ["MEA"];
-const menuName7 = ["Translation"];
-
-const items = [
-  "Degree Certificate",
-  " Birth Certificates",
-  "Marriage Certificate",
-  "Power of Attorney",
-  " Medical Certificate",
-  "Divorce Decree Certificate",
-];
-const items3 = [
-  "Karnataka",
-  "TamilNadu",
-  "Kerala",
-  "Maharastra",
-  "Andhra Pradesh",
-  "Telengana",
-];
-const items4 = [
-  "Certificate Of Incorporation",
-  "Memorandum of Association",
-  "Memorandum of Association Power of Attorney",
-  "Board Resolution",
-  "Packaging list",
-  "Certificate of Origin",
-  "Chemical Analysis Report",
-  "Physical Analysis Report",
-  "Articles of Association",
-];
-const items5 = [
-  "Oman PCC",
-  "Kuwait PCC",
-  "Kerala",
-  "Saudi PCC<",
-  "Qatar PCC",
-  "UAE PCC",
-];
-const items6 = ["MEA Attestation", "MEA Apostille"];
-const items7 = ["Document Translation", "Language Translation"];
 export default Menu;

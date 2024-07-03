@@ -1,5 +1,5 @@
 import React from "react";
-import "./SaudiAttestation.css";
+import "./../../AttestationCountries/UaeAttestation/UaeAttestationPage.css";
 import SaudiHeading from "./SaudiHeading/SaudiHeading";
 import SaudiMainCard from "./SaudiCard/SaudiMainCard";
 import SaudiCertificate from "./SaudiCertificate/SaudiCertificate";
@@ -17,7 +17,7 @@ import WhyBlock from './../../WhyBlock/WhyBlock';
 
 const SaudiAttestation = () => {
   return (
-    <div className="saudiAttestationPage">
+    <div className="uaeAttestationPage">
       <SaudiHeading />
       <WhyBlock />
       <SaudiMainCard />

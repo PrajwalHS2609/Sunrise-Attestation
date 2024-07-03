@@ -6,7 +6,7 @@ import UaeServiceMain from "./UaeServiceMain";
 const UaeService = () => {
   return (
     <div className="uaeServiceContainer">
-      <UaeServiceHead />
+      <UaeServiceHead head="UAE Attestation Services in Bangalore"/>
       <UaeServiceMain/>
     </div>
   );

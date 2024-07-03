@@ -1,12 +1,12 @@
 import React from 'react'
 import TypeWriter from '../SaudiTypeWriter/TypeWriter'
-import uaeAttBanner from "./../../../../vid&img/UAE Attestation.mp4";
-
+import saudiAttBanner from "./../../../../vid&img/bannerVids/Saudi Arabia.mp4";
+import "./../../UaeAttestation/UaeAttestationHeading/UaeAttestationHeading.css"
 const SaudiHeading = () => {
   return (
     <div className="uaeAttHeadingContainer">
     <TypeWriter />
-    <video src={uaeAttBanner} autoPlay loop muted />
+    <video src={saudiAttBanner} autoPlay loop muted />
   </div>
   )
 }
