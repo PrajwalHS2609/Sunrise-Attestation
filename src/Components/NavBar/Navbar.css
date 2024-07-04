@@ -107,13 +107,13 @@
   display: none;
   transition: 1s ease-in-out;
   /* transform: translateX(500px); */
+  overflow-x: hidden;
 }
 .respMenuScroll {
   height: 100%;
   width: 80%;
   margin-left: 100px;
   /* border: solid blue; */
-  overflow: hidden;
 }
 .main {
   position: relative;
@@ -186,12 +186,13 @@
 }
 .respMenuSpan {
   /* border: solid; */
-  display: flex;
+  display: none;
   justify-content: flex-start;
   align-items: flex-start;
   flex-direction: column;
   width: 100%;
 }
+
 .respMenuScroll > ul > span {
   display: none;
 }
@@ -204,24 +205,9 @@
   justify-content: center;
   align-items: flex-start;
   border-top: 1px solid white;
-  height: 60%;
+  height: 10%;
   padding: 30px;
   background-color: var(--customColor1);
-}
-.respMenuGap > button {
-  border: none;
-  height: 50px;
-  width: 80%;
-  border-radius: 50px;
-  font-size: 18px;
-  display: flex;
-  justify-content: space-evenly;
-  align-items: center;
-  color: white;
-}
-.respMenuGap > button > a {
-  color: var(--customColor1);
-  text-decoration: none;
 }
 
 @media only screen and (min-width: 320px) and (max-width: 600px) {
@@ -237,7 +223,7 @@
   .logoContainer {
     /* border: solid red; */
     height: 70%;
-    min-width:180px;
+    min-width: 180px;
     background-color: white;
     display: flex;
     justify-content: center;
@@ -254,7 +240,6 @@
   }
   .mainMenu {
     display: flex;
-    
   }
 }
 @media only screen and (min-width: 768px) {
