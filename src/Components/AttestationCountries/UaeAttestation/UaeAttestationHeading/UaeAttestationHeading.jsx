@@ -5,6 +5,7 @@ import TypeWriter from "../TypeWriter/TypeWriter";
 const UaeAttestationHeading = () => {
   return (
     <div className="uaeAttHeadingContainer">
+      <div className="uaeAttHeadingCover"> </div>
       <TypeWriter />
       <video src={uaeAttBanner} autoPlay loop muted />
     </div>

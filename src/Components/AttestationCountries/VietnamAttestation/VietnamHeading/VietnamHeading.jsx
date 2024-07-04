@@ -1,14 +1,15 @@
 import React from "react";
-import saudiAttBanner from "./../../../../vid&img/bannerVids/Saudi Arabia.mp4";
+import vietnamAttBanner from "./../../../../vid&img/bannerVids/Vietnam.mp4";
 import TypeWriter from "./../VietnamTypeWriter/TypeWriter";
-import "./../../UaeAttestation/UaeAttestationHeading/UaeAttestationHeading.css"
+import "./../../UaeAttestation/UaeAttestationHeading/UaeAttestationHeading.css";
 
 const VietnamHeading = () => {
   return (
-      <div className="uaeAttHeadingContainer">
-        <TypeWriter />
-        <video src={saudiAttBanner} autoPlay loop muted />
-      </div>
+    <div className="uaeAttHeadingContainer">
+      <div className="uaeAttHeadingCover"> </div>
+      <TypeWriter />
+      <video src={vietnamAttBanner} autoPlay loop muted />
+    </div>
   );
 };
 

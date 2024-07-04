@@ -8,37 +8,40 @@ const FooterApo = () => {
       <h3>Apostille</h3>
       <ul>
         <li>
-          <Link to={"/"}>Oman</Link>
+          <Link to={"/oman-apostille"}>Oman</Link>
         </li>
         <li>
-          <Link to={"/"}>Italy</Link>
+          <Link to={"/italy-apostille"}>Italy</Link>
         </li>
         <li>
-          <Link to={"/"}>Germany</Link>
+          <Link to={"/germany-apostille"}>Germany</Link>
         </li>
         <li>
-          <Link to={"/"}>Australia</Link>
+          <Link to={"/australia-apostille"}>Australia</Link>
         </li>
         <li>
-          <Link to={"/"}>Austria</Link>
+          <Link to={"/austria-apostille"}>Austria</Link>
         </li>
         <li>
-          <Link to={"/"}>France</Link>
+          <Link to={"/france-apostille"}>France</Link>
         </li>
         <li>
-          <Link to={"/"}>Lithuania</Link>
+          <Link to={"/lithuania-apostille"}>Lithuania</Link>
         </li>
         <li>
-          <Link to={"/"}>Mexico</Link>
+          <Link to={"/mexico-apostille"}>Mexico</Link>
         </li>
         <li>
-          <Link to={"/"}>Netherlands</Link>
+          <Link to={"/netherland-apostille"}>Netherlands</Link>
         </li>
         <li>
-          <Link to={"/"}>UK</Link>
+          <Link to={"/uk-apostille"}>UK</Link>
         </li>
         <li>
-          <Link to={"/"}>USA</Link>
+          <Link to={"/usa-apostille"}>USA</Link>
+        </li>
+        <li>
+          <Link to={"/sweden-apostille"}>Sweden</Link>
         </li>
       </ul>
     </div>

@@ -1,14 +1,15 @@
-import React from 'react'
-import TypeWriter from '../ChinaTypeWriter/TypeWriter'
-import saudiAttBanner from "./../../../../vid&img/bannerVids/Saudi Arabia.mp4";
+import React from "react";
+import TypeWriter from "../ChinaTypeWriter/TypeWriter";
+import chinaAttBanner from "./../../../../vid&img/bannerVids/China.mp4";
 
 const ChinaHeading = () => {
   return (
     <div className="uaeAttHeadingContainer">
-    <TypeWriter />
-    <video src={saudiAttBanner} autoPlay loop muted />
-  </div>
-  )
-}
+      <div className="uaeAttHeadingCover"> </div>
+      <TypeWriter />
+      <video src={chinaAttBanner} autoPlay loop muted />
+    </div>
+  );
+};
 
-export default ChinaHeading
+export default ChinaHeading;

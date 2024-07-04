@@ -42,11 +42,13 @@
   justify-content: center;
   align-items: center;
   flex-direction: column;
+  padding:20px;
 }
 .uaeAboutUsHeadContainer > h2 {
   font-size: 30px;
   text-align: center;
   color: var(--customColor2);
+  padding: 10px;
 }
 .uaeAboutUsHeadUnderline {
   border: 2px solid var(--customColor1);

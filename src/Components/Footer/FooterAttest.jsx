@@ -11,37 +11,37 @@ const FooterAttest = () => {
           <Link to={"/uae-attestation"}>UAE</Link>
         </li>
         <li>
-          <Link to={"/"}>Qatar</Link>
+          <Link to={"/qatar-attestation"}>Qatar</Link>
         </li>
         <li>
-          <Link to={"/"}>Kuwait</Link>
+          <Link to={"/kuwait-attestation"}>Kuwait</Link>
         </li>
         <li>
-          <Link to={"/"}>Saudi Arabia</Link>
+          <Link to={"/saudi-attestation"}>Saudi Arabia</Link>
         </li>
         <li>
-          <Link to={"/"}>Bahrain</Link>
+          <Link to={"/bahrain-attestation"}>Bahrain</Link>
         </li>
         <li>
-          <Link to={"/"}>China</Link>
+          <Link to={"/china-attestation"}>China</Link>
         </li>
         <li>
-          <Link to={"/"}>Vietnam</Link>
+          <Link to={"/vietnam-attestation"}>Vietnam</Link>
         </li>
         <li>
-          <Link to={"/"}>Taiwan</Link>
+          <Link to={"/taiwan-attestation"}>Taiwan</Link>
         </li>
         <li>
-          <Link to={"/"}>Egypt</Link>
+          <Link to={"/egypt-attestation"}>Egypt</Link>
         </li>
         <li>
-          <Link to={"/"}>Nigeria</Link>
+          <Link to={"/nigeria-attestation"}>Nigeria</Link>
         </li>
         <li>
-          <Link to={"/"}>Malaysia</Link>
+          <Link to={"/malaysia-attestation"}>Malaysia</Link>
         </li>
         <li>
-          <Link to={"/"}>Philippines</Link>
+          <Link to={"/philippines-attestation"}>Philippines</Link>
         </li>
       </ul>
     </div>

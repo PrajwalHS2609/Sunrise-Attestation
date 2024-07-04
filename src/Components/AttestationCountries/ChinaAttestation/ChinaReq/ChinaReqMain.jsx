@@ -5,9 +5,9 @@ const ChinaReqMain = () => {
   return (
     <div className="uaeReqMainContainer">
       <div className="uaeReqMainContent">
-        <h3>Requirement of Saudi Attestation:</h3>
+        <h3>Requirement of China Attestation:</h3>
         <p>
-          Embassy certificate attestation is obligatory for Bahrain visas. If
+          Embassy certificate attestation is obligatory for China visas. If
           you are applying for an employment visa or have got an employment
           offer from Bahrain, you are required to submit important documents for
           certification.The certificate attestation for China visa is needed for
@@ -18,7 +18,7 @@ const ChinaReqMain = () => {
         </p>
       </div>
       <div className="uaeReqMainContent">
-        <h3>Total time-span to get Saudi Certificate Attestation:</h3>
+        <h3>Total time-span to get China Certificate Attestation:</h3>
         <p>
           The total time needed for certificate attestation for China is based
           on several aspects such as which country you required the legalization

@@ -6,6 +6,8 @@ import indianEmbassy from "../../../vid&img/Embassy/Indian Embassy.png";
 import qatarEmbassy from "../../../vid&img/Embassy/Qatar Embassy.png";
 import saudiEmbassy from "../../../vid&img/Embassy/Saudi.png";
 import uaeEmbassy from "../../../vid&img/Embassy/UAE Embassy.png";
+import kuwaitEmbassy from "../../../vid&img/Embassy/Kuwait.png";
+
 
 const HomeFlagsMain = () => {
   return (
@@ -30,6 +32,11 @@ const HomeFlagsMain = () => {
         flag={bahrainEmbassy}
         name="BAHRAIN EMBASSY"
         alt="bahrainEmbassy"
+      />
+      <HomeFlagCard
+        flag={kuwaitEmbassy}
+        name="KUWAIT EMBASSY"
+        alt="kuwaitEmbassy"
       />
     </div>
   );
