@@ -40,9 +40,9 @@ const FooterApo = () => {
         <li>
           <Link to={"/usa-apostille"}>USA</Link>
         </li>
-        <li>
+        {/* <li>
           <Link to={"/sweden-apostille"}>Sweden</Link>
-        </li>
+        </li> */}
       </ul>
     </div>
   );

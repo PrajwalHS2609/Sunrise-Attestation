@@ -27,9 +27,9 @@ import GermanyAttestation from "./Components/AttestationCountries/GermanyAttesta
 import MexicoAttestation from "./Components/AttestationCountries/MexicoAttestation/MexicoAttestation";
 import FranceAttestation from "./Components/AttestationCountries/FranceAttestation/FranceAttestation";
 import ItalyAttestation from "./Components/AttestationCountries/ItalyAttestation/ItalyAttestation";
-import SwedenAttestation from './Components/AttestationCountries/SwedenAttestation/SwedenAttestation';
-import LithuaniaAttestation from './Components/AttestationCountries/LithuaniaAttestation/LithuaniaAttestation';
-import NetherlandAttestation from './Components/AttestationCountries/NetherlandAttestation/NetherlandAttestation';
+// import SwedenAttestation from "./Components/AttestationCountries/SwedenAttestation/SwedenAttestation";
+import LithuaniaAttestation from "./Components/AttestationCountries/LithuaniaAttestation/LithuaniaAttestation";
+import NetherlandAttestation from "./Components/AttestationCountries/NetherlandAttestation/NetherlandAttestation";
 
 const App = () => {
   return (
@@ -64,17 +64,22 @@ const App = () => {
           />
           <Route path="/usa-apostille" element={<UsaAttestation />} />
           <Route path="/oman-apostille" element={<OmanAttestation />} />
-    
+
           <Route path="/austria-apostille" element={<AustriaAttestation />} />
           <Route path="/uk-apostille" element={<UkAttestation />} />
           <Route path="/germany-apostille" element={<GermanyAttestation />} />
           <Route path="/mexico-apostille" element={<MexicoAttestation />} />
           <Route path="/france-apostille" element={<FranceAttestation />} />
           <Route path="/italy-apostille" element={<ItalyAttestation />} />
-          <Route path="/sweden-apostille" element={<SwedenAttestation />} />
-          <Route path="/lithuania-apostille" element={<LithuaniaAttestation />} />
-          <Route path="/netherland-apostille" element={<NetherlandAttestation />} />
-
+          {/* <Route path="/sweden-apostille" element={<SwedenAttestation />} /> */}
+          <Route
+            path="/lithuania-apostille"
+            element={<LithuaniaAttestation />}
+          />
+          <Route
+            path="/netherland-apostille"
+            element={<NetherlandAttestation />}
+          />
         </Routes>
 
         <Footer />
