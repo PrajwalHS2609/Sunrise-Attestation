@@ -14,6 +14,10 @@ const Menu = () => {
   let dropRef1 = useRef();
   let dropRef2 = useRef();
   let dropRef3 = useRef();
+  let dropRef4 = useRef();
+  let dropRef5 = useRef();
+  let dropRef6 = useRef();
+  let dropRef7 = useRef();
 
   let showSideBar = () => {
     const sideBar = document.querySelector(".respMenu");
@@ -26,7 +30,7 @@ const Menu = () => {
     sideBar.style.transform = "translateX(620px)";
   };
 
-  let handleDropDown = () => {
+  let handleDropDown1 = () => {
     if (!drop) {
       setDrop(true);
       dropRef1.current.style.display = "flex";
@@ -37,7 +41,73 @@ const Menu = () => {
       console.log("up");
     }
   };
+  let handleDropDown2 = () => {
+    if (!drop) {
+      setDrop(true);
+      dropRef2.current.style.display = "flex";
+      console.log("down");
+    } else {
+      setDrop(false);
+      dropRef2.current.style.display = "none";
+      console.log("up");
+    }
+  };
+  let handleDropDown3 = () => {
+    if (!drop) {
+      setDrop(true);
+      dropRef3.current.style.display = "flex";
+      console.log("down");
+    } else {
+      setDrop(false);
+      dropRef3.current.style.display = "none";
+      console.log("up");
+    }
+  };
+  let handleDropDown4 = () => {
+    if (!drop) {
+      setDrop(true);
+      dropRef4.current.style.display = "flex";
+      console.log("down");
+    } else {
+      setDrop(false);
+      dropRef4.current.style.display = "none";
+      console.log("up");
+    }
+  };
+  let handleDropDown5 = () => {
+    if (!drop) {
+      setDrop(true);
+      dropRef5.current.style.display = "flex";
+      console.log("down");
+    } else {
+      setDrop(false);
+      dropRef5.current.style.display = "none";
+      console.log("up");
+    }
+  };
+  let handleDropDown6 = () => {
+    if (!drop) {
+      setDrop(true);
+      dropRef6.current.style.display = "flex";
+      console.log("down");
+    } else {
+      setDrop(false);
+      dropRef6.current.style.display = "none";
+      console.log("up");
+    }
+  };
 
+  let handleDropDown7 = () => {
+    if (!drop) {
+      setDrop(true);
+      dropRef7.current.style.display = "flex";
+      console.log("down");
+    } else {
+      setDrop(false);
+      dropRef7.current.style.display = "none";
+      console.log("up");
+    }
+  };
   return (
     <>
       <div className="menuContainer">
@@ -178,7 +248,7 @@ const Menu = () => {
                 Attestation
               </Link>
               <FontAwesomeIcon
-                onClick={handleDropDown}
+                onClick={handleDropDown1}
                 icon={faAngleDown}
                 className="respDropIcon"
               ></FontAwesomeIcon>
@@ -234,7 +304,7 @@ const Menu = () => {
                 Apostille
               </Link>
               <FontAwesomeIcon
-                onClick={handleDropDown}
+                onClick={handleDropDown2}
                 icon={faAngleDown}
                 className="respDropIcon"
               ></FontAwesomeIcon>
@@ -290,7 +360,7 @@ const Menu = () => {
                 State HRD
               </Link>
               <FontAwesomeIcon
-                onClick={handleDropDown}
+                onClick={handleDropDown3}
                 icon={faAngleDown}
                 className="respDropIcon"
               ></FontAwesomeIcon>
@@ -346,12 +416,12 @@ const Menu = () => {
                 MOFA
               </Link>
               <FontAwesomeIcon
-                onClick={handleDropDown}
+                onClick={handleDropDown4}
                 icon={faAngleDown}
                 className="respDropIcon"
               ></FontAwesomeIcon>
             </h2>
-            <span className="respMenuSpan" ref={dropRef3}>
+            <span className="respMenuSpan" ref={dropRef4}>
               <li>
                 <h3>
                   <Link onClick={hideSideBar} to={"/"}>
@@ -430,12 +500,12 @@ const Menu = () => {
                 PCC
               </Link>
               <FontAwesomeIcon
-                onClick={handleDropDown}
+                onClick={handleDropDown5}
                 icon={faAngleDown}
                 className="respDropIcon"
               ></FontAwesomeIcon>
             </h2>
-            <span className="respMenuSpan">
+            <span className="respMenuSpan" ref={dropRef5}>
               <li>
                 <h3>
                   <Link onClick={hideSideBar} to={"/"}>
@@ -480,12 +550,12 @@ const Menu = () => {
                 MEA
               </Link>
               <FontAwesomeIcon
-                onClick={handleDropDown}
+                onClick={handleDropDown6}
                 icon={faAngleDown}
                 className="respDropIcon"
               ></FontAwesomeIcon>
             </h2>
-            <span className="respMenuSpan">
+            <span className="respMenuSpan" ref={dropRef6}>
               <li>
                 <h3>
                   <Link onClick={hideSideBar} to={"/"}>
@@ -515,12 +585,12 @@ const Menu = () => {
                 Translation
               </Link>
               <FontAwesomeIcon
-                onClick={handleDropDown}
+                onClick={handleDropDown7}
                 icon={faAngleDown}
                 className="respDropIcon"
               ></FontAwesomeIcon>
             </h2>
-            <span className="respMenuSpan">
+            <span className="respMenuSpan" ref={dropRef7}>
               <li>
                 <h3>
                   <Link onClick={hideSideBar} to={"/"}>
