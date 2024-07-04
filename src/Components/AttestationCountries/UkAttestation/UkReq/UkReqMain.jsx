@@ -4,7 +4,7 @@ const UkReqMain = () => {
   return (
     <div className="uaeReqMainContainer">
       <div className="uaeReqMainContent">
-        <h3>Requirement of Apostille for UK:</h3>
+        <h3>Requirement of apostille for UK:</h3>
         <p>
           Authentication for the UK has its own prerequisite in the visa
           procedure & expansion of the business in UK. Apostille is required as

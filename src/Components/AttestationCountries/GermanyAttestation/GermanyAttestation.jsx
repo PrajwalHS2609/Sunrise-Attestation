@@ -14,6 +14,7 @@ import GermanyMofa from "./GermanyMofa/GermanyMofa";
 // import GermanyService from "./GermanyService/GermanyService";
 import GermanyBlore from "./GermanyBlore/GermanyBlore";
 import GermanyReq from "./GermanyReq/GermanyReq";
+import GermanyService from "./GermanyService/GermanyService";
 
 const GermanyAttestation = () => {
   return (
@@ -24,7 +25,7 @@ const GermanyAttestation = () => {
       <GermanyCertificate />
       <GermanyMofa />
       {/* <GermanyAbout /> */}
-      {/* <GermanyService /> */}
+      <GermanyService />
       <GermanyBlore />
       <GermanyReq />
       <HomeLink />

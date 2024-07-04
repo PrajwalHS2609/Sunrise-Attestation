@@ -6,7 +6,7 @@ import UaeServiceHead from '../../UaeAttestation/UaeService/UaeServiceHead';
 const FranceService = () => {
   return (
     <div className="uaeServiceContainer">
-    <UaeServiceHead head="France Attestation Services in Bangalore" />
+    <UaeServiceHead head="France Apostille Services in Bangalore" />
     <FranceServiceMain />
   </div>
   )

@@ -5,12 +5,12 @@ const OmanReqMain = () => {
   return (
     <div className="uaeReqMainContainer">
       <div className="uaeReqMainContent">
-        <h3>Requirement of attestation for Oman:</h3>
+        <h3>Requirement of apostille for Oman:</h3>
         <p>
           Authentication for Oman has its own necessity in the visa process &
-          growth of the business in Oman. Attestation is required as it is among
+          growth of the business in Oman. Apostille is required as it is among
           the countries that are a part of the Hague Convention which is also
-          known as the Attestation Convention.
+          known as the Apostille Convention.
         </p>
         <p>
           There are some policies of Oman that need documents with MEA sticker
@@ -21,13 +21,13 @@ const OmanReqMain = () => {
         </p>
       </div>
       <div className="uaeReqMainContent">
-        <h3>Total time to get Document Attestation:</h3>
+        <h3>Total time to get Document Apostille:</h3>
         <p>
-          The total time period needed for Attestation for Oman depends on
-          various aspects such as which state the certificate was issued from,
-          or the sort of documents, or the authority you need it from.
-          Generally, it will take around 2-3 working days to accomplish the
-          whole process of Oman Attestation services in Bangalore.
+          The total time period needed for Apostille for Oman depends on various
+          aspects such as which state the certificate was issued from, or the
+          sort of documents, or the authority you need it from. Generally, it
+          will take around 2-3 working days to accomplish the whole process of
+          Oman Apostille services in Bangalore.
         </p>
       </div>
     </div>

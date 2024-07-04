@@ -5,12 +5,12 @@ const ItalyReqMain = () => {
   return (
     <div className="uaeReqMainContainer">
       <div className="uaeReqMainContent">
-        <h3>Requirement of attestation for Italy:</h3>
+        <h3>Requirement of apostille for Italy:</h3>
         <p>
           Legalization for Italy has its own necessity in the visa procedure &
-          growth of the business in Italy. Attestation is required as it is
-          among the countries that are a part of the Hague Convention which is
-          also known as the Attestation Convention.
+          growth of the business in Italy. Apostille is required as it is among
+          the countries that are a part of the Hague Convention which is also
+          known as the Apostille Convention.
         </p>
         <p>
           There are policies of Italy that demand documents with MEA sticker to
@@ -21,13 +21,13 @@ const ItalyReqMain = () => {
         </p>
       </div>
       <div className="uaeReqMainContent">
-        <h3>Total time to get Document Attestation:</h3>
+        <h3>Total time to get Document Apostille:</h3>
         <p>
-          The overall time needed to get Document Attestation depends on various
+          The overall time needed to get Document Apostille depends on various
           reasons such as which state the certificate was issued from, or the
           sorts of documents, or the authority you require it from. Generally,
           it will take around 2-3 working days to accomplish the whole process
-          of Italy Attestation service in Bangalore for certificates.
+          of Italy Apostille service in Bangalore for certificates.
         </p>
       </div>
     </div>

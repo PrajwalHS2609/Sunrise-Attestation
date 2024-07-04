@@ -6,16 +6,16 @@ const FranceBloreMain = () => {
     <div className="uaeBloreMainContainer">
     <p>
       France is one of the well-known nations that welcome foreigners to live,
-      work, or do business. France attestation of the document is a significant
+      work, or do business. France apostille of the document is a significant
       procedure that is to be performed mostly if you are planning to visit
-      the France. France embassy attestation is a process of getting a signature
+      the France. France embassy apostille is a process of getting a signature
       or stamp on a document by the authorized department.
     </p>
     <p>
       It is generally required for attaining an education, family, &
-      employment visa of France. Certificate attestation for France is needed to
+      employment visa of France. Certificate apostille for France is needed to
       prove its authenticity for usage in the France. You can get France
-      certificate attestation in Bangalore at Goodwayattestation which is a
+      certificate apostille in Bangalore at Goodwayattestation which is a
       leading company for delivering timely, low-cost, & genuine services. It
       is approved by Ministries & embassies in India as well as abroad.
     </p>

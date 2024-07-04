@@ -5,7 +5,7 @@ import "./../../UaeAttestation/UaeBlore/UaeBlore.css";
 const OmanBlore = () => {
   return (
     <div className="uaeBloreContainer">
-      <UaeBloreHead head="Oman Attestation in Bangalore" />
+      <UaeBloreHead head="Oman Apostille in Bangalore" />
       <OmanBloreMain />
     </div>
   );

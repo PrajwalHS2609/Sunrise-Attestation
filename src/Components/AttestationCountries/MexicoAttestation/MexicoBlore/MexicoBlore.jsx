@@ -5,7 +5,7 @@ import MexicoBloreMain from "./MexicoBloreMain";
 const MexicoBlore = () => {
   return (
     <div className="uaeBloreContainer">
-      <UaeBloreHead head="Mexico Attestation in Bangalore" />
+      <UaeBloreHead head="Mexico Apostille in Bangalore" />
       <MexicoBloreMain />
     </div>
   );

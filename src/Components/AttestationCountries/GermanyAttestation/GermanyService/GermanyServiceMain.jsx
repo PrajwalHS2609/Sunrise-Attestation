@@ -15,7 +15,7 @@ const GermanyServiceMain = () => {
             Document legalization is the procedure of procuring theMEA sticker
             on the document. It is a part of the legalization of the required
             certificate authentication that indicates the genuinity of your
-            documents & your intent of visiting Germany.Attestation documents in
+            documents & your intent of visiting Germany.Apostille documents in
             Indiaare issued by the Ministry of External Affairs which is the
             department of the Indian government that deals with foreign affairs.
           </p>
@@ -26,7 +26,7 @@ const GermanyServiceMain = () => {
             className="eduCertIcon"
           ></FontAwesomeIcon>
           <p>
-            You can get theGermany Attestation services in Bangaloreat
+            You can get theGermany Apostille services in Bangaloreat
             Goodwayattestation which is approved by Ministries & embassies in
             India as well as abroad. We provide you best quality services & will
             complete the entire procedure of your document attestation.
@@ -38,7 +38,7 @@ const GermanyServiceMain = () => {
             className="eduCertIcon"
           ></FontAwesomeIcon>
           <p>
-            An attestation issued in Germany is a simpler legalization procedure
+            An apostille issued in Germany is a simpler legalization procedure
             that certifies the authenticity of a signature or seal on a document
             issued in Germany and intended for use in any foreign country that
             has signed the Hague Convention.
@@ -50,23 +50,11 @@ const GermanyServiceMain = () => {
             className="eduCertIcon"
           ></FontAwesomeIcon>
           <p>
-            It's important to note that the German attestation only certifies the
+            It's important to note that the German apostille only certifies the
             authenticity of the signature or seal on the document, not the
             content of the document. Goodwayattestation is one of the best
-            agencies that provide Germany attestation service in Bangalore. It has
+            agencies that provide Germany apostille service in Bangalore. It has
             been approved by Indian and foreign ministries and embassies.
-          </p>
-        </li>
-        <li>
-          <FontAwesomeIcon
-            icon={faAnglesRight}
-            className="eduCertIcon"
-          ></FontAwesomeIcon>
-          <p>
-            You can get theGermany Attestation services in Bangaloreat
-            Goodwayattestation which is approved by Ministries & embassies in
-            India as well as abroad. We provide you best quality services & will
-            complete the entire procedure of your document attestation.
           </p>
         </li>
       </ul>

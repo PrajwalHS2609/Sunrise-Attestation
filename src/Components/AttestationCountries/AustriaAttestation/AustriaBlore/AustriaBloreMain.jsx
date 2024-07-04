@@ -6,16 +6,16 @@ const AustriaBloreMain = () => {
     <div className="uaeBloreMainContainer">
     <p>
       Austria is one of the well-known nations that welcome foreigners to live,
-      work, or do business. Austria attestation of the document is a significant
+      work, or do business. Austria apostille of the document is a significant
       procedure that is to be performed mostly if you are planning to visit
-      the Austria. Austria embassy attestation is a process of getting a signature or
+      the Austria. Austria embassy apostille is a process of getting a signature or
       stamp on a document by the authorized department.
     </p>
     <p>
       It is generally required for attaining an education, family, &
-      employment visa of Austria. Certificate attestation for Austria is needed to
+      employment visa of Austria. Certificate apostille for Austria is needed to
       prove its authenticity for usage in the Austria. You can get Austria certificate
-      attestation in Bangalore at Goodwayattestation which is a leading
+      apostille in Bangalore at Goodwayattestation which is a leading
       company for delivering timely, low-cost, & genuine services. It is
       approved by Ministries & embassies in India as well as abroad.
     </p>

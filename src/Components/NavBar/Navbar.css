@@ -58,7 +58,7 @@
   text-decoration: none;
 }
 .menuDrop {
-  /* border: solid; */
+    /* border: solid; */
   position: absolute;
   background-color: var(--customColor2);
   width: 230px;

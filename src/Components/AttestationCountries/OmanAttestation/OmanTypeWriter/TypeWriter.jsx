@@ -5,7 +5,7 @@ const TypeWriter = () => {
   return (
     <div className="typeWriterContainer">
     <h2>
-      <span>Oman Embassy Attestation</span>
+      <span>Oman Embassy Apostille</span>
       <Typewriter
         options={{
           strings: [

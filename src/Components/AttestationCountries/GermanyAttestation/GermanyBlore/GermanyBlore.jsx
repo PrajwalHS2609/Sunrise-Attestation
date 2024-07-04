@@ -6,7 +6,7 @@ import UaeBloreHead from '../../UaeAttestation/UaeBlore/UaeBloreHead';
 const GermanyBlore = () => {
   return (
     <div className="uaeBloreContainer">
-    <UaeBloreHead head="Germany Attestation in Bangalore" />
+    <UaeBloreHead head="Germany Apostille in Bangalore" />
     <GermanyBloreMain />
   </div>
   )

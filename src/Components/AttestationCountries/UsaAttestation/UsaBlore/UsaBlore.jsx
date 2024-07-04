@@ -5,7 +5,7 @@ import UsaBloreMain from "./UsaBloreMain";
 const UsaBlore = () => {
   return (
     <div className="uaeBloreContainer">
-      <UaeBloreHead head="USA Attestation in Bangalore" />
+      <UaeBloreHead head="USA Apostille in Bangalore" />
       <UsaBloreMain />
     </div>
   );

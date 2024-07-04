@@ -25,12 +25,12 @@ const OmanServiceMain = () => {
             className="eduCertIcon"
           ></FontAwesomeIcon>
           <p>
-            Individually, you can submit the Certificate for attestation for
-            Oman embassy document attestation. However, this is a time-consuming
-            process. With their expertise, Goodway Attestation accredited
-            professionals can make this attestation procedure easier for you. We
-            provide your work in a specified time frame and provide free pick-up
-            and drop
+            Individually, you can submit the Certificate for attestation or
+            Apostille for Oman embassy document attestation. However, this is a
+            time-consuming process. With their expertise, Goodway Attestation
+            accredited professionals can make this attestation procedure easier
+            for you. We provide your work in a specified time frame and provide
+            free pick-up and drop
           </p>
         </li>
       </ul>

@@ -6,7 +6,7 @@ import UsaServiceMain from "./UsaServiceMain";
 const UsaService = () => {
   return (
     <div className="uaeServiceContainer">
-      <UaeServiceHead head="USA Attestation Services in Bangalore" />
+      <UaeServiceHead head="USA Apostille Services in Bangalore" />
       <UsaServiceMain />
     </div>
   );

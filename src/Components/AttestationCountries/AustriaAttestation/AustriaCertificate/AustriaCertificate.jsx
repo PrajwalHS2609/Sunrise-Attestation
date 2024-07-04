@@ -6,7 +6,7 @@ const AustriaCertificate = () => {
   return (
     <div>
       <div className="uaeCertContainer">
-        <UaeCertificateHead certHead="Certificates Required For Austria Embassy Attestation" />
+        <UaeCertificateHead certHead="Certificates Required For Austria Embassy Apostille" />
         <UaeCertificateMain />
       </div>
     </div>

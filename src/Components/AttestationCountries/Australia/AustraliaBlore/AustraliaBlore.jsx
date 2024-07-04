@@ -5,7 +5,7 @@ import AustraliaBloreMain from "./AustraliaBloreMain";
 const AustraliaBlore = () => {
   return (
     <div className="uaeBloreContainer">
-      <UaeBloreHead head="Australia Attestation in Bangalore" />
+      <UaeBloreHead head="Australia Apostille in Bangalore" />
       <AustraliaBloreMain />
     </div>
   );

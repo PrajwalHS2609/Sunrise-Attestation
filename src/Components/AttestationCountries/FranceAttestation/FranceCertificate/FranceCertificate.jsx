@@ -1,12 +1,12 @@
 import React from 'react'
 import UaeCertificateHead from "../../UaeAttestation/UaeCertificate/UaeCertificateHead";
-import UaeCertificateMain from "../../UaeAttestation/UaeCertificate/UaeCertificateMain";
 import "./../../UaeAttestation/UaeCertificate/UaeCertificate.css";
+import AustraliaCertificateMain from '../../Australia/AustraliaCertificate/AustraliaCertificateMain';
 const FranceCertificate = () => {
   return (
     <div className="uaeCertContainer">
-    <UaeCertificateHead certHead="Certificates Required For France Embassy Attestation" />
-    <UaeCertificateMain />
+    <UaeCertificateHead certHead="Certificates Required For France Embassy Apostille" />
+    <AustraliaCertificateMain />
   </div>
   )
 }

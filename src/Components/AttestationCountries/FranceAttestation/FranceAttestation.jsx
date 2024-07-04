@@ -7,7 +7,7 @@ import Benefits from "../../Benefits/Benefits";
 import Review from "../../Review/Review";
 import Faq from "../../HomePage/Faq/Faq";
 import FranceHeading from "./FranceHeading/FranceHeading";
-// import FranceService from "./FranceService/FranceService";
+import FranceService from "./FranceService/FranceService";
 import FranceBlore from './FranceBlore/FranceBlore';
 import FranceReq from "./FranceReq/FranceReq";
 import WhyBlock from "../../WhyBlock/WhyBlock";
@@ -24,7 +24,7 @@ const FranceAttestation = () => {
       <FranceCertificate />
       <FranceMofa />
       {/* <FranceAbout /> */}
-      {/* <FranceService/> */}
+      <FranceService/>
       <FranceBlore/>
       <FranceReq/>
       <HomeLink />

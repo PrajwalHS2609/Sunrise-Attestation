@@ -9,7 +9,7 @@ import Faq from "../../HomePage/Faq/Faq";
 import OmanHeading from "./OmanHeading/OmanHeading";
 import OmanReq from './OmanReq/OmanReq';
 import OmanBlore from "./OmanBlore/OmanBlore";
-// import OmanService from "./OmanService/OmanService";
+import OmanService from "./OmanService/OmanService";
 import OmanMofa from "./OmanMofa/OmanMofa";
 import OmanCertificate from "./OmanCertificate/OmanCertificate";
 import OmanCard from "./OmanCard/OmanCard";
@@ -23,7 +23,7 @@ const OmanAttestation = () => {
       <OmanCard />
       <OmanCertificate />
       <OmanMofa />
-      {/* <OmanService /> */}
+      <OmanService />
       <OmanBlore />
       <OmanReq />
       {/* <OmanAbout /> */}

@@ -5,7 +5,7 @@ import LithuaniaServiceMain from "./LithuaniaServiceMain";
 const LithuaniaService = () => {
   return (
     <div className="uaeServiceContainer">
-      <UaeServiceHead head="Lithuania Attestation Services in Bangalore" />
+      <UaeServiceHead head="Lithuania Apostille Services in Bangalore" />
       <LithuaniaServiceMain />
     </div>
   );

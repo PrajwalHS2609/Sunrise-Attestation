@@ -1,12 +1,12 @@
 import React from "react";
 import UaeCertificateHead from "../../UaeAttestation/UaeCertificate/UaeCertificateHead";
-import UaeCertificateMain from "../../UaeAttestation/UaeCertificate/UaeCertificateMain";
 import "./../../UaeAttestation/UaeCertificate/UaeCertificate.css";
+import AustraliaCertificateMain from "../../Australia/AustraliaCertificate/AustraliaCertificateMain";
 const MexicoCertificate = () => {
   return (
     <div className="uaeCertContainer">
-      <UaeCertificateHead certHead="Certificates Required For Mexico Embassy Attestation" />
-      <UaeCertificateMain />
+      <UaeCertificateHead certHead="Certificates Required For Mexico Embassy Apostille" />
+      <AustraliaCertificateMain />
     </div>
   );
 };

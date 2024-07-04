@@ -6,7 +6,7 @@ import UaeServiceHead from "../../UaeAttestation/UaeService/UaeServiceHead";
 const ItalyService = () => {
   return (
     <div className="uaeServiceContainer">
-      <UaeServiceHead head="Italy Attestation Services in Bangalore" />
+      <UaeServiceHead head="Italy Apostille Services in Bangalore" />
       <ItalyServiceMain />
     </div>
   );

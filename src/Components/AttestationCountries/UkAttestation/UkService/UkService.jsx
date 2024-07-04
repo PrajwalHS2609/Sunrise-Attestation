@@ -6,7 +6,7 @@ import "./../../UaeAttestation/UaeService/UaeService.css";
 const UkService = () => {
   return (
     <div className="uaeServiceContainer">
-      <UaeServiceHead head="UK Attestation Services in Bangalore" />
+      <UaeServiceHead head="UK Apostille Services in Bangalore" />
       <UkServiceMain />
     </div>
   );
