@@ -21,12 +21,17 @@
   color: var(--customColor2);
   text-align: center;
 }
+.uaeServiceHeadContainer > h2 {
+  font-size: 30px;
+  color: var(--customColor2);
+  text-align: center;
+}
 .uaeServiceUnderline {
   border: 2px solid var(--customColor1);
   width: 20%;
 }
-.uaeServiceMainContainer>p{
-  font-size:20px;
+.uaeServiceMainContainer > p {
+  font-size: 20px;
 }
 .uaeServiceMainContainer > ul {
   display: flex;

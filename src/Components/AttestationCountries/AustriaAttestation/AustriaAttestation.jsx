@@ -12,6 +12,7 @@ import AustriaReq from "./AustriaReq/AustriaReq";
 import AustriaMofa from './AustriaMofa/AustriaMofa';
 import AustriaCertificate from './AustriaCertificate/AustriaCertificate';
 import AustriaCard from './AustriaCard/AustriaCard';
+import AustriaBloreCert from "./AustriaBloreCert/AustriaBloreCert";
 
 const AustriaAttestation = () => {
   return (
@@ -21,6 +22,7 @@ const AustriaAttestation = () => {
       <AustriaCertificate />
       <AustriaMofa />
       {/* <AustriaService /> */}
+      <AustriaBloreCert/>
       <AustriaBlore />
       <AustriaReq />
       {/* <AustriaAbout /> */}

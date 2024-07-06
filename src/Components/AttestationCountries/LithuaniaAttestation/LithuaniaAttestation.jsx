@@ -13,6 +13,7 @@ import LithuaniaCard from "./LithuaniaCard/LithuaniaCard";
 import WhyBlock from "./../../WhyBlock/WhyBlock";
 import LithuaniaHeading from "./LithuaniaHeading/LithuaniaHeading";
 import LithuaniaReq from "./LithuaniaReq/LithuaniaReq";
+import LithuaniaBloreCert from "./LithuaniaBloreCert/LithuaniaBloreCert";
 
 const LithuaniaAttestation = () => {
   return (
@@ -23,6 +24,7 @@ const LithuaniaAttestation = () => {
       <LithuaniaCertificate />
       <LithuaniaMofa />
       {/* <LithuaniaService /> */}
+      <LithuaniaBloreCert/>
       <LithuaniaBlore />
       <LithuaniaReq />
       <HomeLink />

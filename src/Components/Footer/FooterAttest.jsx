@@ -8,40 +8,42 @@ const FooterAttest = () => {
       <h3>Attestation</h3>
       <ul>
         <li>
-          <Link to={"/uae-attestation"}>UAE</Link>
+          <Link to={"/uae-embassy-attestation-bangalore"}>UAE</Link>
         </li>
         <li>
-          <Link to={"/qatar-attestation"}>Qatar</Link>
+          <Link to={"/qatar-embassy-attestation-bangalore"}>Qatar</Link>
         </li>
         <li>
-          <Link to={"/kuwait-attestation"}>Kuwait</Link>
+          <Link to={"/kuwait-embassy-attestation-bangalore"}>Kuwait</Link>
         </li>
         <li>
-          <Link to={"/saudi-attestation"}>Saudi Arabia</Link>
+          <Link to={"/saudi-embassy-attestation-bangalore"}>Saudi Arabia</Link>
         </li>
         <li>
-          <Link to={"/bahrain-attestation"}>Bahrain</Link>
+          <Link to={"/bahrain-embassy-attestation-bangalore"}>Bahrain</Link>
         </li>
         <li>
-          <Link to={"/china-attestation"}>China</Link>
+          <Link to={"/china-embassy-attestation-bangalore"}>China</Link>
         </li>
         <li>
-          <Link to={"/vietnam-attestation"}>Vietnam</Link>
+          <Link to={"/vietnam-embassy-attestation-bangalore"}>Vietnam</Link>
         </li>
         <li>
-          <Link to={"/taiwan-attestation"}>Taiwan</Link>
+          <Link to={"/taiwan-embassy-attestation-bangalore"}>Taiwan</Link>
         </li>
         <li>
-          <Link to={"/egypt-attestation"}>Egypt</Link>
+          <Link to={"/egypt-embassy-attestation-bangalore"}>Egypt</Link>
         </li>
         <li>
-          <Link to={"/nigeria-attestation"}>Nigeria</Link>
+          <Link to={"/nigeria-embassy-attestation-bangalore"}>Nigeria</Link>
         </li>
         <li>
-          <Link to={"/malaysia-attestation"}>Malaysia</Link>
+          <Link to={"/malaysia-embassy-attestation-bangalore"}>Malaysia</Link>
         </li>
         <li>
-          <Link to={"/philippines-attestation"}>Philippines</Link>
+          <Link to={"/philippines-embassy-attestation-bangalore"}>
+            Philippines
+          </Link>
         </li>
       </ul>
     </div>

@@ -5,7 +5,6 @@ const UaeServiceHead = (props) => {
   return (
     <div className='uaeServiceHeadContainer'>
       <h1>{props.head}</h1>
-      <div className="uaeServiceUnderline"></div>
     </div>
   )
 }

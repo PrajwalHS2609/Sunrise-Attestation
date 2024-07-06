@@ -30,6 +30,8 @@ import ItalyAttestation from "./Components/AttestationCountries/ItalyAttestation
 // import SwedenAttestation from "./Components/AttestationCountries/SwedenAttestation/SwedenAttestation";
 import LithuaniaAttestation from "./Components/AttestationCountries/LithuaniaAttestation/LithuaniaAttestation";
 import NetherlandAttestation from "./Components/AttestationCountries/NetherlandAttestation/NetherlandAttestation";
+import AttestationPage from "./Components/AttestationPage/AttestationPage";
+import ApostillePages from "./Components/ApostillePages/ApostillePages";
 
 const App = () => {
   return (
@@ -40,44 +42,107 @@ const App = () => {
         <NavBar />
         <Routes>
           <Route path="/" element={<HomePage />} />
-          <Route path="/uae-attestation" element={<UaeAttestationPage />} />
-          <Route path="/qatar-attestation" element={<QatarAttestation />} />
-          <Route path="/bahrain-attestation" element={<BahrainAttestation />} />
-          <Route path="/saudi-attestation" element={<SaudiAttestation />} />
-          <Route path="/kuwait-attestation" element={<KuwaitAttestation />} />
-          <Route path="/egypt-attestation" element={<EgyptAttestation />} />
-          <Route path="/china-attestation" element={<ChinaAttestation />} />
-          <Route path="/vietnam-attestation" element={<VietnamAttestation />} />
-          <Route path="/taiwan-attestation" element={<TaiwanAttestation />} />
-          <Route path="/nigeria-attestation" element={<NigeriaAttestation />} />
+
           <Route
-            path="/malaysia-attestation"
+            path="/certificate-attestation-bangalore"
+            element={<AttestationPage />}
+          />
+          <Route
+            path="/certificate-apostille-bangalore"
+            element={<ApostillePages />}
+          />
+          <Route
+            path="/uae-embassy-attestation-bangalore"
+            element={<UaeAttestationPage />}
+          />
+          <Route
+            path="/qatar-embassy-attestation-bangalore"
+            element={<QatarAttestation />}
+          />
+          <Route
+            path="/bahrain-embassy-attestation-bangalore"
+            element={<BahrainAttestation />}
+          />
+          <Route
+            path="/saudi-embassy-attestation-bangalore"
+            element={<SaudiAttestation />}
+          />
+          <Route
+            path="/kuwait-embassy-attestation-bangalore"
+            element={<KuwaitAttestation />}
+          />
+          <Route
+            path="/egypt-embassy-attestation-bangalore"
+            element={<EgyptAttestation />}
+          />
+          <Route
+            path="/china-embassy-attestation-bangalore"
+            element={<ChinaAttestation />}
+          />
+          <Route
+            path="/vietnam-embassy-attestation-bangalore"
+            element={<VietnamAttestation />}
+          />
+          <Route
+            path="/taiwan-embassy-attestation-bangalore"
+            element={<TaiwanAttestation />}
+          />
+          <Route
+            path="/nigeria-embassy-attestation-bangalore"
+            element={<NigeriaAttestation />}
+          />
+          <Route
+            path="/malaysia-embassy-attestation-bangalore"
             element={<MalaysiaAttestation />}
           />
           <Route
-            path="/philippines-attestation"
+            path="/philippines-embassy-attestation-bangalore"
             element={<PhilippinesAttestation />}
           />
           <Route
-            path="/australia-apostille"
+            path="/australia-apostille-attestation-bangalore"
             element={<AustraliaAttestation />}
           />
-          <Route path="/usa-apostille" element={<UsaAttestation />} />
-          <Route path="/oman-apostille" element={<OmanAttestation />} />
+          <Route
+            path="/usa-apostille-attestation-bangalore"
+            element={<UsaAttestation />}
+          />
+          <Route
+            path="/oman-apostille-attestation-bangalore"
+            element={<OmanAttestation />}
+          />
 
-          <Route path="/austria-apostille" element={<AustriaAttestation />} />
-          <Route path="/uk-apostille" element={<UkAttestation />} />
-          <Route path="/germany-apostille" element={<GermanyAttestation />} />
-          <Route path="/mexico-apostille" element={<MexicoAttestation />} />
-          <Route path="/france-apostille" element={<FranceAttestation />} />
-          <Route path="/italy-apostille" element={<ItalyAttestation />} />
+          <Route
+            path="/austria-apostille-attestation-bangalore"
+            element={<AustriaAttestation />}
+          />
+          <Route
+            path="/uk-apostille-attestation-bangalore"
+            element={<UkAttestation />}
+          />
+          <Route
+            path="/germany-apostille-attestation-bangalore"
+            element={<GermanyAttestation />}
+          />
+          <Route
+            path="/mexico-apostille-attestation-bangalore"
+            element={<MexicoAttestation />}
+          />
+          <Route
+            path="/france-apostille-attestation-bangalore"
+            element={<FranceAttestation />}
+          />
+          <Route
+            path="/italy-apostille-attestation-bangalore"
+            element={<ItalyAttestation />}
+          />
           {/* <Route path="/sweden-apostille" element={<SwedenAttestation />} /> */}
           <Route
-            path="/lithuania-apostille"
+            path="/lithuania-apostille-attestation-bangalore"
             element={<LithuaniaAttestation />}
           />
           <Route
-            path="/netherland-apostille"
+            path="/netherland-apostille-attestation-bangalore"
             element={<NetherlandAttestation />}
           />
         </Routes>

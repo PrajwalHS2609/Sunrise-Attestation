@@ -13,6 +13,8 @@ import AustraliaCard from './AustraliaCard/AustraliaCard';
 import AustraliaCertificate from './AustraliaCertificate/AustraliaCertificate';
 import AustraliaBlore from './AustraliaBlore/AustraliaBlore';
 import AustraliaReq from './AustraliaReq/AustraliaReq';
+import AustraliaService from "./AustraliaService/AustraliaService";
+import AustraliaBloreCert from "./AustraliaBloreCert/AustraliaBloreCert";
 
 const AustraliaAttestation = () => {
   return (
@@ -22,6 +24,8 @@ const AustraliaAttestation = () => {
       <AustraliaCard/>
       <AustraliaCertificate/>
       <AustraliaMofa/>
+      <AustraliaService/>
+      <AustraliaBloreCert/>
       <AustraliaBlore/>
       <AustraliaReq/>
       <HomeLink />

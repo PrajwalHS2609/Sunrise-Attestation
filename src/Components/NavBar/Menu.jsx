@@ -121,7 +121,7 @@ const Menu = () => {
             </Link>
           </li>
           <li id="menuList">
-            <Link to={"/uae-attestation"}>Attestation</Link>
+            <Link to={"/certificate-attestation-bangalore"}>Attestation</Link>
             <FontAwesomeIcon
               icon={faAngleDown}
               className="menuIcon"
@@ -130,13 +130,11 @@ const Menu = () => {
               <li>Degree Certificate</li>
               <li>Birth Certificates</li>
               <li>Marriage Certificate</li>
-              <li>Power of Attorney</li>
-              <li>Medical Certificate</li>
-              <li>Divorce Decree Certificate</li>
+              <li>Commercial Documents</li>
             </div>
           </li>
           <li>
-            <Link to={"/apostille"}> Apostille</Link>
+            <Link to={"/certificate-apostille-bangalore"}> Apostille</Link>
             <FontAwesomeIcon
               icon={faAngleDown}
               className="menuIcon"
@@ -145,9 +143,7 @@ const Menu = () => {
               <li>Degree Certificate</li>
               <li>Birth Certificates</li>
               <li>Marriage Certificate</li>
-              <li>Power of Attorney</li>
-              <li>Medical Certificate</li>
-              <li>Divorce Decree Certificate</li>
+              <li>Commercial Documents</li>
             </div>
           </li>
           <li>
@@ -244,7 +240,10 @@ const Menu = () => {
           </ul>
           <ul className="serviceDrop">
             <h2>
-              <Link onClick={hideSideBar} to={"/"}>
+              <Link
+                onClick={hideSideBar}
+                to={"/certificate-attestation-bangalore"}
+              >
                 Attestation
               </Link>
               <FontAwesomeIcon
