@@ -1,12 +1,12 @@
 import React from "react";
 import "./ContactUs.css";
 import ContactUsCard from "./ContactUsCard";
-import bangalore from "./../../vid&img/ContactUs/bangaloreContact.png";
-import delhi from "./../../vid&img/ContactUs/delhiContact.png";
-import mumbai from "./../../vid&img/ContactUs/mumbaiContact.png";
-import oman from "./../../vid&img/ContactUs/omanContact.png";
-import uae from "./../../vid&img/ContactUs/uaeContact.png";
-import chennai from "./../../vid&img/ContactUs/chennaiContact.png";
+import bangalore from "./../../vid&img/ContactUs/Bangalore.png";
+import delhi from "./../../vid&img/ContactUs/Delhi.png";
+import mumbai from "./../../vid&img/ContactUs/Mumbai.png";
+import oman from "./../../vid&img/ContactUs/Oman.png";
+import uae from "./../../vid&img/ContactUs/UAE.png";
+import chennai from "./../../vid&img/ContactUs/Chennai.png";
 
 const ContactUsMain = () => {
   return (
@@ -73,7 +73,7 @@ const ContactUsMain = () => {
           alt="contactUs"
         />
       </div>
-      <div className="contactMainContent"></div>
+      <div className="contactMainContent">Contact</div>
     </div>
   );
 };

@@ -8,13 +8,11 @@ const AttestationEduTime = () => {
       </h2>
       <div className="atteEduTimeContent">
         <p>
-          The time period required for degree certificate apostille depends upon
-          various reasons such as which country you mandate the attestation for,
-          or the types of documents, or the state you required it from. Usually,
-          it will take about eight to ten days for completion. But it can still
-          extend up to a couple of weeks more than a month for Educational
-          Certificate apostille in Bangalore. The total time will still be
-          affected by these mentioned reasons.
+          The duration for degree certificate attestation varies based on
+          several factors, including the destination country, the type of
+          documents, and the issuing state. Typically, the process takes about
+          five to seven days. However, it can extend up to 10 days for
+          educational certificate attestation in Bangalore.
         </p>
       </div>
     </div>
