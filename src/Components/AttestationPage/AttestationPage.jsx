@@ -7,15 +7,15 @@ import OurServices from "../HomePage/OurServices/OurServices";
 import Benefits from "../Benefits/Benefits";
 import Review from "../Review/Review";
 import Faq from "../HomePage/Faq/Faq";
-import WhyBlock from "../WhyBlock/WhyBlock";
-import AttestationBlore from "./AttestationBlore/AttestationBlore";
+import AttestationEdu from "./AttestationEdu/AttestationEdu";
+import AttestationBloreCert from "./AttestationBloreCert/AttestationBloreCert";
 
 const AttestationPage = () => {
   return (
     <div className="AttestationPageContainer">
       <AttestationFlagMain />
-      <WhyBlock />
-      <AttestationBlore/>
+      <AttestationEdu/>
+      <AttestationBloreCert/>
       <HomeLink />
       <HomeMarquee />
       <OurServices />

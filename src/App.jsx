@@ -32,6 +32,7 @@ import LithuaniaAttestation from "./Components/AttestationCountries/LithuaniaAtt
 import NetherlandAttestation from "./Components/AttestationCountries/NetherlandAttestation/NetherlandAttestation";
 import AttestationPage from "./Components/AttestationPage/AttestationPage";
 import ApostillePages from "./Components/ApostillePages/ApostillePages";
+import ContactUs from "./Components/ContactUs/ContactUs";
 
 const App = () => {
   return (
@@ -145,6 +146,7 @@ const App = () => {
             path="/netherland-apostille-attestation-bangalore"
             element={<NetherlandAttestation />}
           />
+          <Route path="/contact-us" element={<ContactUs/>}/>
         </Routes>
 
         <Footer />

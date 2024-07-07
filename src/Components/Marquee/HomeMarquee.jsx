@@ -8,7 +8,7 @@ import bahrainFlag from "./../../vid&img/Countries_Flag/Baharain.png";
 import egyptFlag from "./../../vid&img/Countries_Flag/Egypt.png";
 import franceFlag from "./../../vid&img/Countries_Flag/France.png";
 import germanyFlag from "./../../vid&img/Countries_Flag/Germany.png";
-import italyFlag from "./../../vid&img/Countries_Flag/Baharain.png";
+import italyFlag from "./../../vid&img/Countries_Flag/Italy.png";
 import kuwaitFlag from "./../../vid&img/Countries_Flag/Kuwait.png";
 import malaysiaFlag from "./../../vid&img/Countries_Flag/Malaysia.png";
 import mexicoFlag from "./../../vid&img/Countries_Flag/Mexico.png";

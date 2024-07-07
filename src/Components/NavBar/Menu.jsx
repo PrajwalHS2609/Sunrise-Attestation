@@ -217,6 +217,9 @@ const Menu = () => {
               <li>Language Translation</li>
             </div>
           </li>
+          <li>
+            <Link to={"/contact-us"}>Contact Us</Link>
+          </li>
         </ul>
       </div>
       <ul onClick={showSideBar} className="mainMenu">
@@ -605,6 +608,13 @@ const Menu = () => {
                 </h3>
               </li>
             </span>
+          </ul>
+          <ul className="serviceDrop">
+            <h2>
+              <Link onClick={hideSideBar} to={"/contact-us"}>
+                Contact Us
+              </Link>
+            </h2>
           </ul>
           <div className="respMenuGap"></div>
         </div>

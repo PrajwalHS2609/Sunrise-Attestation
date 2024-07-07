@@ -2,7 +2,7 @@ import React from "react";
 import "./AttestationFlags.css";
 import AttestationFlagsCard from "./AttestationFlagsCard";
 import mainFlag from "./../../../vid&img/flags/Flags.jpg";
-import uaeFlag from "./../../../vid&img/flags/UaeFlag.jpg";
+import uaeFlag from "./../../../vid&img/flags/UaeFlag.png";
 import qatarFlag from "./../../../vid&img/flags/QatarFlag.jpg";
 import kuwaitFlag from "./../../../vid&img/flags/KuwaitFlag.jpg";
 import saudiFlag from "./../../../vid&img/flags/SaudiFlag.jpg";
@@ -11,9 +11,11 @@ import chinaFlag from "./../../../vid&img/flags/ChinaFlag.jpg";
 import vietnamFlag from "./../../../vid&img/flags/VietnamFlag.jpg";
 import taiwanFlag from "./../../../vid&img/flags/TaiwanFlag.jpg";
 import egyptFlag from "./../../../vid&img/flags/EgyptFlag.jpg";
-import philippinesFlag from "./../../../vid&img/flags/PhilippinesFlag.jpg";
-import malaysiaFlag from "./../../../vid&img/flags/MalaysiaFlag.jpg";
+import philippinesFlag from "./../../../vid&img/flags/PhilippinesFlag.png";
+import malaysiaFlag from "./../../../vid&img/flags/MalaysiaFlag.png";
 import nigeriaFlag from "./../../../vid&img/flags/NigeriaFlag.jpg";
+import AttestationBlore from "../AttestationBlore/AttestationBlore";
+import WhyBlock from "../../WhyBlock/WhyBlock";
 
 const AttestationFlagMain = () => {
   return (
@@ -26,6 +28,8 @@ const AttestationFlagMain = () => {
         </div>
         <img src={mainFlag} alt="" />
       </div>
+      <WhyBlock/>
+      <AttestationBlore/>
       <div className="atteFlagMainContent2">
         <AttestationFlagsCard
           link="/uae-embassy-attestation-bangalore"

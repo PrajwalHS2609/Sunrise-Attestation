@@ -1,8 +1,10 @@
-.attestationPage {
-    /* border: solid; */
+.AttestationPageContainer {
+  /* border: solid; */
   width: 100%;
   display: flex;
-  justify-content: space-evenly;
+  justify-content:center;
   align-items: center;
   flex-direction: column;
+  gap: 40px;
 }
+

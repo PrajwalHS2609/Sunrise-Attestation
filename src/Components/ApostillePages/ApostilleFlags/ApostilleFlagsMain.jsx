@@ -13,6 +13,8 @@ import netherlandFlag from "./../../../vid&img/flags/NetherlandFlag.jpg";
 import ukFlag from "./../../../vid&img/flags/UkFlag.jpg";
 import usaFlag from "./../../../vid&img/flags/UsaFlag.jpg";
 import AttestationFlagsCard from "../../AttestationPage/AttestationFlags/AttestationFlagsCard";
+import WhyBlock from "../../WhyBlock/WhyBlock";
+import ApostilleBlore from "./../ApostilleBlore/ApostilleBlore";
 
 const ApostilleFlagsMain = () => {
   return (
@@ -25,6 +27,8 @@ const ApostilleFlagsMain = () => {
         </div>
         <img src={mainFlag} alt="" />
       </div>
+      <WhyBlock />
+      <ApostilleBlore />
       <div className="atteFlagMainContent2">
         <AttestationFlagsCard
           link="/oman-apostille-attestation-bangalore"
