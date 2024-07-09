@@ -3,7 +3,7 @@ import "./MofaBloreCert.css";
 const MofaBloreCert = () => {
   return (
     <div className="mofaBloreCertContainer">
-      <h2>MOFA attestation in Bangalore for Certificate:</h2>
+      <h2>MOFA attestation in Bangalore for Certificate </h2>
       <p>
         MOFA attestation plays a role in the visa issuing procedure such as
         family or resident visa, employment visa, & others. You require a permit
@@ -20,22 +20,27 @@ const MofaBloreCert = () => {
           verification of the documents.
         </p>
         <li>
-          <span>Bahrain MOFA attestation in Bangalore</span>MOFA attestation is
+          <span>Bahrain MOFA attestation in Bangalore : </span>MOFA attestation is
           the last verification process after the embassy attestation. For
           higher studies purpose or for a job, you need to get the MOFA
           attestation to prove the authenticity of the documents.
         </li>
         <li>
-          <span></span>
+          <span>Qatar MOFA attestation in Bangalore : </span> MOFA attestation is
+          required for getting work permits in Qatar. After embassy attestation,
+          the documents are sent to MOFA for authentication & verification
+          purpose.
         </li>
         <li>
-          <span></span>
+          <span>Saudi MOFA attestation in Bangalore : </span>MOFA attestation is a
+          compulsory requirement for getting work permit in Saudi. The Saudi
+          government in detail verifies the documents. After the MOFA
+          attestation, the work permit is only issued.
         </li>
         <li>
-          <span></span>
-        </li>
-        <li>
-          <span></span>
+          <span>Kuwait MOFA attestation in Bangalore : </span>It is compulsory to
+          get your documents attested from the Ministry of Foreign Affairs for
+          the last verification purpose after embassy attestation.
         </li>
       </ul>
     </div>

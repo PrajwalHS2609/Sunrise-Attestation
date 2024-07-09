@@ -414,7 +414,7 @@ const Menu = () => {
           </ul>
           <ul className="serviceDrop">
             <h2>
-              <Link onClick={hideSideBar} to={"/"}>
+              <Link onClick={hideSideBar} to={"/mofa-attestation-services"}>
                 MOFA
               </Link>
               <FontAwesomeIcon

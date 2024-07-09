@@ -1,9 +1,43 @@
 .mofaBloreCertContainer {
-  border: solid red;
+  /* border: solid red; */
   width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  gap: 10px;
+  gap: 20px;
+  padding: 20px;
+}
+.mofaBloreCertContainer > h2 {
+  /* border: solid green; */
+  font-size: 30px;
+  color: var(--customColor2);
+  text-align: center;
+}
+.mofaBloreCertContainer > p {
+  font-size: 20px;
+  text-align: justify;
+}
+.mofaBloreCertContainer > ul {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
+}
+.mofaBloreCertContainer > ul > p {
+  font-size: 20px;
+  text-align: justify;
+}
+
+.mofaBloreCertContainer > ul > li {
+  font-size: 20px;
+  margin-left: 50px;
+  text-align: justify;
+}
+.mofaBloreCertContainer > ul > li > span {
+  color: var(--customColor1);
+  font-weight: bold;
+}
+@media screen and (min-width: 320px) and {
 }
