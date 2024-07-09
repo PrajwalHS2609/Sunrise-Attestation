@@ -8,13 +8,13 @@ import TaiwanMofa from "./TaiwanMofa/TaiwanMofa";
 import TaiwanBlore from "./TaiwanBlore/TaiwanBlore";
 import HomeLink from "../../HomePage/HomeLink.jsx/HomeLink";
 import TaiwanReq from "./TaiwanReq/TaiwanReq";
-import Faq from "../../HomePage/Faq/Faq";
 import Review from "../../Review/Review";
 import Benefits from "../../Benefits/Benefits";
 import OurServices from "../../HomePage/OurServices/OurServices";
 import HomeMarquee from "../../Marquee/HomeMarquee";
 import TaiwanAbout from "./TaiwanAbout/TaiwanAbout";
 import TaiwanService from "./TaiwanService/TaiwanService";
+import TaiwanFaq from './TaiwanFaq/TaiwanFaq';
 
 const TaiwanAttestation = () => {
   return (
@@ -33,7 +33,7 @@ const TaiwanAttestation = () => {
       <OurServices />
       <Benefits />
       <Review />
-      <Faq />
+      <TaiwanFaq />
     </div>
   );
 };

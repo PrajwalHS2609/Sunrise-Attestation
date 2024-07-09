@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "./Faq.css";
+import "./../../../HomePage/Faq/Faq.css";
 import {
   Accordion,
   AccordionItem,

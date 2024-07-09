@@ -1,14 +1,12 @@
 import React from "react";
-import FaqHead from "./../../HomePage/Faq/FaqHead";
 import FaqMain from "./FaqMain";
-import "./Faq.css";
-
+import "./../../../HomePage/Faq/Faq.css";
+import FaqHead from "../../../HomePage/Faq/FaqHead";
 const UaeFaq = () => {
   return (
     <div className="faqContainer">
       <div className="faqContent">
-        <FaqHead
-          heading="FAQs for UAE Attestation in Bangalore - Goodway Attestation"/>
+        <FaqHead heading="FAQs for UAE Attestation in Bangalore - Goodway Attestation" />
         <FaqMain />
       </div>
     </div>

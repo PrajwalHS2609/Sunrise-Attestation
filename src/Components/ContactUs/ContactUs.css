@@ -1,5 +1,5 @@
 .contactContainer {
-  border: solid red;
+  /* border: solid red; */
   display: flex;
   justify-content: center;
   align-items: center;
@@ -8,7 +8,7 @@
   padding: 20px;
 }
 .contactHeadContainer {
-  border: solid blue;
+  /* border: solid blue; */
   width: 100%;
   position: relative;
 }
@@ -20,22 +20,20 @@
 .contactHeadContainer > h2 > span {
   color: var(--customColor1);
 }
-.contactHeadImg {
-  border: solid green;
-}
+
 .contactHeadImg > img {
   width: 100%;
   height: 100%;
 }
 .contactMainContainer {
-  border: solid brown;
+  /* border: solid brown; */
   width: 100%;
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 .contactMainContent {
-  border: solid blue;
+  /* border: solid blue; */
   width: 50%;
   overflow: hidden;
   position: relative;
@@ -97,4 +95,40 @@
 }
 .contactUsCardPhone > p > a:hover {
   text-decoration: underline;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .contactContainer {
+    /* border: solid red; */
+    padding: 0px;
+  }
+  .contactMainContainer {
+    /* border: solid brown; */
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contactMainContent {
+    /* border: solid blue; */
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    position: relative;
+  }
+  .contactUsCardContainer {
+    /* border: solid red; */
+    min-width: 300px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 20px;
+  }
 }

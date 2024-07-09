@@ -14,6 +14,7 @@ import UkMofa from "./UkMofa/UkMofa";
 // import UkService from "./UkService/UkService";
 import UkBlore from "./UkBlore/UkBlore";
 import UkReq from "./UkReq/UkReq";
+import UkBloreCert from "./UkBloreCert/UkBloreCert";
 
 const UkAttestation = () => {
   return (
@@ -24,6 +25,7 @@ const UkAttestation = () => {
       <UkCertificate />
       <UkMofa />
       {/* <UkService /> */}
+      <UkBloreCert/>
       <UkBlore />
       <UkReq />
       <HomeLink />

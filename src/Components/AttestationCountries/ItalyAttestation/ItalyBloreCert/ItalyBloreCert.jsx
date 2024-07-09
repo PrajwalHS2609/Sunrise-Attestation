@@ -1,7 +1,7 @@
 import React from 'react'
 import ItalyBloreCertMain from './ItalyBloreCertMain'
 import "./../../UaeAttestation/UaeService/UaeService.css";
-import AustraliaBloreCertHead from "./AustraliaBloreCertHead";
+import AustraliaBloreCertHead from '../../Australia/AustraliaBloreCert/AustraliaBloreCertHead';
 const ItalyBloreCert = () => {
   return (
     <div className="uaeServiceContainer">

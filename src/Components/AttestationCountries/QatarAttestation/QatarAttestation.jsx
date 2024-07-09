@@ -12,9 +12,9 @@ import HomeMarquee from './../../Marquee/HomeMarquee';
 import OurServices from './../../HomePage/OurServices/OurServices';
 import Benefits from './../../Benefits/Benefits';
 import Review from './../../Review/Review';
-import Faq from './../../HomePage/Faq/Faq';
 import WhyBlock from './../../WhyBlock/WhyBlock';
 import HomeLink from './../../HomePage/HomeLink.jsx/HomeLink';
+import QatarFaq from "./QatarFaq/QatarFaq";
 const QatarAttestation = () => {
   return (
     <div className="qatarAttestationPage">
@@ -31,7 +31,7 @@ const QatarAttestation = () => {
       <OurServices />
       <Benefits />
       <Review />
-      <Faq />
+      <QatarFaq />
     </div>
   );
 };

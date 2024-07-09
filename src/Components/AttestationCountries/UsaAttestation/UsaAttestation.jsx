@@ -13,6 +13,7 @@ import UsaReq from "./UsaReq/UsaReq";
 import UsaCertificate from "./UsaCertificate/UsaCertificate";
 import WhyBlock from "../../WhyBlock/WhyBlock";
 import UsaMofa from "./UsaMofa/UsaMofa";
+import UsaBloreCert from "./UsaBloreCert/UsaBloreCert";
 // import UsaService from "./UsaService/UsaService";
 
 const UsaAttestation = () => {
@@ -24,6 +25,7 @@ const UsaAttestation = () => {
       <UsaCertificate />
       <UsaMofa />
       {/* <UsaService /> */}
+      <UsaBloreCert/>
       <UsaBlore />
       <UsaReq />
       <HomeLink />

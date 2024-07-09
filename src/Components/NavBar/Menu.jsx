@@ -162,7 +162,7 @@ const Menu = () => {
             </div>
           </li>
           <li>
-            MOFA
+           <Link to={"/mofa-attestation-services"}> MOFA</Link>
             <FontAwesomeIcon
               icon={faAngleDown}
               className="menuIcon"

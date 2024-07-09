@@ -12,8 +12,8 @@ import HomeMarquee from "../../Marquee/HomeMarquee";
 import OurServices from "../../HomePage/OurServices/OurServices";
 import Benefits from "../../Benefits/Benefits";
 import Review from "../../Review/Review";
-import Faq from "../../HomePage/Faq/Faq";
 import WhyBlock from './../../WhyBlock/WhyBlock';
+import SaudiFaq from './SaudiFaq/SaudiFaq';
 
 const SaudiAttestation = () => {
   return (
@@ -31,7 +31,7 @@ const SaudiAttestation = () => {
       <OurServices />
       <Benefits />
       <Review />
-      <Faq />
+      <SaudiFaq />
     </div>
   );
 };

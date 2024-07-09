@@ -14,6 +14,7 @@ import OmanMofa from "./OmanMofa/OmanMofa";
 import OmanCertificate from "./OmanCertificate/OmanCertificate";
 import OmanCard from "./OmanCard/OmanCard";
 import WhyBlock from './../../WhyBlock/WhyBlock';
+import OmanBloreCert from "./OmanBloreCert/OmanBloreCert";
 
 const OmanAttestation = () => {
   return (
@@ -24,6 +25,7 @@ const OmanAttestation = () => {
       <OmanCertificate />
       <OmanMofa />
       <OmanService />
+      <OmanBloreCert/>
       <OmanBlore />
       <OmanReq />
       {/* <OmanAbout /> */}

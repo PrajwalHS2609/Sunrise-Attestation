@@ -1,5 +1,7 @@
 import React from "react";
-
+import "./../../UaeAttestation/UaeService/UaeService.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faAnglesRight } from "@fortawesome/free-solid-svg-icons";
 const MexicoBloreCertMain = () => {
   return (
     <div className="uaeServiceMainContainer">

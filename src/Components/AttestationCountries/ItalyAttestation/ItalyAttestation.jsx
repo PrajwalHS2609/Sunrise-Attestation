@@ -14,6 +14,7 @@ import WhyBlock from "./../../WhyBlock/WhyBlock";
 import ItalyHeading from "./ItalyHeading/ItalyHeading";
 import ItalyBlore from './ItalyBlore/ItalyBlore';
 import ItalyReq from './ItalyReq/ItalyReq';
+import ItalyBloreCert from './ItalyBloreCert/ItalyBloreCert';
 
 const ItalyAttestation = () => {
   return (
@@ -24,6 +25,7 @@ const ItalyAttestation = () => {
       <ItalyCertificate />
       <ItalyMofa />
       {/* <ItalyService /> */}
+      <ItalyBloreCert/>
       <ItalyBlore />
       <ItalyReq />
       {/* <ItalyAbout /> */}

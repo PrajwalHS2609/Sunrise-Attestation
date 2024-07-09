@@ -7,6 +7,7 @@ import mumbai from "./../../vid&img/ContactUs/Mumbai.png";
 import oman from "./../../vid&img/ContactUs/Oman.png";
 import uae from "./../../vid&img/ContactUs/UAE.png";
 import chennai from "./../../vid&img/ContactUs/Chennai.png";
+import ContactUsForm from "./ContactUsForm/ContactUsForm";
 
 const ContactUsMain = () => {
   return (
@@ -73,7 +74,7 @@ const ContactUsMain = () => {
           alt="contactUs"
         />
       </div>
-      <div className="contactMainContent">Contact</div>
+      <div className="contactMainContent"><ContactUsForm/></div>
     </div>
   );
 };

@@ -5,7 +5,6 @@ import HomeMarquee from "../../Marquee/HomeMarquee";
 import OurServices from "../../HomePage/OurServices/OurServices";
 import Benefits from "../../Benefits/Benefits";
 import Review from "../../Review/Review";
-import Faq from "../../HomePage/Faq/Faq";
 import VietnamHeading from "./VietnamHeading/VietnamHeading";
 import WhyBlock from "../../WhyBlock/WhyBlock";
 import VietnamCard from "./VietnamCard/VietnamCard";
@@ -14,6 +13,7 @@ import VietnamMofa from "./VietnamMofa/VietnamMofa";
 import VietnamService from "./VietnamService/VietnamService";
 import VietnamBlore from "./VietnamBlore/VietnamBlore";
 import VietnamReq from "./VietnamReq/VietnamReq";
+import VietnamFaq from './VietnamFaq/VietnamFaq';
 
 const VietnamAttestation = () => {
   return (
@@ -31,7 +31,7 @@ const VietnamAttestation = () => {
       <OurServices />
       <Benefits />
       <Review />
-      <Faq />
+      <VietnamFaq />
     </div>
   );
 };

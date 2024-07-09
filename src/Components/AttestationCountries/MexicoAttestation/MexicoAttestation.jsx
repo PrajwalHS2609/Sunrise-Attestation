@@ -13,6 +13,7 @@ import MexicoCertificate from "./MexicoCertificate/MexicoCertificate";
 // import MexicoService from "./MexicoService/MexicoService";
 import MexicoCard from "./MexicoCard/MexicoCard";
 import MexicoReq from './MexicoReq/MexicoReq';
+import MexicoBloreCert from './MexicoBloreCert/MexicoBloreCert';
 
 const MexicoAttestation = () => {
   return (
@@ -23,6 +24,7 @@ const MexicoAttestation = () => {
       <MexicoCertificate />
       <MexicoMofa />
       {/* <MexicoService /> */}
+      <MexicoBloreCert/>
       <MexicoBlore />
       <MexicoReq />
       {/* <MexicoAbout /> */}

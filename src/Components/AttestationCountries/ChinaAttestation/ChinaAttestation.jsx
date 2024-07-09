@@ -5,7 +5,6 @@ import HomeMarquee from "../../Marquee/HomeMarquee";
 import OurServices from "../../HomePage/OurServices/OurServices";
 import Benefits from "../../Benefits/Benefits";
 import Review from "../../Review/Review";
-import Faq from "../../HomePage/Faq/Faq";
 import ChinaHeading from "./ChinaHeading/ChinaHeading";
 import WhyBlock from "../../WhyBlock/WhyBlock";
 import ChinaCertificate from "./ChinaCertificate/ChinaCertificate";
@@ -14,6 +13,7 @@ import ChinaAbout from "./ChinaAbout/ChinaAbout";
 import ChinaCard from './ChinaCard/ChinaCard';
 import ChinaBlore from "./ChinaBlore/ChinaBlore";
 import ChinaMofa from "./ChinaMofa/ChinaMofa";
+import ChinaFaq from './ChinaFaq/ChinaFaq';
 const ChinaAttestation = () => {
   return (
     <div className="uaeAttestationPage">
@@ -30,7 +30,7 @@ const ChinaAttestation = () => {
       <OurServices />
       <Benefits />
       <Review />
-      <Faq />
+      <ChinaFaq />
     </div>
   );
 };

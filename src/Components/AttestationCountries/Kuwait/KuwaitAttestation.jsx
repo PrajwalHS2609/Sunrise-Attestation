@@ -1,6 +1,5 @@
 import React from "react";
 import "./../BahrainAttestation/BahrainAttestation.css";
-import Faq from "../../HomePage/Faq/Faq";
 import Review from "../../Review/Review";
 import Benefits from "../../Benefits/Benefits";
 import OurServices from "../../HomePage/OurServices/OurServices";
@@ -13,6 +12,7 @@ import KuwaitCertificate from './KuwaitCertificate/KuwaitCertificate';
 import KuwaitMofa from './KuwaitMofa/KuwaitMofa';
 import KuwaitBlore from './KuwaitBlore/KuwaitBlore';
 import KuwaitReq from "./KuwaitReq/KuwaitReq";
+import KuwaitFaq from './KuwaitFaq/KuwaitFaq';
 
 const KuwaitAttestation = () => {
   return (
@@ -29,7 +29,7 @@ const KuwaitAttestation = () => {
       <OurServices />
       <Benefits />
       <Review />
-      <Faq />
+      <KuwaitFaq />
     </div>
   );
 };

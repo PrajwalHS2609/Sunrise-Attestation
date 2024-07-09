@@ -16,6 +16,8 @@ h2,
 h3,
 h4,
 li,
-p {
+p,
+label,
+input {
   font-family: "Ubuntu", sans-serif;
 }

@@ -5,7 +5,6 @@ import HomeMarquee from "../../Marquee/HomeMarquee";
 import OurServices from "../../HomePage/OurServices/OurServices";
 import Benefits from "../../Benefits/Benefits";
 import Review from "../../Review/Review";
-import Faq from "../../HomePage/Faq/Faq";
 import PhilippinesReq from "./PhilippinesReq/PhilippinesReq";
 import PhilippinesBlore from "./PhilippinesBlore/PhilippinesBlore";
 import PhilippinesMofa from "./PhilippinesMofa/PhilippinesMofa";
@@ -15,6 +14,7 @@ import WhyBlock from "../../WhyBlock/WhyBlock";
 import PhilippinesHeading from "./PhilippinesHeading/PhilippinesHeading";
 import PhilippinesService from "./PhilippinesService/PhilippinesService";
 import PhilippinesAbout from "./PhilippinesAbout/PhilippinesAbout";
+import PhilippinesFaq from "./PhilippinesFaq/PhilippinesFaq";
 
 const PhilippinesAttestation = () => {
   return (
@@ -33,7 +33,7 @@ const PhilippinesAttestation = () => {
       <OurServices />
       <Benefits />
       <Review />
-      <Faq />
+      <PhilippinesFaq/>
     </div>
   );
 };

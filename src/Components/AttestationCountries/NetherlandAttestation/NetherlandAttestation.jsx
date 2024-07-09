@@ -12,6 +12,7 @@ import NetherlandCertificate from './NetherlandCertificate/NetherlandCertificate
 import NetherlandMofa from './NetherlandMofa/NetherlandMofa';
 import NetherlandBlore from "./NetherlandBlore/NetherlandBlore";
 import NetherlandReq from './NetherlandReq/NetherlandReq';
+import NetherlandBloreCert from "./NetherlandBloreCert/NetherlandBloreCert";
 
 const NetherlandAttestation = () => {
   return (
@@ -23,6 +24,7 @@ const NetherlandAttestation = () => {
       <NetherlandMofa />
       {/* <NetherlandAbout /> */}
       {/* <NetherlandService /> */}
+      <NetherlandBloreCert/>
       <NetherlandBlore />
       <NetherlandReq />
       <HomeLink />

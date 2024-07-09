@@ -14,6 +14,7 @@ import WhyBlock from "../../WhyBlock/WhyBlock";
 import FranceMofa from './FranceMofa/FranceMofa';
 import FranceCard from './FranceCard/FranceCard';
 import FranceCertificate from './FranceCertificate/FranceCertificate';
+import FranceBloreCert from "./FranceBloreCert/FranceBloreCert";
 
 const FranceAttestation = () => {
   return (
@@ -25,6 +26,7 @@ const FranceAttestation = () => {
       <FranceMofa />
       {/* <FranceAbout /> */}
       <FranceService/>
+      <FranceBloreCert/>
       <FranceBlore/>
       <FranceReq/>
       <HomeLink />
