@@ -5,7 +5,6 @@ import HomeLink from "../../HomePage/HomeLink.jsx/HomeLink";
 import OurServices from "../../HomePage/OurServices/OurServices";
 import Benefits from "../../Benefits/Benefits";
 import Review from "../../Review/Review";
-import Faq from "../../HomePage/Faq/Faq";
 import LithuaniaBlore from "./LithuaniaBlore/LithuaniaBlore";
 import LithuaniaMofa from "./LithuaniaMofa/LithuaniaMofa";
 import LithuaniaCertificate from "./LithuaniaCertificate/LithuaniaCertificate";
@@ -14,6 +13,7 @@ import WhyBlock from "./../../WhyBlock/WhyBlock";
 import LithuaniaHeading from "./LithuaniaHeading/LithuaniaHeading";
 import LithuaniaReq from "./LithuaniaReq/LithuaniaReq";
 import LithuaniaBloreCert from "./LithuaniaBloreCert/LithuaniaBloreCert";
+import LithuaniaFaq from "./LithuaniaFaq/LithuaniaFaq";
 
 const LithuaniaAttestation = () => {
   return (
@@ -32,7 +32,7 @@ const LithuaniaAttestation = () => {
       <OurServices />
       <Benefits />
       <Review />
-      <Faq />
+      <LithuaniaFaq />
     </div>
   );
 };

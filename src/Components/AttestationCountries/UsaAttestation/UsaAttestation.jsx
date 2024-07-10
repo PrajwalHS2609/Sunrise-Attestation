@@ -5,7 +5,6 @@ import HomeMarquee from "../../Marquee/HomeMarquee";
 import OurServices from "../../HomePage/OurServices/OurServices";
 import Benefits from "../../Benefits/Benefits";
 import Review from "../../Review/Review";
-import Faq from "../../HomePage/Faq/Faq";
 import UsaHeading from "./UsaHeading/UsaHeading";
 import UsaCard from "./UsaCard/UsaCard";
 import UsaBlore from "./UsaBlore/UsaBlore";
@@ -14,6 +13,7 @@ import UsaCertificate from "./UsaCertificate/UsaCertificate";
 import WhyBlock from "../../WhyBlock/WhyBlock";
 import UsaMofa from "./UsaMofa/UsaMofa";
 import UsaBloreCert from "./UsaBloreCert/UsaBloreCert";
+import UsaFaq from "./UsaFaq/UsaFaq";
 // import UsaService from "./UsaService/UsaService";
 
 const UsaAttestation = () => {
@@ -33,7 +33,7 @@ const UsaAttestation = () => {
       <OurServices />
       <Benefits />
       <Review />
-      <Faq />
+      <UsaFaq />
     </div>
   );
 };

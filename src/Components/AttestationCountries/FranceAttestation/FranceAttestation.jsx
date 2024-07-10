@@ -5,7 +5,6 @@ import HomeMarquee from "../../Marquee/HomeMarquee";
 import OurServices from "../../HomePage/OurServices/OurServices";
 import Benefits from "../../Benefits/Benefits";
 import Review from "../../Review/Review";
-import Faq from "../../HomePage/Faq/Faq";
 import FranceHeading from "./FranceHeading/FranceHeading";
 import FranceService from "./FranceService/FranceService";
 import FranceBlore from './FranceBlore/FranceBlore';
@@ -15,6 +14,7 @@ import FranceMofa from './FranceMofa/FranceMofa';
 import FranceCard from './FranceCard/FranceCard';
 import FranceCertificate from './FranceCertificate/FranceCertificate';
 import FranceBloreCert from "./FranceBloreCert/FranceBloreCert";
+import FranceFaq from "./FranceFaq/FranceFaq";
 
 const FranceAttestation = () => {
   return (
@@ -34,7 +34,7 @@ const FranceAttestation = () => {
       <OurServices />
       <Benefits />
       <Review />
-      <Faq />
+      <FranceFaq />
     </div>
   );
 };

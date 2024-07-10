@@ -5,7 +5,6 @@ import HomeMarquee from "../../Marquee/HomeMarquee";
 import OurServices from "../../HomePage/OurServices/OurServices";
 import Benefits from "../../Benefits/Benefits";
 import Review from "../../Review/Review";
-import Faq from "../../HomePage/Faq/Faq";
 import AustraliaHeading from "./AustraliaHeading/AustraliaHeading";
 import AustraliaMofa from "./AustraliaMofa/AustraliaMofa";
 import WhyBlock from "../../WhyBlock/WhyBlock";
@@ -15,6 +14,7 @@ import AustraliaBlore from './AustraliaBlore/AustraliaBlore';
 import AustraliaReq from './AustraliaReq/AustraliaReq';
 import AustraliaService from "./AustraliaService/AustraliaService";
 import AustraliaBloreCert from "./AustraliaBloreCert/AustraliaBloreCert";
+import AustraliaFaq from "./AustraliaFaq/AustraliaFaq";
 
 const AustraliaAttestation = () => {
   return (
@@ -33,7 +33,7 @@ const AustraliaAttestation = () => {
       <OurServices />
       <Benefits />
       <Review />
-      <Faq />
+      <AustraliaFaq />
     </div>
   );
 };

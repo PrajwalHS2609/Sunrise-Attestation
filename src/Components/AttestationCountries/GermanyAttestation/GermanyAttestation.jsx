@@ -5,7 +5,6 @@ import HomeMarquee from "../../Marquee/HomeMarquee";
 import OurServices from "../../HomePage/OurServices/OurServices";
 import Benefits from "../../Benefits/Benefits";
 import Review from "../../Review/Review";
-import Faq from "../../HomePage/Faq/Faq";
 import GermanyHeading from "./GermanyHeading/GermanyHeading";
 import GermanyCard from "./GermanyCard/GermanyCard";
 import WhyBlock from "./../../WhyBlock/WhyBlock";
@@ -16,6 +15,7 @@ import GermanyBlore from "./GermanyBlore/GermanyBlore";
 import GermanyReq from "./GermanyReq/GermanyReq";
 import GermanyService from "./GermanyService/GermanyService";
 import GermanyBloreCert from "./GermanyBloreCert/GermanyBloreCert";
+import GermanyFaq from "./GermanyFaq/GermanyFaq";
 
 const GermanyAttestation = () => {
   return (
@@ -27,7 +27,7 @@ const GermanyAttestation = () => {
       <GermanyMofa />
       {/* <GermanyAbout /> */}
       <GermanyService />
-      <GermanyBloreCert/>
+      <GermanyBloreCert />
       <GermanyBlore />
       <GermanyReq />
       <HomeLink />
@@ -35,7 +35,7 @@ const GermanyAttestation = () => {
       <OurServices />
       <Benefits />
       <Review />
-      <Faq />
+      <GermanyFaq />
     </div>
   );
 };

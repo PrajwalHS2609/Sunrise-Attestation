@@ -5,7 +5,6 @@ import HomeMarquee from "../../Marquee/HomeMarquee";
 import OurServices from "../../HomePage/OurServices/OurServices";
 import Benefits from "../../Benefits/Benefits";
 import Review from "../../Review/Review";
-import Faq from "../../HomePage/Faq/Faq";
 // import ItalyService from "./ItalyService/ItalyService";
 import ItalyMofa from "./ItalyMofa/ItalyMofa";
 import ItalyCertificate from "./ItalyCertificate/ItalyCertificate";
@@ -15,6 +14,7 @@ import ItalyHeading from "./ItalyHeading/ItalyHeading";
 import ItalyBlore from './ItalyBlore/ItalyBlore';
 import ItalyReq from './ItalyReq/ItalyReq';
 import ItalyBloreCert from './ItalyBloreCert/ItalyBloreCert';
+import ItalyFaq from "./ItalyFaq/ItalyFaq";
 
 const ItalyAttestation = () => {
   return (
@@ -34,7 +34,7 @@ const ItalyAttestation = () => {
       <OurServices />
       <Benefits />
       <Review />
-      <Faq />
+      <ItalyFaq />
     </div>
   );
 };

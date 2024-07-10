@@ -5,7 +5,6 @@ import HomeMarquee from "../../Marquee/HomeMarquee";
 import OurServices from "../../HomePage/OurServices/OurServices";
 import Benefits from "../../Benefits/Benefits";
 import Review from "../../Review/Review";
-import Faq from "../../HomePage/Faq/Faq";
 import UkHeading from "./UkHeading/UkHeading";
 import WhyBlock from "./../../WhyBlock/WhyBlock";
 import UkCard from "./UkCard/UkCard";
@@ -15,6 +14,7 @@ import UkMofa from "./UkMofa/UkMofa";
 import UkBlore from "./UkBlore/UkBlore";
 import UkReq from "./UkReq/UkReq";
 import UkBloreCert from "./UkBloreCert/UkBloreCert";
+import UkFaq from "./UkFaq/UkFaq";
 
 const UkAttestation = () => {
   return (
@@ -33,7 +33,7 @@ const UkAttestation = () => {
       <OurServices />
       <Benefits />
       <Review />
-      <Faq />
+      <UkFaq />
     </div>
   );
 };

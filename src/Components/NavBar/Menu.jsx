@@ -147,7 +147,7 @@ const Menu = () => {
             </div>
           </li>
           <li>
-            State HRD
+            <Link to={"/state-hrd-home-department-attestation"}>State HRD</Link>
             <FontAwesomeIcon
               icon={faAngleDown}
               className="menuIcon"
@@ -162,7 +162,7 @@ const Menu = () => {
             </div>
           </li>
           <li>
-           <Link to={"/mofa-attestation-services"}> MOFA</Link>
+            <Link to={"/mofa-attestation-services"}> MOFA</Link>
             <FontAwesomeIcon
               icon={faAngleDown}
               className="menuIcon"
@@ -358,7 +358,10 @@ const Menu = () => {
           </ul>
           <ul className="serviceDrop">
             <h2>
-              <Link onClick={hideSideBar} to={"/"}>
+              <Link
+                onClick={hideSideBar}
+                to={"/state-hrd-home-department-attestation"}
+              >
                 State HRD
               </Link>
               <FontAwesomeIcon

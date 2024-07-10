@@ -5,7 +5,6 @@ import HomeMarquee from "../../Marquee/HomeMarquee";
 import OurServices from "../../HomePage/OurServices/OurServices";
 import Benefits from "../../Benefits/Benefits";
 import Review from "../../Review/Review";
-import Faq from "../../HomePage/Faq/Faq";
 import OmanHeading from "./OmanHeading/OmanHeading";
 import OmanReq from './OmanReq/OmanReq';
 import OmanBlore from "./OmanBlore/OmanBlore";
@@ -15,6 +14,7 @@ import OmanCertificate from "./OmanCertificate/OmanCertificate";
 import OmanCard from "./OmanCard/OmanCard";
 import WhyBlock from './../../WhyBlock/WhyBlock';
 import OmanBloreCert from "./OmanBloreCert/OmanBloreCert";
+import OmanFaq from './OmanFaq/OmanFaq';
 
 const OmanAttestation = () => {
   return (
@@ -34,7 +34,7 @@ const OmanAttestation = () => {
       <OurServices />
       <Benefits />
       <Review />
-      <Faq />
+      <OmanFaq />
     </div>
   );
 };

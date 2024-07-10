@@ -34,6 +34,7 @@ import AttestationPage from "./Components/AttestationPage/AttestationPage";
 import ApostillePages from "./Components/ApostillePages/ApostillePages";
 import ContactUs from "./Components/ContactUs/ContactUs";
 import MofaPage from "./Components/MofaPage/MofaPage";
+import HrdPage from "./Components/HrdPage/HrdPage";
 
 const App = () => {
   return (
@@ -148,7 +149,11 @@ const App = () => {
             element={<NetherlandAttestation />}
           />
           <Route path="/contact-us" element={<ContactUs />} />
-          <Route path="/mofa-attestation-services" element={<MofaPage/>}/>
+          <Route
+            path="/state-hrd-home-department-attestation"
+            element={<HrdPage />}
+          />
+          <Route path="/mofa-attestation-services" element={<MofaPage />} />
         </Routes>
 
         <Footer />

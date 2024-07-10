@@ -13,7 +13,7 @@
   position: relative;
 }
 .contactHeadContainer > h2 {
-  font-size: 40px;
+  font-size: 30px;
   text-align: center;
   color: var(--customColor2);
 }

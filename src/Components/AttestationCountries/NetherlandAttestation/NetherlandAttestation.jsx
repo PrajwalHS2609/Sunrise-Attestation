@@ -4,7 +4,6 @@ import HomeMarquee from "../../Marquee/HomeMarquee";
 import OurServices from "../../HomePage/OurServices/OurServices";
 import Benefits from "../../Benefits/Benefits";
 import Review from "../../Review/Review";
-import Faq from "../../HomePage/Faq/Faq";
 import NetherlandHeading from './NetherlandHeading/NetherlandHeading';
 import WhyBlock from './../../WhyBlock/WhyBlock';
 import NetherlandCard from './NetherlandCard.jsx/NetherlandCard';
@@ -13,6 +12,7 @@ import NetherlandMofa from './NetherlandMofa/NetherlandMofa';
 import NetherlandBlore from "./NetherlandBlore/NetherlandBlore";
 import NetherlandReq from './NetherlandReq/NetherlandReq';
 import NetherlandBloreCert from "./NetherlandBloreCert/NetherlandBloreCert";
+import NetherlandFaq from "./NetherlandFaq/NetherlandFaq";
 
 const NetherlandAttestation = () => {
   return (
@@ -32,7 +32,7 @@ const NetherlandAttestation = () => {
       <OurServices />
       <Benefits />
       <Review />
-      <Faq />
+      <NetherlandFaq />
     </div>
   );
 };
