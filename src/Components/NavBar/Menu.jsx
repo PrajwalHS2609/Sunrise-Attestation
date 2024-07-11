@@ -127,8 +127,14 @@ const Menu = () => {
               className="menuIcon"
             ></FontAwesomeIcon>
             <div className="menuDrop">
-              <li>Degree Certificate</li>
-              <li>Birth Certificates</li>
+              <li>
+                <Link to={"/"}>Degree Certificate</Link>
+              </li>
+              <li>
+                <Link to={"/birth-certificate-attestaion-bangalore"}>
+                  Birth Certificates
+                </Link>
+              </li>
               <li>Marriage Certificate</li>
               <li>Commercial Documents</li>
             </div>
@@ -195,7 +201,7 @@ const Menu = () => {
             </div>
           </li>
           <li>
-            MEA
+            <Link to={"/mea-attestaion-apostille-services"}>MEA</Link>
             <FontAwesomeIcon
               icon={faAngleDown}
               className="menuIcon"

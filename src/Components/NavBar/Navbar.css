@@ -58,7 +58,7 @@
   text-decoration: none;
 }
 .menuDrop {
-    /* border: solid; */
+  /* border: solid; */
   position: absolute;
   background-color: var(--customColor2);
   width: 230px;
@@ -78,7 +78,10 @@
   text-align: center;
   font-size: 15px;
 }
-
+.menuDrop > li > a {
+  text-decoration: none;
+  color: white;
+}
 .menuContainer > ul > li:hover .menuDrop {
   display: flex;
 }
@@ -242,7 +245,7 @@
     display: flex;
   }
 }
-@media only screen and (min-width: 768px) and (max-width:900px) {
+@media only screen and (min-width: 768px) and (max-width: 900px) {
   .NavContainer {
     /* border: solid; */
     height: 11vh;

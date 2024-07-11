@@ -36,6 +36,7 @@ import ContactUs from "./Components/ContactUs/ContactUs";
 import MofaPage from "./Components/MofaPage/MofaPage";
 import HrdPage from "./Components/HrdPage/HrdPage";
 import MeaPage from "./Components/MeaPage/MeaPage";
+import BirthCertAttestation from "./Components/AttestationPage/BirthCertAttestation/BirthCertAttestation";
 
 const App = () => {
   return (
@@ -159,10 +160,15 @@ const App = () => {
             path="/mea-attestaion-apostille-services"
             element={<MeaPage />}
           />
+          <Route
+            path="/birth-certificate-attestaion-bangalore"
+            element={<BirthCertAttestation />}
+          />
         </Routes>
 
         <Footer />
       </BrowserRouter>
+      
     </div>
   );
 };
