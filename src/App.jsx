@@ -35,6 +35,7 @@ import ApostillePages from "./Components/ApostillePages/ApostillePages";
 import ContactUs from "./Components/ContactUs/ContactUs";
 import MofaPage from "./Components/MofaPage/MofaPage";
 import HrdPage from "./Components/HrdPage/HrdPage";
+import MeaPage from "./Components/MeaPage/MeaPage";
 
 const App = () => {
   return (
@@ -154,6 +155,10 @@ const App = () => {
             element={<HrdPage />}
           />
           <Route path="/mofa-attestation-services" element={<MofaPage />} />
+          <Route
+            path="/mea-attestaion-apostille-services"
+            element={<MeaPage />}
+          />
         </Routes>
 
         <Footer />

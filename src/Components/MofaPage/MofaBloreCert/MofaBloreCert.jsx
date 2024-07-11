@@ -3,7 +3,9 @@ import "./MofaBloreCert.css";
 const MofaBloreCert = () => {
   return (
     <div className="mofaBloreCertContainer">
-      <h2>MOFA attestation in Bangalore for Certificate </h2>
+      <h2>
+        MOFA <span>Attestation</span> in Bangalore for Certificate{" "}
+      </h2>
       <p>
         MOFA attestation plays a role in the visa issuing procedure such as
         family or resident visa, employment visa, & others. You require a permit
@@ -20,27 +22,27 @@ const MofaBloreCert = () => {
           verification of the documents.
         </p>
         <li>
-          <span>Bahrain MOFA attestation in Bangalore : </span>MOFA attestation is
-          the last verification process after the embassy attestation. For
+          <span>Bahrain MOFA attestation in Bangalore : </span>MOFA attestation
+          is the last verification process after the embassy attestation. For
           higher studies purpose or for a job, you need to get the MOFA
           attestation to prove the authenticity of the documents.
         </li>
         <li>
-          <span>Qatar MOFA attestation in Bangalore : </span> MOFA attestation is
-          required for getting work permits in Qatar. After embassy attestation,
-          the documents are sent to MOFA for authentication & verification
-          purpose.
+          <span>Qatar MOFA attestation in Bangalore : </span> MOFA attestation
+          is required for getting work permits in Qatar. After embassy
+          attestation, the documents are sent to MOFA for authentication &
+          verification purpose.
         </li>
         <li>
-          <span>Saudi MOFA attestation in Bangalore : </span>MOFA attestation is a
-          compulsory requirement for getting work permit in Saudi. The Saudi
+          <span>Saudi MOFA attestation in Bangalore : </span>MOFA attestation is
+          a compulsory requirement for getting work permit in Saudi. The Saudi
           government in detail verifies the documents. After the MOFA
           attestation, the work permit is only issued.
         </li>
         <li>
-          <span>Kuwait MOFA attestation in Bangalore : </span>It is compulsory to
-          get your documents attested from the Ministry of Foreign Affairs for
-          the last verification purpose after embassy attestation.
+          <span>Kuwait MOFA attestation in Bangalore : </span>It is compulsory
+          to get your documents attested from the Ministry of Foreign Affairs
+          for the last verification purpose after embassy attestation.
         </li>
       </ul>
     </div>

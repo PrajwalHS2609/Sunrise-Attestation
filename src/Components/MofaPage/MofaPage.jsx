@@ -12,6 +12,12 @@ import OurServices from "../HomePage/OurServices/OurServices";
 import Benefits from "../Benefits/Benefits";
 import Review from "../Review/Review";
 import Faq from "../HomePage/Faq/Faq";
+import MofaCertIncop from "./MofaCertIncop/MofaCertIncop";
+import ImpDoc from "./ImpDoc/ImpDoc";
+import TypesDocs from "./TypesDocs/TypesDocs";
+import IncopCert from "./IncopCert/IncopCert";
+import MofaDocService from "./MofaDocService/MofaDocService";
+import MofaBenefits from "./MofaBenefits/MofaBenefits";
 const MofaPage = () => {
   return (
     <div className="mofaContainer">
@@ -21,6 +27,12 @@ const MofaPage = () => {
       <MofaBlore />
       <MofaTime />
       <MofaBloreCert />
+      <MofaCertIncop/>
+      <ImpDoc/>
+      <TypesDocs/>
+      <IncopCert/>
+      <MofaDocService/>
+      <MofaBenefits/>
       <HomeLink />
       <HomeMarquee />
       <OurServices />
