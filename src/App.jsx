@@ -37,6 +37,14 @@ import MofaPage from "./Components/MofaPage/MofaPage";
 import HrdPage from "./Components/HrdPage/HrdPage";
 import MeaPage from "./Components/MeaPage/MeaPage";
 import BirthCertAttestation from "./Components/AttestationPage/BirthCertAttestation/BirthCertAttestation";
+import MarriageCertAttestation from "./Components/AttestationPage/MarriageCertAttestation/MarriageCertAttestation";
+import CommercialDocsAttestation from "./Components/AttestationPage/CommercialDocsAttestation/CommercialDocsAttestation";
+import DegreeCertApostille from "./Components/ApostillePages/DegreeCertApostille/DegreeCertApostille";
+import BirthCertApostille from "./Components/ApostillePages/BirthCertApostille/BirthCertApostille";
+import MarriageCertApostille from "./Components/ApostillePages/MarriageCertApostille/MarriageCertApostille";
+import DegreeCertAttestation from "./Components/AttestationPage/DegreeCertAttestation/DegreeCertAttestation";
+import WesPage from "./Components/WesPage/WesPage";
+import TranslationPage from "./Components/TranslationPage/TranslationPage";
 
 const App = () => {
   return (
@@ -160,15 +168,46 @@ const App = () => {
             path="/mea-attestaion-apostille-services"
             element={<MeaPage />}
           />
+              <Route
+            path="/degree-certificate-attestation-bangalore"
+            element={<DegreeCertAttestation />}
+          />
           <Route
-            path="/birth-certificate-attestaion-bangalore"
+            path="/birth-certificate-attestation-bangalore"
             element={<BirthCertAttestation />}
+          />
+          <Route
+            path="/marriage-certificate-attestation-bangalore"
+            element={<MarriageCertAttestation />}
+          />
+          <Route
+            path="/commercial-documents-attestation-bangalore"
+            element={<CommercialDocsAttestation />}
+          />
+          <Route
+            path="/degree-certificate-apostille-bangalore"
+            element={<DegreeCertApostille />}
+          />
+          <Route
+            path="/birth-certificate-apostille-bangalore"
+            element={<BirthCertApostille />}
+          />
+            <Route
+            path="/marriage-certificate-apostille-bangalore"
+            element={<MarriageCertApostille />}
+          />
+                <Route
+            path="/wes-attestation-bangalore"
+            element={<WesPage />}
+          />
+                 <Route
+            path="/translation-attestation-bangalore"
+            element={<TranslationPage />}
           />
         </Routes>
 
         <Footer />
       </BrowserRouter>
-      
     </div>
   );
 };

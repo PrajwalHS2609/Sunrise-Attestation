@@ -20,26 +20,29 @@
   font-size: 20px;
   text-align: justify;
 }
-.birthImpDocContent {
+.marriageImpDocContent {
   /* border: solid blue; */
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   width: 100%;
 }
-.birthImpDocContent > ul {
+.marriageImpDocContent > ul {
   /* border: solid green; */
   display: flex;
   justify-content: space-evenly;
-  align-items: center;
+  align-items: flex-start;
+  flex-direction: column;
+  gap: 20px;
   width: 100%;
   padding: 20px;
 }
-.birthImpDocContent > ul > li {
+.marriageImpDocContent > ul > li {
   font-size: 20px;
   color: var(--customColor1);
 }
-.birthImpDocContent > ul > li > span {
+.marriageImpDocContent > ul > li > span {
   color: var(--customColor2);
   font-weight: bold;
 }
@@ -47,7 +50,7 @@
   .birthImpDocContainer {
     padding: 20px;
   }
-  .birthImpDocContent > ul {
+  .marriageImpDocContent > ul {
     /* border: solid green; */
     display: flex;
     justify-content: space-evenly;

@@ -131,12 +131,20 @@ const Menu = () => {
                 <Link to={"/"}>Degree Certificate</Link>
               </li>
               <li>
-                <Link to={"/birth-certificate-attestaion-bangalore"}>
+                <Link to={"/birth-certificate-attestation-bangalore"}>
                   Birth Certificates
                 </Link>
               </li>
-              <li>Marriage Certificate</li>
-              <li>Commercial Documents</li>
+              <li>
+                <Link to={"/marriage-certificate-attestation-bangalore"}>
+                  Marriage Certificate
+                </Link>
+              </li>
+              <li>
+                <Link to={"/commercial-documents-attestation-bangalore"}>
+                  Commercial Documents
+                </Link>
+              </li>
             </div>
           </li>
           <li>
@@ -146,10 +154,18 @@ const Menu = () => {
               className="menuIcon"
             ></FontAwesomeIcon>
             <div className="menuDrop">
-              <li>Degree Certificate</li>
-              <li>Birth Certificates</li>
-              <li>Marriage Certificate</li>
-              <li>Commercial Documents</li>
+              <li>
+                {" "}
+                <Link to={"/"}>Degree Certificate</Link>
+              </li>
+              <li>
+                {" "}
+                <Link to={"/"}>Birth Certificates</Link>
+              </li>
+              <li>
+                {" "}
+                <Link to={"/"}>Marriage Certificate</Link>
+              </li>
             </div>
           </li>
           <li>

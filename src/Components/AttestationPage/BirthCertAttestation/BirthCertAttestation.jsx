@@ -17,7 +17,7 @@ import BirthCertHead from "./BirthCertHead/BirthCertHead";
 const BirthCertAttestation = () => {
   return (
     <div className="birthCertContainer">
-      <BirthCertHead/>
+      <BirthCertHead />
       <BirthCertHeadContent />
       <BirthImpDoc />
       <BirthCertProcedure />

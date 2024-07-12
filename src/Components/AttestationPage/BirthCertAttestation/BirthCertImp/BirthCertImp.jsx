@@ -3,7 +3,7 @@ import "./BirthCertImp.css";
 const BirthCertImp = () => {
   return (
     <div className="birthCertImpContainer">
-      <h2>Importance of Birth Certificate <span>Attestation</span> in Bangalore</h2>
+      <h1>Importance of Birth Certificate <span>Attestation</span> in Bangalore</h1>
       <p>
         Birth certificate attestation in Bangalore is an international strategy
         that helps to prove the realness of a certificate. It is a mandatory
