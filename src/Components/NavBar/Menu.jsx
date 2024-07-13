@@ -16,8 +16,8 @@ const Menu = () => {
   let dropRef3 = useRef();
   let dropRef4 = useRef();
   let dropRef5 = useRef();
-  let dropRef6 = useRef();
-  let dropRef7 = useRef();
+  // let dropRef6 = useRef();
+  // let dropRef7 = useRef();
 
   let showSideBar = () => {
     const sideBar = document.querySelector(".respMenu");
@@ -85,29 +85,29 @@ const Menu = () => {
       console.log("up");
     }
   };
-  let handleDropDown6 = () => {
-    if (!drop) {
-      setDrop(true);
-      dropRef6.current.style.display = "flex";
-      console.log("down");
-    } else {
-      setDrop(false);
-      dropRef6.current.style.display = "none";
-      console.log("up");
-    }
-  };
+  // let handleDropDown6 = () => {
+  //   if (!drop) {
+  //     setDrop(true);
+  //     dropRef6.current.style.display = "flex";
+  //     console.log("down");
+  //   } else {
+  //     setDrop(false);
+  //     dropRef6.current.style.display = "none";
+  //     console.log("up");
+  //   }
+  // };
 
-  let handleDropDown7 = () => {
-    if (!drop) {
-      setDrop(true);
-      dropRef7.current.style.display = "flex";
-      console.log("down");
-    } else {
-      setDrop(false);
-      dropRef7.current.style.display = "none";
-      console.log("up");
-    }
-  };
+  // let handleDropDown7 = () => {
+  //   if (!drop) {
+  //     setDrop(true);
+  //     dropRef7.current.style.display = "flex";
+  //     console.log("down");
+  //   } else {
+  //     setDrop(false);
+  //     dropRef7.current.style.display = "none";
+  //     console.log("up");
+  //   }
+  // };
   return (
     <>
       <div className="menuContainer">
@@ -128,7 +128,9 @@ const Menu = () => {
             ></FontAwesomeIcon>
             <div className="menuDrop">
               <li>
-                <Link to={"/"}>Degree Certificate</Link>
+                <Link to={"/degree-certificate-attestation-bangalore"}>
+                  Degree Certificate
+                </Link>
               </li>
               <li>
                 <Link to={"/birth-certificate-attestation-bangalore"}>
@@ -156,15 +158,21 @@ const Menu = () => {
             <div className="menuDrop">
               <li>
                 {" "}
-                <Link to={"/"}>Degree Certificate</Link>
+                <Link to={"/degree-certificate-apostille-bangalore"}>
+                  Degree Certificate
+                </Link>
               </li>
               <li>
                 {" "}
-                <Link to={"/"}>Birth Certificates</Link>
+                <Link to={"/birth-certificate-apostille-bangalore"}>
+                  Birth Certificates
+                </Link>
               </li>
               <li>
                 {" "}
-                <Link to={"/"}>Marriage Certificate</Link>
+                <Link to={"/marriage-certificate-apostille-bangalore"}>
+                  Marriage Certificate
+                </Link>
               </li>
             </div>
           </li>
@@ -218,26 +226,26 @@ const Menu = () => {
           </li>
           <li>
             <Link to={"/mea-attestaion-apostille-services"}>MEA</Link>
-            <FontAwesomeIcon
+            {/* <FontAwesomeIcon
               icon={faAngleDown}
               className="menuIcon"
             ></FontAwesomeIcon>
             <div className="menuDrop">
               <li>MEA Attestation</li>
               <li>MEA Apostille</li>
-            </div>
+            </div> */}
           </li>
           <li>WES</li>
           <li>
-            Translation
-            <FontAwesomeIcon
+            <Link to={"/translation-attestation-bangalore"}>Translation</Link>
+            {/* <FontAwesomeIcon
               icon={faAngleDown}
               className="menuIcon"
             ></FontAwesomeIcon>
             <div className="menuDrop" id="translationDrop">
               <li>Document Translation</li>
               <li>Language Translation</li>
-            </div>
+            </div> */}
           </li>
           <li>
             <Link to={"/contact-us"}>Contact Us</Link>
@@ -280,33 +288,45 @@ const Menu = () => {
             <span className="respMenuSpan" ref={dropRef1}>
               <li>
                 <h3>
-                  <Link onClick={hideSideBar} to={"/"}>
+                  <Link
+                    onClick={hideSideBar}
+                    to={"/degree-certificate-attestation-bangalore"}
+                  >
                     Degree Certificate
                   </Link>
                 </h3>
               </li>
               <li>
                 <h3>
-                  <Link onClick={hideSideBar} to={"/"}>
+                  <Link
+                    onClick={hideSideBar}
+                    to={"/birth-certificate-attestation-bangalore"}
+                  >
                     Birth Certificates
                   </Link>
                 </h3>
               </li>
               <li>
                 <h3>
-                  <Link onClick={hideSideBar} to={"/"}>
+                  <Link
+                    onClick={hideSideBar}
+                    to={"/marriage-certificate-attestation-bangalore"}
+                  >
                     Marriage Certificate
                   </Link>
                 </h3>
               </li>
               <li>
                 <h3>
-                  <Link onClick={hideSideBar} to={"/"}>
-                    Power of Attorney
+                  <Link
+                    onClick={hideSideBar}
+                    to={"//commercial-documents-attestation-bangalore"}
+                  >
+                    Commercial Documents
                   </Link>
                 </h3>
               </li>
-              <li>
+              {/* <li>
                 <h3>
                   <Link onClick={hideSideBar} to={"/"}>
                     Medical Certificate
@@ -319,7 +339,7 @@ const Menu = () => {
                     Divorce Decree Certificate
                   </Link>
                 </h3>
-              </li>
+              </li> */}
             </span>
           </ul>
           <ul className="serviceDrop">
@@ -336,26 +356,35 @@ const Menu = () => {
             <span className="respMenuSpan" ref={dropRef2}>
               <li>
                 <h3>
-                  <Link onClick={hideSideBar} to={"/"}>
+                  <Link
+                    onClick={hideSideBar}
+                    to={"/degree-certificate-apostille-bangalore"}
+                  >
                     Degree Certificate
                   </Link>
                 </h3>
               </li>
               <li>
                 <h3>
-                  <Link onClick={hideSideBar} to={"/"}>
+                  <Link
+                    onClick={hideSideBar}
+                    to={"/birth-certificate-apostille-bangalore"}
+                  >
                     Birth Certificates
                   </Link>
                 </h3>
               </li>
               <li>
                 <h3>
-                  <Link onClick={hideSideBar} to={"/"}>
+                  <Link
+                    onClick={hideSideBar}
+                    to={"/marriage-certificate-apostille-bangalore"}
+                  >
                     Marriage Certificate
                   </Link>
                 </h3>
               </li>
-              <li>
+              {/* <li>
                 <h3>
                   <Link onClick={hideSideBar} to={"/"}>
                     Power of Attorney
@@ -375,7 +404,7 @@ const Menu = () => {
                     Divorce Decree Certificate
                   </Link>
                 </h3>
-              </li>
+              </li> */}
             </span>
           </ul>
           <ul className="serviceDrop">
@@ -576,13 +605,13 @@ const Menu = () => {
               <Link onClick={hideSideBar} to={"/"}>
                 MEA
               </Link>
-              <FontAwesomeIcon
+              {/* <FontAwesomeIcon
                 onClick={handleDropDown6}
                 icon={faAngleDown}
                 className="respDropIcon"
-              ></FontAwesomeIcon>
+              ></FontAwesomeIcon> */}
             </h2>
-            <span className="respMenuSpan" ref={dropRef6}>
+            {/* <span className="respMenuSpan" ref={dropRef6}>
               <li>
                 <h3>
                   <Link onClick={hideSideBar} to={"/"}>
@@ -597,7 +626,7 @@ const Menu = () => {
                   </Link>
                 </h3>
               </li>
-            </span>
+            </span> */}
           </ul>
           <ul className="serviceDrop">
             <h2>
@@ -611,13 +640,13 @@ const Menu = () => {
               <Link onClick={hideSideBar} to={"/"}>
                 Translation
               </Link>
-              <FontAwesomeIcon
+              {/* <FontAwesomeIcon
                 onClick={handleDropDown7}
                 icon={faAngleDown}
                 className="respDropIcon"
-              ></FontAwesomeIcon>
+              ></FontAwesomeIcon> */}
             </h2>
-            <span className="respMenuSpan" ref={dropRef7}>
+            {/* <span className="respMenuSpan" ref={dropRef7}>
               <li>
                 <h3>
                   <Link onClick={hideSideBar} to={"/"}>
@@ -632,7 +661,7 @@ const Menu = () => {
                   </Link>
                 </h3>
               </li>
-            </span>
+            </span> */}
           </ul>
           <ul className="serviceDrop">
             <h2>

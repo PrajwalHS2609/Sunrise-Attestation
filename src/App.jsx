@@ -45,6 +45,18 @@ import MarriageCertApostille from "./Components/ApostillePages/MarriageCertApost
 import DegreeCertAttestation from "./Components/AttestationPage/DegreeCertAttestation/DegreeCertAttestation";
 import WesPage from "./Components/WesPage/WesPage";
 import TranslationPage from "./Components/TranslationPage/TranslationPage";
+import PccPage from "./Components/PccPage/PccPage";
+import OmanPccPage from "./Components/PccPage/OmanPcc/OmanPccPage";
+import KuwaitPccPage from "./Components/PccPage/KuwaitPcc/KuwaitPccPage";
+import SaudiPccPage from "./Components/PccPage/SaudiPcc/SaudiPccPage";
+import UaePccPage from "./Components/PccPage/UaePcc/UaePccPage";
+import QatarPccPage from "./Components/PccPage/QatarPcc/QatarPccPage";
+import KaranatakaHrdPage from "./Components/HrdPage/KaranatakaHrd/KaranatakaHrdPage";
+import AndhraHrdPage from "./Components/HrdPage/AndhraHrd/AndhraHrdPage";
+import TamilNaduHrdPage from "./Components/HrdPage/TamilNaduHrd/TamilNaduHrdPage";
+import MaharastraHrdPage from "./Components/HrdPage/MaharastraHrd/MaharastraHrdPage";
+import KeralaHrdPage from "./Components/HrdPage/KeralaHrd/KeralaHrdPage";
+import TelanganaHrdPage from "./Components/HrdPage/TelanganaHrd/TelanganaHrdPage";
 
 const App = () => {
   return (
@@ -163,12 +175,37 @@ const App = () => {
             path="/state-hrd-home-department-attestation"
             element={<HrdPage />}
           />
+          <Route
+            path="/karanataka-hrd-home-department-attestation"
+            element={<KaranatakaHrdPage />}
+          />
+          <Route
+            path="/tamil-nadu-hrd-home-department-attestation"
+            element={<TamilNaduHrdPage />}
+          />
+          <Route
+            path="/andhra-pradesh-hrd-home-department-attestation"
+            element={<AndhraHrdPage />}
+          />
+          <Route
+            path="/maharastra-hrd-home-department-attestation"
+            element={<MaharastraHrdPage />}
+          />
+          <Route
+            path="/kerala-hrd-home-department-attestation"
+            element={<KeralaHrdPage />}
+          />
+              <Route
+            path="/telangana-hrd-home-department-attestation"
+            element={<TelanganaHrdPage />}
+          />
+
           <Route path="/mofa-attestation-services" element={<MofaPage />} />
           <Route
             path="/mea-attestaion-apostille-services"
             element={<MeaPage />}
           />
-              <Route
+          <Route
             path="/degree-certificate-attestation-bangalore"
             element={<DegreeCertAttestation />}
           />
@@ -192,17 +229,35 @@ const App = () => {
             path="/birth-certificate-apostille-bangalore"
             element={<BirthCertApostille />}
           />
-            <Route
+          <Route
             path="/marriage-certificate-apostille-bangalore"
             element={<MarriageCertApostille />}
           />
-                <Route
-            path="/wes-attestation-bangalore"
-            element={<WesPage />}
-          />
-                 <Route
+          <Route path="/wes-attestation-bangalore" element={<WesPage />} />
+          <Route
             path="/translation-attestation-bangalore"
             element={<TranslationPage />}
+          />
+          <Route path="/pcc-attestation-bangalore" element={<PccPage />} />
+          <Route
+            path="/oman-pcc-attestation-bangalore"
+            element={<OmanPccPage />}
+          />
+          <Route
+            path="/kuwait-pcc-attestation-bangalore"
+            element={<KuwaitPccPage />}
+          />
+          <Route
+            path="/saudi-pcc-attestation-bangalore"
+            element={<SaudiPccPage />}
+          />
+          <Route
+            path="/uae-pcc-attestation-bangalore"
+            element={<UaePccPage />}
+          />
+          <Route
+            path="/qatar-pcc-attestation-bangalore"
+            element={<QatarPccPage />}
           />
         </Routes>
 

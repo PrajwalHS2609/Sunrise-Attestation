@@ -8,6 +8,13 @@ import PccChallenge from './PccChallenge/PccChallenge'
 import PccOverCome from './PccOverCome/PccOverCome'
 import ImpEachStep from './ImpEachStep/ImpEachStep'
 import PccUse from './PccUse/PccUse'
+import PccExp from './PccExp/PccExp';
+import HomeLink from '../HomePage/HomeLink.jsx/HomeLink'
+import HomeMarquee from '../Marquee/HomeMarquee'
+import OurServices from '../HomePage/OurServices/OurServices'
+import Benefits from '../Benefits/Benefits'
+import Review from '../Review/Review'
+import Faq from '../HomePage/Faq/Faq'
 
 const PccPage = () => {
   return (
@@ -22,6 +29,12 @@ const PccPage = () => {
       <PccExp/>
       <ImpEachStep/>
       <PccUse/>
+      <HomeLink />
+      <HomeMarquee />
+      <OurServices />
+      <Benefits />
+      <Review />
+      <Faq />
     </div>
   )
 }
