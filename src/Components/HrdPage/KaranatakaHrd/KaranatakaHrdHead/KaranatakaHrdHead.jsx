@@ -1,5 +1,6 @@
 import React from 'react'
-
+import karanatakaHrd from "./../../../../vid&img/Hrd/KarnatakaHrd.png";
+import "./KaranatakaHrdHead.css"
 const KaranatakaHrdHead = () => {
   return (
     <div className="kaHeadContainer">
@@ -8,7 +9,7 @@ const KaranatakaHrdHead = () => {
       HRD Attestation in Karnataka by <span>Goodway Attestation</span>
       </h2>
     </div>
-    <img src="" alt="keralaHrd" />
+    <img src={karanatakaHrd} alt="karanatakaHrd" />
   </div>
   )
 }

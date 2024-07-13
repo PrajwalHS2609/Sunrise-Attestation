@@ -7,10 +7,12 @@ import OurServices from "../../HomePage/OurServices/OurServices";
 import Benefits from "../../Benefits/Benefits";
 import Review from "../../Review/Review";
 import Faq from "../../HomePage/Faq/Faq";
+import KeralaHead from "./KeralaHead";
 
 const KeralaHrdPage = () => {
   return (
     <div className="karanatakaHrdContainer">
+      <KeralaHead/>
       <KaranatakaHrdWhat/>
       <WhyHrd/>
       <HomeLink />
