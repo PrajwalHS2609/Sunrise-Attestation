@@ -13,6 +13,7 @@ import NetherlandBlore from "./NetherlandBlore/NetherlandBlore";
 import NetherlandReq from './NetherlandReq/NetherlandReq';
 import NetherlandBloreCert from "./NetherlandBloreCert/NetherlandBloreCert";
 import NetherlandFaq from "./NetherlandFaq/NetherlandFaq";
+import NetherlandSeo from "./NetherlandSeo/NetherlandSeo";
 
 const NetherlandAttestation = () => {
   return (
@@ -26,6 +27,7 @@ const NetherlandAttestation = () => {
       {/* <NetherlandService /> */}
       <NetherlandBloreCert/>
       <NetherlandBlore />
+      <NetherlandSeo/>
       <NetherlandReq />
       <HomeLink />
       <HomeMarquee />

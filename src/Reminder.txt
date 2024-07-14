@@ -1,7 +1,8 @@
-navnbar  dropdown in  responsive error
-WhyBlock txt bring it to left
 whyblock make it responsive
 change name of marquee to Homeflag and homeflags to homeEmbassy
 making all padding to 50px
 add whyblockblock to all pages
 add countries card to pcc
+check responsive  of contact us page
+contact us img should be changed to flags
+

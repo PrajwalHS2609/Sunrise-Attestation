@@ -14,6 +14,7 @@ import LithuaniaHeading from "./LithuaniaHeading/LithuaniaHeading";
 import LithuaniaReq from "./LithuaniaReq/LithuaniaReq";
 import LithuaniaBloreCert from "./LithuaniaBloreCert/LithuaniaBloreCert";
 import LithuaniaFaq from "./LithuaniaFaq/LithuaniaFaq";
+import LithuaniaSeo from "./LithuaniaSeo/LithuaniaSeo";
 
 const LithuaniaAttestation = () => {
   return (
@@ -26,6 +27,7 @@ const LithuaniaAttestation = () => {
       {/* <LithuaniaService /> */}
       <LithuaniaBloreCert/>
       <LithuaniaBlore />
+      <LithuaniaSeo/>
       <LithuaniaReq />
       <HomeLink />
       <HomeMarquee />

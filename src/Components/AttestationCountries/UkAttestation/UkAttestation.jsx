@@ -15,6 +15,7 @@ import UkBlore from "./UkBlore/UkBlore";
 import UkReq from "./UkReq/UkReq";
 import UkBloreCert from "./UkBloreCert/UkBloreCert";
 import UkFaq from "./UkFaq/UkFaq";
+import UkSeo from "./UkSeo/UkSeo";
 
 const UkAttestation = () => {
   return (
@@ -27,6 +28,7 @@ const UkAttestation = () => {
       {/* <UkService /> */}
       <UkBloreCert/>
       <UkBlore />
+      <UkSeo/>
       <UkReq />
       <HomeLink />
       <HomeMarquee />

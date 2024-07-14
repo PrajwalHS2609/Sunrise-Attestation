@@ -14,6 +14,7 @@ import MexicoCard from "./MexicoCard/MexicoCard";
 import MexicoReq from "./MexicoReq/MexicoReq";
 import MexicoBloreCert from "./MexicoBloreCert/MexicoBloreCert";
 import MexicoFaq from "./MexicoFaq/MexicoFaq";
+import MexicoSeo from "./MexicoSeo/MexicoSeo";
 
 const MexicoAttestation = () => {
   return (
@@ -26,6 +27,7 @@ const MexicoAttestation = () => {
       {/* <MexicoService /> */}
       <MexicoBloreCert />
       <MexicoBlore />
+      <MexicoSeo/>
       <MexicoReq />
       {/* <MexicoAbout /> */}
       <HomeLink />

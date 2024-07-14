@@ -15,6 +15,7 @@ import FranceCard from './FranceCard/FranceCard';
 import FranceCertificate from './FranceCertificate/FranceCertificate';
 import FranceBloreCert from "./FranceBloreCert/FranceBloreCert";
 import FranceFaq from "./FranceFaq/FranceFaq";
+import FranceSeo from "./FranceSeo/FranceSeo";
 
 const FranceAttestation = () => {
   return (
@@ -28,6 +29,7 @@ const FranceAttestation = () => {
       <FranceService/>
       <FranceBloreCert/>
       <FranceBlore/>
+      <FranceSeo/>
       <FranceReq/>
       <HomeLink />
       <HomeMarquee />

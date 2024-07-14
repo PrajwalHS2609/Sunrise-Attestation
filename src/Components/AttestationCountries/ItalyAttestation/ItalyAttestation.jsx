@@ -15,6 +15,7 @@ import ItalyBlore from './ItalyBlore/ItalyBlore';
 import ItalyReq from './ItalyReq/ItalyReq';
 import ItalyBloreCert from './ItalyBloreCert/ItalyBloreCert';
 import ItalyFaq from "./ItalyFaq/ItalyFaq";
+import ItalySeo from "./ItalySeo/ItalySeo";
 
 const ItalyAttestation = () => {
   return (
@@ -27,6 +28,7 @@ const ItalyAttestation = () => {
       {/* <ItalyService /> */}
       <ItalyBloreCert/>
       <ItalyBlore />
+      <ItalySeo/>
       <ItalyReq />
       {/* <ItalyAbout /> */}
       <HomeLink />

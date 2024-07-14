@@ -14,6 +14,7 @@ import WhyBlock from "../../WhyBlock/WhyBlock";
 import UsaMofa from "./UsaMofa/UsaMofa";
 import UsaBloreCert from "./UsaBloreCert/UsaBloreCert";
 import UsaFaq from "./UsaFaq/UsaFaq";
+import UsaSeo from "./UsaSeo/UsaSeo";
 // import UsaService from "./UsaService/UsaService";
 
 const UsaAttestation = () => {
@@ -27,6 +28,7 @@ const UsaAttestation = () => {
       {/* <UsaService /> */}
       <UsaBloreCert/>
       <UsaBlore />
+      <UsaSeo/>
       <UsaReq />
       <HomeLink />
       <HomeMarquee />

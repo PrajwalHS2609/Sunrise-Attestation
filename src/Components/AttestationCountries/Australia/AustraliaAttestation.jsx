@@ -15,6 +15,7 @@ import AustraliaReq from './AustraliaReq/AustraliaReq';
 import AustraliaService from "./AustraliaService/AustraliaService";
 import AustraliaBloreCert from "./AustraliaBloreCert/AustraliaBloreCert";
 import AustraliaFaq from "./AustraliaFaq/AustraliaFaq";
+import AustraliaSeo from "./AustraliaSeo/AustraliaSeo";
 
 const AustraliaAttestation = () => {
   return (
@@ -27,6 +28,7 @@ const AustraliaAttestation = () => {
       <AustraliaService/>
       <AustraliaBloreCert/>
       <AustraliaBlore/>
+      <AustraliaSeo/>
       <AustraliaReq/>
       <HomeLink />
       <HomeMarquee />

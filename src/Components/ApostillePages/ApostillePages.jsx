@@ -9,12 +9,14 @@ import Review from "../Review/Review";
 import Faq from "../HomePage/Faq/Faq";
 import ApostilleEdu from "./ApostilleEdu/ApostilleEdu";
 import ApostilleBloreCert from "./ApostilleBloreCert/ApostilleBloreCert";
+import ApostilleSeo from "./ApostilleSeo/ApostilleSeo";
 const ApostillePages = () => {
   return (
     <div className="AttestationPageContainer">
       <ApostilleFlagsMain />
       <ApostilleEdu/>
       <ApostilleBloreCert/>
+      <ApostilleSeo/>
       <HomeLink />
       <HomeMarquee />
       <OurServices />
