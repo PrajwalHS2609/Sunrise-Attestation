@@ -2,11 +2,9 @@ import React from "react";
 import "./ContactUs.css";
 import ContactUsCard from "./ContactUsCard";
 import bangalore from "./../../vid&img/ContactUs/Bangalore.png";
-import delhi from "./../../vid&img/ContactUs/Delhi.png";
-import mumbai from "./../../vid&img/ContactUs/Mumbai.png";
 import oman from "./../../vid&img/ContactUs/Oman.png";
 import uae from "./../../vid&img/ContactUs/UAE.png";
-import chennai from "./../../vid&img/ContactUs/Chennai.png";
+
 import ContactUsForm from "./ContactUsForm/ContactUsForm";
 
 const ContactUsMain = () => {
@@ -16,57 +14,31 @@ const ContactUsMain = () => {
         <div className="contactUsCover">
           <ContactUsCard
             img={bangalore}
-            alt="bangalore"
-            address=""
-            emailLink=""
-            email=""
-            phoneLink=""
-            phoneNo=""
+            alt="india"
+            address="134, 1st Floor, Temple Street, Malleshwaram, Bengaluru."
+            emailLink="mailto:info@goodwayattestaion.com"
+            email="info@goodwayattestaion.com"
+            phoneLink="tel:9148889666"
+            phoneNo="9148889666"
           />
-          <ContactUsCard
-            img={delhi}
-            alt="delhi"
-            address=""
-            emailLink=""
-            email=""
-            phoneLink=""
-            phoneNo=""
-          />
-          <ContactUsCard
-            img={mumbai}
-            alt="mumbai"
-            address=""
-            emailLink=""
-            email=""
-            phoneLink=""
-            phoneNo=""
-          />
+
           <ContactUsCard
             img={oman}
             alt="oman"
-            address=""
-            emailLink=""
-            email=""
-            phoneLink=""
-            phoneNo=""
+            address="No 60, 6th Floor building No: 108 Toto Building, Al Ghubra, Muscat, Sultanate of Oman"
+            emailLink="mailto:omangoodway@gmail.com"
+            email="omangoodway@gmail.com"
+            phoneLink="tel:+91 9148889444"
+            phoneNo="9148889444"
           />
           <ContactUsCard
             img={uae}
             alt="uae"
-            address=""
-            emailLink=""
-            email=""
-            phoneLink=""
-            phoneNo=""
-          />
-          <ContactUsCard
-            img={chennai}
-            alt="chennai"
-            address=""
-            emailLink=""
-            email=""
-            phoneLink=""
-            phoneNo=""
+            address=" Anfar Al Falaj Building, Opp to Rak bank, Rolla,Sharjah United Arab Emirates"
+            emailLink="mailto:uaegoodway@gmail.com"
+            email="uaegoodway@gmail.com"
+            phoneLink="tel:9148889666"
+            phoneNo="9148889666"
           />
         </div>
         <img
@@ -74,7 +46,9 @@ const ContactUsMain = () => {
           alt="contactUs"
         />
       </div>
-      <div className="contactMainContent"><ContactUsForm/></div>
+      <div className="contactMainContent">
+        <ContactUsForm />
+      </div>
     </div>
   );
 };
