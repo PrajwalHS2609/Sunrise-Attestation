@@ -11,11 +11,13 @@ import MaharastraHead from "./MaharastraHead";
 import MaharastraHeadContent from "./MaharastraHeadContent";
 import HrdProcess from "./HrdProcess";
 import HrdDocs from "./HrdDocs";
+import WhyBlock from "../../WhyBlock/WhyBlock";
 
 const MaharastraHrdPage = () => {
   return (
     <div className="karanatakaHrdContainer">
       <MaharastraHead/>
+      <WhyBlock />
       <MaharastraHeadContent/>
       <KaranatakaHrdWhat />
       <WhyHrd />

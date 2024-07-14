@@ -15,11 +15,13 @@ import KuwaitPccUse from "./KuwaitPccUse";
 import KuwaitPccOvercome from "./KuwaitPccOvercome";
 import KuwaitPccChallenges from "./KuwaitPccChallenges";
 import KuwaitPccHead from "./KuwaitPccHead";
+import WhyBlock from "../../WhyBlock/WhyBlock";
 
 const KuwaitPccPage = () => {
   return (
     <div className="pccPageContainer">
       <KuwaitPccHead/>
+      <WhyBlock/>
       <KuwaitPccIntro />
       <KuwaitPccImp />
       <WhatIs />

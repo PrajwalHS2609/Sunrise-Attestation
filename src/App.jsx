@@ -180,11 +180,11 @@ const App = () => {
             element={<KaranatakaHrdPage />}
           />
           <Route
-            path="/tamil-nadu-hrd-home-department-attestation"
+            path="/tamilnadu-hrd-home-department-attestation"
             element={<TamilNaduHrdPage />}
           />
           <Route
-            path="/andhra-pradesh-hrd-home-department-attestation"
+            path="/andhrapradesh-hrd-home-department-attestation"
             element={<AndhraHrdPage />}
           />
           <Route

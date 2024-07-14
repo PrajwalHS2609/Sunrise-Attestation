@@ -8,6 +8,7 @@ import {
   faX,
 } from "@fortawesome/free-solid-svg-icons";
 import { Link } from "react-router-dom";
+import { NavHashLink } from "react-router-hash-link";
 
 const Menu = () => {
   let [drop, setDrop] = useState(false);
@@ -183,12 +184,36 @@ const Menu = () => {
               className="menuIcon"
             ></FontAwesomeIcon>
             <div className="menuDrop">
-              <li>Karnataka</li>
-              <li>TamilNadu</li>
-              <li>Kerala</li>
-              <li>Maharastra</li>
-              <li>Andhra Pradesh</li>
-              <li>Telengana</li>
+              <li>
+                <Link to={"/karanataka-hrd-home-department-attestation"}>
+                  Karnataka
+                </Link>
+              </li>
+              <li>
+                <Link to={"/tamilnadu-hrd-home-department-attestation"}>
+                  Tamil Nadu
+                </Link>
+              </li>
+              <li>
+                <Link to={"/kerala-hrd-home-department-attestation"}>
+                  Kerala
+                </Link>
+              </li>
+              <li>
+                <Link to={"/maharastra-hrd-home-department-attestation"}>
+                  Maharastra
+                </Link>
+              </li>
+              <li>
+                <Link to={"/andhrapradesh-hrd-home-department-attestation"}>
+                  Andhra Pradesh
+                </Link>
+              </li>
+              <li>
+                <Link to={"/telangana-hrd-home-department-attestation"}>
+                  Telangana
+                </Link>
+              </li>
             </div>
           </li>
           <li>
@@ -198,30 +223,107 @@ const Menu = () => {
               className="menuIcon"
             ></FontAwesomeIcon>
             <div className="menuDrop">
-              <li>Certificate Of Incorporation</li>
-              <li>Memorandum of Association</li>
-              <li>Memorandum of Association Power of Attorney</li>
-              <li>Board Resolution</li>
-              <li>Export Invoice</li>
-              <li>Packaging list</li>
-              <li>Certificate of Origin</li>
-              <li>Chemical Analysis Report</li>
-              <li>Physical Analysis Report</li>
-              <li>Articles of Association</li>
+              <li>
+                <NavHashLink
+                  smooth
+                  to="/mofa-attestation-services/#mofaCertIncorp"
+                >
+                  Certificate Of Incorporation
+                </NavHashLink>
+              </li>
+              <li>
+                {" "}
+                <NavHashLink smooth to="/mofa-attestation-services/#memorandum">
+                  Memorandum of Association
+                </NavHashLink>
+              </li>
+              {/* <li>
+                {" "}
+                <NavHashLink smooth to="/mofa-attestation-services/#memorandum">
+                  Memorandum of Association Power of Attorney{" "}
+                </NavHashLink>
+              </li> */}
+              {/* <li>
+                {" "}
+                <NavHashLink smooth to="/mofa-attestation-services/#memorandum">
+                  Board Resolution
+                </NavHashLink>
+              </li> */}
+              <li>
+                {" "}
+                <NavHashLink
+                  smooth
+                  to="/mofa-attestation-services/#exportInvoice"
+                >
+                  Export Invoice
+                </NavHashLink>
+              </li>
+              <li>
+                {" "}
+                <NavHashLink
+                  smooth
+                  to="/mofa-attestation-services/#packagingList"
+                >
+                  Packaging list
+                </NavHashLink>
+              </li>
+              <li>
+                {" "}
+                <NavHashLink
+                  smooth
+                  to="/mofa-attestation-services/#certOfOrigin"
+                >
+                  Certificate of Origin
+                </NavHashLink>
+              </li>
+              <li>
+                {" "}
+                <NavHashLink
+                  smooth
+                  to="/mofa-attestation-services/#chemAnalysis"
+                >
+                  Chemical Analysis Report
+                </NavHashLink>
+              </li>
+              <li>
+                {" "}
+                <NavHashLink
+                  smooth
+                  to="/mofa-attestation-services/#phyAnalysis"
+                >
+                  Physical Analysis Report
+                </NavHashLink>
+              </li>
+              <li>
+                {" "}
+                <NavHashLink smooth to="/mofa-attestation-services/#article">
+                  Articles of Association
+                </NavHashLink>
+              </li>
             </div>
           </li>
           <li>
-            PCC
+            <Link to={"/pcc-attestation-bangalore"}>PCC</Link>
             <FontAwesomeIcon
               icon={faAngleDown}
               className="menuIcon"
             ></FontAwesomeIcon>
             <div className="menuDrop">
-              <li>Oman PCC</li>
-              <li>Kuwait PCC</li>
-              <li>Saudi PCC</li>
-              <li>Qatar PCC</li>
-              <li>UAE PCC</li>
+              <li>
+                <Link to="/oman-pcc-attestation-bangalore">Oman PCC</Link>
+              </li>
+              <li>
+                <Link to="/kuwait-pcc-attestation-bangalore">Kuwait PCC</Link>
+              </li>
+              <li>
+                <Link to="/saudi-pcc-attestation-bangalore">Saudi PCC</Link>
+              </li>
+              <li>
+                <Link to="/qatar-pcc-attestation-bangalore">Qatar PCC</Link>
+              </li>
+              <li>
+                <Link to="/uae-pcc-attestation-bangalore">UAE PCC</Link>
+              </li>
             </div>
           </li>
           <li>
@@ -235,7 +337,7 @@ const Menu = () => {
               <li>MEA Apostille</li>
             </div> */}
           </li>
-          <li>WES</li>
+          <li><Link to={"/wes-attestation-bangalore"}>WES</Link></li>
           <li>
             <Link to={"/translation-attestation-bangalore"}>Translation</Link>
             {/* <FontAwesomeIcon
@@ -320,7 +422,7 @@ const Menu = () => {
                 <h3>
                   <Link
                     onClick={hideSideBar}
-                    to={"//commercial-documents-attestation-bangalore"}
+                    to={"/commercial-documents-attestation-bangalore"}
                   >
                     Commercial Documents
                   </Link>

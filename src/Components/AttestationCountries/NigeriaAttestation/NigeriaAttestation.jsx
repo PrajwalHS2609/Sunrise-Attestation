@@ -14,6 +14,7 @@ import NigeriaCertificate from './NigeriaCertificate/NigeriaCertificate';
 import NigeriaMofa from './NigeriaMofa/NigeriaMofa';
 import NigeriaBlore from './NigeriaBlore/NigeriaBlore';
 import NigeriaReq from './NigeriaReq/NigeriaReq';
+import NigeriaSeo from "./NigeriaSeo/NigeriaSeo";
 
 const NigeriaAttestation = () => {
   return (
@@ -25,6 +26,7 @@ const NigeriaAttestation = () => {
       <NigeriaMofa />
       <NigeriaService/>
       <NigeriaBlore />
+      <NigeriaSeo/>
       <NigeriaReq />
       {/* <NigeriaAbout /> */}
       <HomeLink />

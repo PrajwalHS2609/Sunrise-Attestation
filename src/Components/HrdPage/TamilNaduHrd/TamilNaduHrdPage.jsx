@@ -11,11 +11,13 @@ import HrdProcess from "./HrdProcess";
 import HrdDocs from "./HrdDocs";
 import TamilNaduHeadContent from "./TamilNaduHeadContent";
 import TamilHead from "./TamilHead";
+import WhyBlock from "../../WhyBlock/WhyBlock";
 
 const TamilNaduHrdPage = () => {
   return (
     <div className="karanatakaHrdContainer">
       <TamilHead />
+      <WhyBlock />
       <TamilNaduHeadContent />
       <KaranatakaHrdWhat />
       <WhyHrd />

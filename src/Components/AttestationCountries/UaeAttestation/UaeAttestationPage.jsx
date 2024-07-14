@@ -15,6 +15,7 @@ import OurServices from "../../HomePage/OurServices/OurServices";
 import Benefits from "../../Benefits/Benefits";
 import Review from "../../Review/Review";
 import UaeFaq from "./UaeFaq/UaeFaq";
+import UaeSeo from "./UaeSeo/UaeSeo";
 
 
 const UaeAttestationPage = () => {
@@ -27,6 +28,7 @@ const UaeAttestationPage = () => {
       <UaeMofa />
       <UaeService />
       <UaeBlore />
+      <UaeSeo/>
       <UaeReq />
       <UaeAbout />
       <HomeLink />

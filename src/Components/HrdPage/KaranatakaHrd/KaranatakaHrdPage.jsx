@@ -12,10 +12,12 @@ import KaranatakaHrdWhat from "./KaranatakaHrdWhat/KaranatakaHrdWhat";
 import WhyHrd from "./WhyKaranatakaHrd/WhyHrd";
 import HrdProcess from "./HrdProcess/HrdProcess";
 import HrdDocs from "./HrdDocs/HrdDocs";
+import WhyBlock from "../../WhyBlock/WhyBlock";
 const KaranatakaHrdPage = () => {
   return (
     <div className="karanatakaHrdContainer">
       <KaranatakaHrdHead />
+      <WhyBlock />
       <KaranatakaHrdHeadContent />
       <KaranatakaHrdWhat />
       <WhyHrd/>

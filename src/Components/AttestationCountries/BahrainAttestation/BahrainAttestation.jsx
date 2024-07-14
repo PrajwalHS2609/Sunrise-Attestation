@@ -14,6 +14,7 @@ import Benefits from "../../Benefits/Benefits";
 import Review from "../../Review/Review";
 import WhyBlock from "../../WhyBlock/WhyBlock";
 import BahrainFaq from "./BahrainFaq/BahrainFaq";
+import BahrainSeo from "./BahrainSeo/BahrainSeo";
 
 const BahrainAttestation = () => {
   return (
@@ -24,6 +25,7 @@ const BahrainAttestation = () => {
       <BahrainCertificate />
       <BahrainMofa />
       <BahrainBlore />
+      <BahrainSeo/>
       <BahrainReq />
       <BahrainAbout />
       <HomeLink />

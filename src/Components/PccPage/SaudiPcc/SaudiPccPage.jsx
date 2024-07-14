@@ -15,11 +15,13 @@ import SaudiPccUse from "./SaudiPccUse";
 import WhatIsSaudi from "./WhatIsSaudi";
 import SaudiPccProcedure from "./SaudiPccProcedure";
 import SaudiHead from "./SaudiHead";
+import WhyBlock from "../../WhyBlock/WhyBlock";
 
 const SaudiPccPage = () => {
   return (
     <div className="pccPageContainer">
       <SaudiHead/>
+      <WhyBlock/>
       <SaudiPccIntro />
       <SaudiPccImp />
       <WhatIsSaudi />

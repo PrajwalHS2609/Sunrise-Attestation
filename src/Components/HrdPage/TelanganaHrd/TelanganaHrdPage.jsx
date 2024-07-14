@@ -11,11 +11,13 @@ import TelanganaHead from "./TelanganaHead";
 import TelanganaHeadContent from "./TelanganaHeadContent";
 import HrdProcess from "./HrdProcess";
 import HrdDocs from "./HrdDocs";
+import WhyBlock from "../../WhyBlock/WhyBlock";
 
 const TelanganaHrdPage = () => {
   return (
     <div className="karanatakaHrdContainer">
       <TelanganaHead/>
+      <WhyBlock />
       <TelanganaHeadContent/>
       <KaranatakaHrdWhat />
       <HrdProcess/>

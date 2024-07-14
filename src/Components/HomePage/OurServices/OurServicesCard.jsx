@@ -1,10 +1,11 @@
 import React from "react";
 import "./OurServices.css";
+import { Link } from "react-router-dom";
 
 const OurServicesCard = (props) => {
   return (
     <div className="ourServicesCardContainer">
-      <a href="/">
+      <Link to={props.link}>
         <div className="ourServicesCardCover">
           <div className="ourServicesCardPara">
             <p>{props.para}</p>
@@ -18,7 +19,7 @@ const OurServicesCard = (props) => {
           <h3>{props.head}</h3>
 
         </div>
-      </a>
+      </Link>
     </div>
   );
 };

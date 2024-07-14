@@ -8,11 +8,13 @@ import TranslationServ from "./TranslationServ/TranslationServ";
 import TranslationTypes from "./TranslationTypes/TranslationTypes";
 import TranslationDocs from "./TranslationDocs/TranslationDocs";
 import TranslationProcess from "./TranslationProcess/TranslationProcess";
+import WhyBlock from "../WhyBlock/WhyBlock";
 
 const TranslationPage = () => {
   return (
     <div className="translationContainer">
       <TranslationHead />
+      <WhyBlock />
       <TranslationHeadContent />
       <TranslationImp />
       <TranslationCert />

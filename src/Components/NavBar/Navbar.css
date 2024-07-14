@@ -21,7 +21,12 @@
   border-radius: 10px;
   margin-left: 10px;
 }
-.logoContainer > img {
+.logoContainer > a{
+  width: 100%;  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.logoContainer > a > img {
   width: 80%;
   height: 90%;
 }

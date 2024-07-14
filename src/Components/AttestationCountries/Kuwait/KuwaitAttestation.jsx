@@ -13,6 +13,7 @@ import KuwaitMofa from './KuwaitMofa/KuwaitMofa';
 import KuwaitBlore from './KuwaitBlore/KuwaitBlore';
 import KuwaitReq from "./KuwaitReq/KuwaitReq";
 import KuwaitFaq from './KuwaitFaq/KuwaitFaq';
+import KuwaitSeo from "./KuwaitSeo/KuwaitSeo";
 
 const KuwaitAttestation = () => {
   return (
@@ -23,6 +24,7 @@ const KuwaitAttestation = () => {
       <KuwaitCertificate/>
       <KuwaitMofa/>
       <KuwaitBlore/>
+      <KuwaitSeo/>
       <KuwaitReq/>
       <HomeLink />
       <HomeMarquee />

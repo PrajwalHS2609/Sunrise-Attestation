@@ -12,6 +12,7 @@ import EgyptMofa from './EgyptMofa/EgyptMofa';
 import EgyptCard from './EgyptCard/EgyptCard';
 import EgyptCertificate from "./EgyptCertificate/EgyptCertificate";
 import WhyBlock from "../../WhyBlock/WhyBlock";
+import EgyptSeo from "./EgyptSeo/EgyptSeo";
 
 const EgyptAttestation = () => {
   return (
@@ -22,6 +23,8 @@ const EgyptAttestation = () => {
       <EgyptCertificate/>
       <EgyptMofa/>
       <EgyptBlore/>
+      <EgyptSeo/>
+      <EgyptSeo/>
       <HomeLink />
       <HomeMarquee />
       <OurServices />

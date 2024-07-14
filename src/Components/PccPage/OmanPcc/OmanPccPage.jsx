@@ -15,11 +15,13 @@ import OmanPccChallenges from "./OmanPccChallenges";
 import OmanPccUse from "./OmanPccUse";
 import OmanPccOvercome from "./OmanPccOvercome";
 import OmanPccHead from "./OmanPccHead";
+import WhyBlock from "../../WhyBlock/WhyBlock";
 
 const OmanPccPage = () => {
   return (
     <div className="pccPageContainer">
       <OmanPccHead/>
+      <WhyBlock/>
         <OmanPccIntro/>
         <OmanPccImp/>
         <WhatIs/>

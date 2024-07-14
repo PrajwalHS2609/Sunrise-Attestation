@@ -16,11 +16,13 @@ import QatarPccExp from "./QatarPccExp";
 import ImpEachStep from "../ImpEachStep/ImpEachStep";
 import QatarPccUse from "./QatarPccUse";
 import QatarPccHead from "./QatarPccHead";
+import WhyBlock from "../../WhyBlock/WhyBlock";
 
 const QatarPccPage = () => {
   return (
     <div className="pccPageContainer">
       <QatarPccHead/>
+      <WhyBlock/>
       <QatarPccIntro />
       <QatarPccImp />
       <WhatIsQatarPcc />

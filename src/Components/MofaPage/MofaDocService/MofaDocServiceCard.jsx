@@ -3,7 +3,7 @@ import "./MofaDocService";
 
 const MofaDocServiceCard = (props) => {
   return (
-    <div className="docServCardContainer">
+    <div className="docServCardContainer" id={props.id}>
       <h3>
         <span>{props.span}</span> {props.head}
       </h3>

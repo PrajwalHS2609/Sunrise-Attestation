@@ -14,6 +14,7 @@ import VietnamService from "./VietnamService/VietnamService";
 import VietnamBlore from "./VietnamBlore/VietnamBlore";
 import VietnamReq from "./VietnamReq/VietnamReq";
 import VietnamFaq from './VietnamFaq/VietnamFaq';
+import VietnamSeo from "./VietnamSeo/VietnamSeo";
 
 const VietnamAttestation = () => {
   return (
@@ -25,6 +26,7 @@ const VietnamAttestation = () => {
       <VietnamMofa />
       <VietnamService />
       <VietnamBlore />
+      <VietnamSeo/>
       <VietnamReq />
       <HomeLink />
       <HomeMarquee />

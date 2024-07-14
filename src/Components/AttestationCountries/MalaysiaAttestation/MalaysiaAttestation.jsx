@@ -13,6 +13,7 @@ import MalaysiaCard from "./MalaysiaCard/MalaysiaCard";
 import WhyBlock from "../../WhyBlock/WhyBlock";
 import MalaysiaHeading from "./MalaysiaHeading/MalaysiaHeading";
 import MalaysiaService from "./MalaysiaService/MalaysiaService";
+import MalaysiaSeo from "./MalaysiaSeo/MalaysiaSeo";
 
 const MalaysiaAttestation = () => {
   return (
@@ -24,6 +25,7 @@ const MalaysiaAttestation = () => {
       <MalaysiaMofa />
       <MalaysiaService />
       <MalaysiaBlore />
+      <MalaysiaSeo/>
       <MalaysiaReq />
       <HomeLink />
       <HomeMarquee />

@@ -2,7 +2,7 @@ import React from "react";
 import "./MofaCertIncop.css";
 const MofaCertIncop = () => {
   return (
-    <div className="mofaCertIncopContainer">
+    <div className="mofaCertIncopContainer" id="mofaCertIncorp">
       <h2>
         Certificate of Incorporation Attestation in Bangalore: Facilitating
         Global Business with <span> Goodway Attestation</span>

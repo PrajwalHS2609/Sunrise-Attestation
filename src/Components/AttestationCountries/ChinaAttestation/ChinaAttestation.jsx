@@ -14,6 +14,7 @@ import ChinaCard from './ChinaCard/ChinaCard';
 import ChinaBlore from "./ChinaBlore/ChinaBlore";
 import ChinaMofa from "./ChinaMofa/ChinaMofa";
 import ChinaFaq from './ChinaFaq/ChinaFaq';
+import ChinaSeo from "./ChinaSeo/ChinaSeo";
 const ChinaAttestation = () => {
   return (
     <div className="uaeAttestationPage">
@@ -23,6 +24,7 @@ const ChinaAttestation = () => {
       <ChinaCertificate />
       <ChinaMofa/>
       <ChinaBlore/>
+      <ChinaSeo/>
       <ChinaReq />
       <ChinaAbout />
       <HomeLink />
