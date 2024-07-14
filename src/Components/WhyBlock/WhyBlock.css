@@ -95,10 +95,14 @@
     gap: 10px;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) and (max-width:1400px) {
+  .whyBlockContainer {
+    /* border: solid red; */
+    top: 180px;
+  }
   .whyBlockMainContainer {
     /* border: solid green; */
-    min-width: 350px;
+    min-width: 400px;
   }
   .whyBlockCardContent1 {
     width: 80px;

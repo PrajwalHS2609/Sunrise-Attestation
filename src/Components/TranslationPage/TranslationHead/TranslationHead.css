@@ -28,9 +28,11 @@
   object-position: 0 -100px;
 }
 .transHeadCover > h2 {
+  /* border: solid blue; */
   font-size: 30px;
   color: var(--customColor2);
   text-align: center;
+  width: 50%;
 }
 .transHeadCover > h2 > span {
   color: var(--customColor1);
