@@ -99,8 +99,18 @@ const HomeMarquee = () => {
           name="Netherland"
           link="/netherland-apostille-attestation-bangalore"
         />
-        <HomeMarqueeCard img={nigeriaFlag} alt={nigeriaFlag} name="Nigeria" link="nigeria-embassy-attestation-bangalore" />
-        <HomeMarqueeCard img={omanFlag} alt={omanFlag} name="Oman" link="oman-apostille-attestation-bangalore" />
+        <HomeMarqueeCard
+          img={nigeriaFlag}
+          alt={nigeriaFlag}
+          name="Nigeria"
+          link="nigeria-embassy-attestation-bangalore"
+        />
+        <HomeMarqueeCard
+          img={omanFlag}
+          alt={omanFlag}
+          name="Oman"
+          link="oman-apostille-attestation-bangalore"
+        />
         <HomeMarqueeCard
           img={philippinesFlag}
           alt={philippinesFlag}
@@ -131,14 +141,24 @@ const HomeMarquee = () => {
           name="Sweden"
           link="/"
         /> */}
-        <HomeMarqueeCard img={uaeFlag} alt={uaeFlag} name="UAE" link="/" />
+        <HomeMarqueeCard
+          img={uaeFlag}
+          alt={uaeFlag}
+          name="UAE"
+          link="/uae-embassy-attestation-bangalore"
+        />
         <HomeMarqueeCard
           img={ukFlag}
           alt={ukFlag}
           name="United Kingdom"
           link="/uk-apostille-attestation-bangalore"
         />
-        <HomeMarqueeCard img={usaFlag} alt={usaFlag} name="USA" link="/" />
+        <HomeMarqueeCard
+          img={usaFlag}
+          alt={usaFlag}
+          name="USA"
+          link="/usa-apostille-attestation-bangalore"
+        />
         <HomeMarqueeCard
           img={vietnamFlag}
           alt={vietnamFlag}

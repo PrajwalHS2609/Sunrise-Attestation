@@ -350,7 +350,7 @@
     display: none;
   }
 }
-@media screen and (min-width: 1200px) and (max-width:1400px){
+@media screen and (min-width: 1200px) and (max-width:1400px)  {
   .NavContainer {
     /* border: solid; */
     height: 11vh;
@@ -410,7 +410,7 @@
     position: absolute;
     background-color: var(--customColor2);
     width: 230px;
-    top: 75px;
+    top: 60px;
     display: none;
     justify-content: center;
     align-items: center;
