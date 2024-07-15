@@ -122,7 +122,7 @@ const App = () => {
           />
           <Route
             path="/philippines-embassy-attestation-bangalore"
-            element={<PhilippinesAttestation />}
+            element={<PhilippinesAttestation/>}
           />
           <Route
             path="/australia-apostille-attestation-bangalore"

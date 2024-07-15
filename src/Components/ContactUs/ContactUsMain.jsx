@@ -1,9 +1,9 @@
 import React from "react";
 import "./ContactUs.css";
 import ContactUsCard from "./ContactUsCard";
-import bangalore from "./../../vid&img/ContactUs/Bangalore.png";
-import oman from "./../../vid&img/ContactUs/Oman.png";
-import uae from "./../../vid&img/ContactUs/UAE.png";
+import indiaFlag from "./../../vid&img/Countries_Flag/India.jpg";
+import omanFlag from "./../../vid&img/Countries_Flag/Oman.png";
+import uaeFlag from "./../../vid&img/Countries_Flag/UAE.png";
 
 import ContactUsForm from "./ContactUsForm/ContactUsForm";
 
@@ -13,7 +13,7 @@ const ContactUsMain = () => {
       <div className="contactMainContent">
         <div className="contactUsCover">
           <ContactUsCard
-            img={bangalore}
+            img={indiaFlag}
             alt="india"
             address="134, 1st Floor, Temple Street, Malleshwaram, Bengaluru."
             emailLink="mailto:info@goodwayattestaion.com"
@@ -23,7 +23,7 @@ const ContactUsMain = () => {
           />
 
           <ContactUsCard
-            img={oman}
+            img={omanFlag}
             alt="oman"
             address="No 60, 6th Floor building No: 108 Toto Building, Al Ghubra, Muscat, Sultanate of Oman"
             emailLink="mailto:omangoodway@gmail.com"
@@ -32,7 +32,7 @@ const ContactUsMain = () => {
             phoneNo="9148889444"
           />
           <ContactUsCard
-            img={uae}
+            img={uaeFlag}
             alt="uae"
             address=" Anfar Al Falaj Building, Opp to Rak bank, Rolla,Sharjah United Arab Emirates"
             emailLink="mailto:uaegoodway@gmail.com"

@@ -19,7 +19,7 @@ import philippinesFlag from "./../../vid&img/Countries_Flag/philippines.png";
 import qatarFlag from "./../../vid&img/Countries_Flag/Qatar.png";
 import saudiFlag from "./../../vid&img/Countries_Flag/Saudi Arabia.png";
 import taiwanFlag from "./../../vid&img/Countries_Flag/taiwan.png";
-import swedenFlag from "./../../vid&img/Countries_Flag/Sweden.png";
+// import swedenFlag from "./../../vid&img/Countries_Flag/Sweden.png";
 import uaeFlag from "./../../vid&img/Countries_Flag/UAE.png";
 import ukFlag from "./../../vid&img/Countries_Flag/UK.png";
 import usaFlag from "./../../vid&img/Countries_Flag/USA.png";
@@ -37,41 +37,120 @@ const HomeMarquee = () => {
           img={australiaFlag}
           alt={australiaFlag}
           name="Australia"
+          link="/australia-apostille-attestation-bangalore"
         />
-        <HomeMarqueeCard img={austriaFlag} alt={austriaFlag} name="Austria" />
-        <HomeMarqueeCard img={bahrainFlag} alt={bahrainFlag} name="Bahrain" />
-        <HomeMarqueeCard img={egyptFlag} alt={egyptFlag} name="Egypt" />
-        <HomeMarqueeCard img={franceFlag} alt={franceFlag} name="France" />
-        <HomeMarqueeCard img={germanyFlag} alt={germanyFlag} name="Germany" />
-        <HomeMarqueeCard img={italyFlag} alt={italyFlag} name="Italy" />
-        <HomeMarqueeCard img={kuwaitFlag} alt={kuwaitFlag} name="Kuwait" />
+        <HomeMarqueeCard
+          img={austriaFlag}
+          alt={austriaFlag}
+          name="Austria"
+          link="/austria-apostille-attestation-bangalore"
+        />
+        <HomeMarqueeCard
+          img={bahrainFlag}
+          alt={bahrainFlag}
+          name="Bahrain"
+          link="/bahrain-embassy-attestation-bangalore"
+        />
+        <HomeMarqueeCard
+          img={egyptFlag}
+          alt={egyptFlag}
+          name="Egypt"
+          link="/egypt-embassy-attestation-bangalore"
+        />
+        <HomeMarqueeCard
+          img={franceFlag}
+          alt={franceFlag}
+          name="France"
+          link="/france-apostille-attestation-bangalore"
+        />
+        <HomeMarqueeCard
+          img={germanyFlag}
+          alt={germanyFlag}
+          name="Germany"
+          link="/germany-apostille-attestation-bangalore"
+        />
+        <HomeMarqueeCard
+          img={italyFlag}
+          alt={italyFlag}
+          name="Italy"
+          link="/italy-apostille-attestation-bangalore"
+        />
+        <HomeMarqueeCard
+          img={kuwaitFlag}
+          alt={kuwaitFlag}
+          name="Kuwait"
+          link="/kuwait-embassy-attestation-bangalore"
+        />
         <HomeMarqueeCard
           img={malaysiaFlag}
           alt={malaysiaFlag}
           name="Malaysia"
+          link="/malaysia-embassy-attestation-bangalore"
         />
-        <HomeMarqueeCard img={mexicoFlag} alt={mexicoFlag} name="Mexico" />
+        <HomeMarqueeCard
+          img={mexicoFlag}
+          alt={mexicoFlag}
+          name="Mexico"
+          link="/mexico-apostille-attestation-bangalore"
+        />
         <HomeMarqueeCard
           img={netherlandFlag}
           alt={netherlandFlag}
           name="Netherland"
+          link="/netherland-apostille-attestation-bangalore"
         />
-        <HomeMarqueeCard img={nigeriaFlag} alt={nigeriaFlag} name="Nigeria" />
-        <HomeMarqueeCard img={omanFlag} alt={omanFlag} name="Oman" />
+        <HomeMarqueeCard img={nigeriaFlag} alt={nigeriaFlag} name="Nigeria" link="nigeria-embassy-attestation-bangalore" />
+        <HomeMarqueeCard img={omanFlag} alt={omanFlag} name="Oman" link="oman-apostille-attestation-bangalore" />
         <HomeMarqueeCard
           img={philippinesFlag}
           alt={philippinesFlag}
           name="Philippines"
+          link="/philippines-embassy-attestation-bangalore"
         />
-        <HomeMarqueeCard img={qatarFlag} alt={qatarFlag} name="Qatar" />
-        <HomeMarqueeCard img={saudiFlag} alt={saudiFlag} name="Saudi Arabia" />
-        <HomeMarqueeCard img={taiwanFlag} alt={taiwanFlag} name="Taiwan" />
-        <HomeMarqueeCard img={swedenFlag} alt={swedenFlag} name="Sweden" />
-        <HomeMarqueeCard img={uaeFlag} alt={uaeFlag} name="UAE" />
-        <HomeMarqueeCard img={ukFlag} alt={ukFlag} name="United Kingdom" />
-        <HomeMarqueeCard img={usaFlag} alt={usaFlag} name="USA" />
-        <HomeMarqueeCard img={vietnamFlag} alt={vietnamFlag} name="Vietnam" />
-        <HomeMarqueeCard img={chinaFlag} alt={chinaFlag} name="China" />
+        <HomeMarqueeCard
+          img={qatarFlag}
+          alt={qatarFlag}
+          name="Qatar"
+          link="/qatar-embassy-attestation-bangalore"
+        />
+        <HomeMarqueeCard
+          img={saudiFlag}
+          alt={saudiFlag}
+          name="Saudi Arabia"
+          link="/saudi-embassy-attestation-bangalore"
+        />
+        <HomeMarqueeCard
+          img={taiwanFlag}
+          alt={taiwanFlag}
+          name="Taiwan"
+          link="/taiwan-embassy-attestation-bangalore"
+        />
+        {/* <HomeMarqueeCard
+          img={swedenFlag}
+          alt={swedenFlag}
+          name="Sweden"
+          link="/"
+        /> */}
+        <HomeMarqueeCard img={uaeFlag} alt={uaeFlag} name="UAE" link="/" />
+        <HomeMarqueeCard
+          img={ukFlag}
+          alt={ukFlag}
+          name="United Kingdom"
+          link="/uk-apostille-attestation-bangalore"
+        />
+        <HomeMarqueeCard img={usaFlag} alt={usaFlag} name="USA" link="/" />
+        <HomeMarqueeCard
+          img={vietnamFlag}
+          alt={vietnamFlag}
+          name="Vietnam"
+          link="/vietnam-embassy-attestation-bangalore"
+        />
+        <HomeMarqueeCard
+          img={chinaFlag}
+          alt={chinaFlag}
+          name="China"
+          link="/china-embassy-attestation-bangalore"
+        />
       </Marquee>
     </div>
   );

@@ -297,7 +297,7 @@
     transition: 1s ease-in-out;
   }
 }
-@media screen and (min-width: 990px) {
+@media screen and (min-width: 990px) and (max-width:1200px){
   .logoContainer {
     display: none;
   }
@@ -350,7 +350,7 @@
     display: none;
   }
 }
-@media screen and (min-width: 1200px) {
+@media screen and (min-width: 1200px) and (max-width:1400px){
   .NavContainer {
     /* border: solid; */
     height: 11vh;

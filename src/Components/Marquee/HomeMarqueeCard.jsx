@@ -1,15 +1,16 @@
 import React from "react";
 import "./Marquee.css";
+import { Link } from "react-router-dom";
 const HomeMarqueeCard = (props) => {
   return (
     <div className="marqueeCard">
-      <a href="*">
+      <Link to={props.link}>
         <img src={props.img} alt={props.alt} />
 
         <div className="marqueeCover">
           <h3>{props.name}</h3>
         </div>
-      </a>
+      </Link>
     </div>
   );
 };
