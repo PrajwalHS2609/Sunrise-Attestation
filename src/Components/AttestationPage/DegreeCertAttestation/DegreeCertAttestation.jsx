@@ -12,11 +12,13 @@ import DegreeCertProcess from "./DegreeCertProcess";
 import DegreeCertReq from "./DegreeCertReq";
 import DegreeCertAssist from "./DegreeCertAssist";
 import DegreeGuide from './DegreeGuide';
+import WhyBlock from './../../WhyBlock/WhyBlock';
 
 const DegreeCertAttestation = () => {
   return (
     <div className="birthCertContainer">
       <DegreeCertHead />
+      <WhyBlock/>
       <DegreeCertHeadContent />
       <DegreeCertImp />
       <DegreeCertProcess />

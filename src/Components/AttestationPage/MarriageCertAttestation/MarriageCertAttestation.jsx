@@ -13,10 +13,12 @@ import Benefits from "../../Benefits/Benefits";
 import Review from "../../Review/Review";
 import Faq from "../../HomePage/Faq/Faq";
 import MarriageCertHead from "./MarriageCertHead/MarriageCertHead";
+import WhyBlock from "../../WhyBlock/WhyBlock";
 const MarriageCertAttestation = () => {
   return (
     <div className="marriageCertContainer">
       <MarriageCertHead />
+      <WhyBlock/>
       <MarriageCertImp />
       <MarriageCertPurpose />
       <MarriageDoc />

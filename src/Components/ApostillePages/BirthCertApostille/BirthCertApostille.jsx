@@ -14,11 +14,13 @@ import Review from "../../Review/Review";
 import Faq from "../../HomePage/Faq/Faq";
 import BirthCertImp from "./BirthCertImp";
 import BirthCertHead from "./BirthCertHead";
+import WhyBlock from "../../WhyBlock/WhyBlock";
 
 const BirthCertApostille = () => {
   return (
     <div className="birthCertContainer">
       <BirthCertHead />
+      <WhyBlock/>
       <BirthCertHeadContent />
       <BirthCertImp />
       <ApostilleWhat />

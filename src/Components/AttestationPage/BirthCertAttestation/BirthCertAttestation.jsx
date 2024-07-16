@@ -14,10 +14,12 @@ import Review from "../../Review/Review";
 import Benefits from "../../Benefits/Benefits";
 import Faq from "../../HomePage/Faq/Faq";
 import BirthCertHead from "./BirthCertHead/BirthCertHead";
+import WhyBlock from "../../WhyBlock/WhyBlock";
 const BirthCertAttestation = () => {
   return (
     <div className="birthCertContainer">
       <BirthCertHead />
+      <WhyBlock/>
       <BirthCertHeadContent />
       <BirthImpDoc />
       <BirthCertProcedure />

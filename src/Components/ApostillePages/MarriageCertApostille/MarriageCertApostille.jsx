@@ -14,11 +14,13 @@ import ApostilleWhat from "../DegreeCertApostille/ApostilleWhat/ApostilleWhat";
 import MarriageCertChallenge from "./MarriageCertChallenge";
 import MarriageCertOvercome from "./MarriageCertOvercome";
 import MarriageCertExp from "./MarriageCertExp";
+import WhyBlock from "../../WhyBlock/WhyBlock";
 
 const MarriageCertApostille = () => {
   return (
     <div className="degreeCertApostille">
       <MarriageCertHead />
+      <WhyBlock/>
       <MarriageCertHeadContent />
       <MarriageCertImp />
       <ApostilleWhat />

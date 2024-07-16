@@ -13,10 +13,12 @@ import OurServices from "../../HomePage/OurServices/OurServices";
 import Review from "../../Review/Review";
 import Faq from "../../HomePage/Faq/Faq";
 import Benefits from "../../Benefits/Benefits";
+import WhyBlock from "../../WhyBlock/WhyBlock";
 const CommercialDocsAttestation = () => {
   return (
     <div className="commercialDocsAttestation">
       <CommercialDocsHead />
+      <WhyBlock/>
       <CommercialDocsIntro />
       <CommercialDocImp />
       <CommercialDocTypes />
