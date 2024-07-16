@@ -1,13 +1,13 @@
 import React from "react";
 import SaudiFlag from "./../../../vid&img/Countries_Flag/Saudi Arabia.png";
+import TypeWriter from "../../AttestationPage/BirthCertAttestation/BirthCertHead/TypeWriter/TypeWriter";
 
 const SaudiHead = () => {
   return (
     <div className="HeadContainer">
       <div className="HeadCover">
         <h2>
-          Saudi PCC Verification in Bangalore: Seamless Services by{" "}
-          <span>Goodway Attestation</span>
+          <TypeWriter txt="Saudi PCC Verification in " />
         </h2>
       </div>
       <img src={SaudiFlag} alt="SaudiFlag" />

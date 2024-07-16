@@ -1,12 +1,13 @@
 import React from "react";
 import MarriageCert from "./../../../../vid&img/MarriageCert.jpg";
+import TypeWriter from "../../BirthCertAttestation/BirthCertHead/TypeWriter/TypeWriter";
 
 const MarriageCertHead = () => {
   return (
     <div className="birthCertHeadContainer">
       <div className="birthCertHeadCover">
         <h2>
-          Marriage Certificate <span>Attestation</span> in Bangalore
+        <TypeWriter txt="Marriage Certificate Attestation in" />
         </h2>
       </div>
       <img src={MarriageCert} alt="MarriageCert" />

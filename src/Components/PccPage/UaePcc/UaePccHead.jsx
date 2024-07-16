@@ -1,13 +1,13 @@
 import React from "react";
 import UaeFlag from "./../../../vid&img/Countries_Flag/UAE.png";
+import TypeWriter from "../../AttestationPage/BirthCertAttestation/BirthCertHead/TypeWriter/TypeWriter";
 
 const UaePccHead = () => {
   return (
     <div className="HeadContainer">
       <div className="HeadCover">
         <h2>
-          UAE PCC Verification in Bangalore: Seamless Services by{" "}
-          <span>Goodway Attestation</span>
+          <TypeWriter txt="UAE PCC Verification in " />
         </h2>
       </div>
       <img src={UaeFlag} alt="UaeFlag" />
